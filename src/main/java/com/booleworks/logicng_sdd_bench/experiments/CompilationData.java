@@ -9,4 +9,9 @@ public record CompilationData(long time, int logicalSize, long physicalSize) imp
     public List<String> getResult() {
         return List.of(String.valueOf(time), String.valueOf(logicalSize), String.valueOf(physicalSize));
     }
+
+    @Override
+    public String getEssentialsAsCsv() {
+        return String.valueOf(time);
+    }
 }

@@ -17,4 +17,9 @@ public record TimingResult(long time) implements ExperimentResult {
     public static List<String> getLabels() {
         return List.of("time_ms");
     }
+
+    @Override
+    public String getEssentialsAsCsv() {
+        return String.valueOf(time);
+    }
 }

@@ -6,25 +6,26 @@ import com.booleworks.logicng.handlers.ComputationHandler;
 import com.booleworks.logicng.handlers.LngResult;
 import com.booleworks.logicng.knowledgecompilation.dnnf.DnnfCompiler;
 import com.booleworks.logicng.knowledgecompilation.dnnf.datastructures.Dnnf;
+import com.booleworks.logicng_sdd_bench.Logger;
 import com.booleworks.logicng_sdd_bench.experiments.results.TimingResult;
+import com.booleworks.logicng_sdd_bench.trackers.CompilationTimeTracker;
 
 import java.util.List;
 import java.util.function.Supplier;
 
-public class CompileDnnfExperiment extends Experiment<TimingResult> {
+public class CompileDnnfExperiment extends Experiment<Formula, CompilationTimeTracker> {
 
     @Override
-    public TimingResult execute(final Formula input, final FormulaFactory f,
-                                final Supplier<ComputationHandler> handler) {
-        final long startTime = System.currentTimeMillis();
-        final LngResult<Dnnf> dnnf = DnnfCompiler.compile(f, input, handler.get());
-        final long endTime = System.currentTimeMillis();
+    public CompilationTimeTracker execute(final Formula input, final FormulaFactory f, final Logger logger,
+                                          final Supplier<ComputationHandler> handler) {
+        final CompilationTimeTracker tracker = new CompilationTimeTracker(handler.get());
+        final LngResult<Dnnf> dnnf = DnnfCompiler.compile(f, input, tracker);
         if (dnnf.isSuccess()) {
-            return new TimingResult(endTime - startTime);
+            tracker.done();
         } else {
             System.err.println("Timeout");
-            return TimingResult.invalid();
         }
+        return tracker;
     }
 
     @Override

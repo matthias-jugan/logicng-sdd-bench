@@ -24,4 +24,4 @@ test_files/partialweightedmaxsat/log.txt
 .project
 
 # Benchmarks
-benchmarks/
+benchmark_results/

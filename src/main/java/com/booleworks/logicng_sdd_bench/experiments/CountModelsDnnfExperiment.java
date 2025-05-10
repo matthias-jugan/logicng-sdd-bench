@@ -7,6 +7,7 @@ import com.booleworks.logicng.handlers.LngResult;
 import com.booleworks.logicng.knowledgecompilation.dnnf.DnnfCompiler;
 import com.booleworks.logicng.knowledgecompilation.dnnf.datastructures.Dnnf;
 import com.booleworks.logicng.knowledgecompilation.dnnf.functions.DnnfModelCountFunction;
+import com.booleworks.logicng_sdd_bench.Logger;
 import com.booleworks.logicng_sdd_bench.Util;
 import com.booleworks.logicng_sdd_bench.experiments.results.ModelCountingResult;
 import com.booleworks.logicng_sdd_bench.experiments.results.TimingResult;
@@ -15,9 +16,9 @@ import java.math.BigInteger;
 import java.util.List;
 import java.util.function.Supplier;
 
-public class CountModelsDnnfExperiment extends Experiment<ModelCountingResult> {
+public class CountModelsDnnfExperiment extends Experiment<Formula, ModelCountingResult> {
     @Override
-    public ModelCountingResult execute(final Formula input, final FormulaFactory f,
+    public ModelCountingResult execute(final Formula input, final FormulaFactory f, final Logger logger,
                                        final Supplier<ComputationHandler> handler) {
         final Formula cnf = Util.encodeAsPureCnf(f, input);
         final LngResult<Dnnf> dnnf = DnnfCompiler.compile(f, cnf, handler.get());

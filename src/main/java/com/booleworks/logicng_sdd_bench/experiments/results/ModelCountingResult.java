@@ -14,4 +14,9 @@ public record ModelCountingResult(long time, BigInteger count) implements Experi
     public List<String> getResult() {
         return List.of(String.valueOf(time));
     }
+
+    @Override
+    public String getEssentialsAsCsv() {
+        return String.valueOf(time);
+    }
 }

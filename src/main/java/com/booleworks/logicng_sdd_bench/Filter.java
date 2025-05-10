@@ -3,7 +3,6 @@ package com.booleworks.logicng_sdd_bench;
 public sealed interface Filter permits Filter.Category, Filter.File, Filter.Name {
     boolean matches(InputFile input);
 
-
     record Category(InputFile.Category category) implements Filter {
 
         @Override
@@ -24,7 +23,7 @@ public sealed interface Filter permits Filter.Category, Filter.File, Filter.Name
 
         @Override
         public boolean matches(final InputFile input) {
-            return input.name().startsWith(name);
+            return input.name().equals(name);
         }
     }
 }

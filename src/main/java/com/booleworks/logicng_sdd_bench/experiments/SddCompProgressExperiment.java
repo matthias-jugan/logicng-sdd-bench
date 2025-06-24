@@ -24,7 +24,7 @@ public class SddCompProgressExperiment extends Experiment<Formula, SddCompProgre
         final var expansionTracker = new SimpleCounter(SimpleEvent.SDD_SHANNON_EXPANSION);
         final var tracker = new TrackerGroup(List.of(expansionTracker, timeTracker), handler.get());
         tracker.shouldResume(BenchmarkEvent.START_EXPERIMENT);
-        final var result = SddCompilerTopDown.compile(input, f, tracker);
+        final var result = SddCompilerTopDown.compile(input.cnf(f), f, tracker);
         if (result.isSuccess()) {
             tracker.shouldResume(BenchmarkEvent.COMPLETED_EXPERIMENT);
         } else {

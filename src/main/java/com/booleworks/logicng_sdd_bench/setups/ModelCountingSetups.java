@@ -9,7 +9,7 @@ import com.booleworks.logicng_sdd_bench.ValidationFunction;
 import com.booleworks.logicng_sdd_bench.experiments.CountModelsDnnfExperiment;
 import com.booleworks.logicng_sdd_bench.experiments.CountModelsSddExperiment;
 import com.booleworks.logicng_sdd_bench.experiments.ExperimentGroup;
-import com.booleworks.logicng_sdd_bench.experiments.PmcNaiveSddExperiment;
+import com.booleworks.logicng_sdd_bench.experiments.PmcPcSddExperiment;
 import com.booleworks.logicng_sdd_bench.experiments.problems.ProblemFunction;
 import com.booleworks.logicng_sdd_bench.experiments.problems.ProjectionProblem;
 import com.booleworks.logicng_sdd_bench.experiments.results.ModelCountingResult;
@@ -25,6 +25,7 @@ public class ModelCountingSetups {
         }
         BigInteger ref = null;
         for (final var v : vs) {
+            System.out.println(v.getSecond().count());
             if (ref == null) {
                 ref = v.getSecond().count();
             } else {
@@ -56,14 +57,14 @@ public class ModelCountingSetups {
             final ModelCountingResult dnnfR = result.results().get(0).getSecond();
             final ModelCountingResult sddR = result.results().get(1).getSecond();
             total++;
-            if (sddR.time() == -1) {
+            if (sddR.times().getGlobal() == -1) {
                 timeouts += 1;
             } else {
                 completed += 1;
-                if (dnnfR.time() != -1) {
+                if (dnnfR.times().getGlobal() != -1) {
                     completedBoth++;
-                    sddTime += sddR.time();
-                    dnnfTime += dnnfR.time();
+                    sddTime += sddR.times().getGlobal();
+                    dnnfTime += dnnfR.times().getGlobal();
                 }
             }
         }
@@ -85,8 +86,19 @@ public class ModelCountingSetups {
 
     public static void pmc(final List<InputFile> inputs, final Settings settings, final Logger logger,
                            final Supplier<ComputationHandler> handler) {
-        final var results
-                = new ExperimentGroup<>(List.of(new Pair<>("SDD Naive Count", new PmcNaiveSddExperiment())
-        )).runExperiments(inputs, logger, ProjectionProblem.quantifyRandom(0.2, 1), handler);
+        //        final var results0 = new ExperimentGroup<>(List.of(
+        //                new Pair<>("SDD Naive Count", new PmcNaiveSddExperiment()),
+        //                new Pair<>("SDD Proj Comp", new PmcPcSddExperiment())
+        //        )).runExperiments(inputs, logger, ProjectionProblem.quantifyRandom(0, 1), handler, COMPARE_MC);
+
+        final var results20 = new ExperimentGroup<>(List.of(
+                //new Pair<>("SDD Naive Count", new PmcNaiveSddExperiment()),
+                new Pair<>("SDD Proj Comp", new PmcPcSddExperiment())
+        )).runExperiments(inputs, logger, ProjectionProblem.quantifyRandom(0.2, 1), handler, COMPARE_MC);
+
+        final var results80 = new ExperimentGroup<>(List.of(
+                //new Pair<>("SDD Naive Count", new PmcNaiveSddExperiment()),
+                new Pair<>("SDD Proj Comp", new PmcPcSddExperiment())
+        )).runExperiments(inputs, logger, ProjectionProblem.quantifyRandom(0.8, 1), handler, COMPARE_MC);
     }
 }

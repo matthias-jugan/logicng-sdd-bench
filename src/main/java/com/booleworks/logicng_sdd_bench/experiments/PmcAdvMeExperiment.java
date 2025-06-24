@@ -11,6 +11,7 @@ import com.booleworks.logicng_sdd_bench.Logger;
 import com.booleworks.logicng_sdd_bench.Util;
 import com.booleworks.logicng_sdd_bench.experiments.problems.ProjectionProblem;
 import com.booleworks.logicng_sdd_bench.experiments.results.ModelCountingResult;
+import com.booleworks.logicng_sdd_bench.trackers.SegmentedTimeTracker;
 
 import java.math.BigInteger;
 import java.util.List;
@@ -20,19 +21,20 @@ public class PmcAdvMeExperiment extends Experiment<ProjectionProblem, ModelCount
     @Override
     public ModelCountingResult execute(final ProjectionProblem input, final FormulaFactory f, final Logger logger,
                                        final Supplier<ComputationHandler> handler) {
+        final SegmentedTimeTracker tracker = new SegmentedTimeTracker();
         final Sdd sf = Sdd.independent(f);
-        final long start = System.currentTimeMillis();
         final Formula cnf = Util.encodeAsPureCnf(f, input.formula());
         final SatSolver solver = SatSolver.newSolver(f);
         solver.add(cnf);
         final LngResult<BigInteger> mc =
                 ModelCountingFunction.builder(input.projectedVariables()).build().apply(solver, handler.get());
 
-        final long end = System.currentTimeMillis();
         if (mc.isSuccess()) {
-            return new ModelCountingResult(end - start, mc.getResult());
+            tracker.end("Counting");
+            return new ModelCountingResult(mc.getResult(), tracker);
         } else {
-            return ModelCountingResult.invalid();
+            tracker.timeout();
+            return new ModelCountingResult(null, tracker);
         }
     }
 

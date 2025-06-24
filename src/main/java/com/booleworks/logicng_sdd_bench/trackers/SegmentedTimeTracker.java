@@ -32,6 +32,10 @@ public class SegmentedTimeTracker implements ExperimentResult {
         globalTime = -1;
     }
 
+    public long getGlobal() {
+        return globalTime;
+    }
+
     @Override
     public List<String> getResult() {
         return Stream.concat(Stream.of(globalTime), times.stream()).map(Object::toString).collect(Collectors.toList());

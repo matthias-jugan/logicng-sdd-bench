@@ -1,22 +1,18 @@
 package com.booleworks.logicng_sdd_bench.experiments.results;
 
+import com.booleworks.logicng_sdd_bench.trackers.SegmentedTimeTracker;
+
 import java.math.BigInteger;
 import java.util.List;
 
-public record ModelCountingResult(long time, BigInteger count) implements ExperimentResult {
-    private static final ModelCountingResult INVALID = new ModelCountingResult(-1, null);
-
-    public static ModelCountingResult invalid() {
-        return INVALID;
-    }
-
+public record ModelCountingResult(BigInteger count, SegmentedTimeTracker times) implements ExperimentResult {
     @Override
     public List<String> getResult() {
-        return List.of(String.valueOf(time));
+        return times.getResult();
     }
 
     @Override
     public String getEssentialsAsCsv() {
-        return String.valueOf(time);
+        return times.getEssentialsAsCsv();
     }
 }

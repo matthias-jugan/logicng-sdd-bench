@@ -29,6 +29,10 @@ public class CompilationTimeTracker implements ComputationHandler, ExperimentRes
     public boolean shouldResume(final LngEvent event) {
         if (event == SimpleEvent.SDD_SHANNON_EXPANSION) {
             exps++;
+        } else if (event == SimpleEvent.VTREE_CUTSET_GENERATION && dTreeStart != -1) {
+            if (dTreeEnd == -1) {
+                dTreeEnd = System.currentTimeMillis();
+            }
         }
         if (event instanceof ComputationStartedEvent) {
             if (globalStart == -1) {
@@ -37,9 +41,7 @@ public class CompilationTimeTracker implements ComputationHandler, ExperimentRes
             if (event == ComputationStartedEvent.DTREE_GENERATION_STARTED && dTreeStart == -1) {
                 dTreeStart = System.currentTimeMillis();
             } else if (event == ComputationStartedEvent.VTREE_GENERATION_STARTED && vTreeStart == -1) {
-                final long t = System.currentTimeMillis();
-                dTreeEnd = t;
-                vTreeStart = t;
+                vTreeStart = System.currentTimeMillis();
             } else if (event == ComputationStartedEvent.DNNF_COMPUTATION_STARTED && compilationStart == -1) {
                 final long t = System.currentTimeMillis();
                 compilationStart = t;
@@ -49,6 +51,9 @@ public class CompilationTimeTracker implements ComputationHandler, ExperimentRes
             } else if (event == ComputationStartedEvent.SDD_COMPUTATION_STARTED && compilationStart == -1) {
                 final long t = System.currentTimeMillis();
                 compilationStart = t;
+                if (dTreeEnd == -1) {
+                    dTreeEnd = t;
+                }
                 if (vTreeStart != -1) {
                     vTreeEnd = t;
                 }

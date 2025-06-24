@@ -53,7 +53,7 @@ public class Logger implements AutoCloseable {
                 throw new RuntimeException(e);
             }
         }
-        if (consoleVerbosity.level > Verbosity.ALL.level) {
+        if (consoleVerbosity.level >= Verbosity.ALL.level) {
             System.out.println(msg);
         }
     }

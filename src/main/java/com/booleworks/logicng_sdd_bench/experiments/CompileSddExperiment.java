@@ -19,7 +19,7 @@ public class CompileSddExperiment extends Experiment<Formula, CompilationTimeTra
     public CompilationTimeTracker execute(final Formula input, final FormulaFactory f, final Logger logger,
                                           final Supplier<ComputationHandler> handler) {
         final CompilationTimeTracker tracker = new CompilationTimeTracker(handler.get());
-        final LngResult<SddCompilationResult> result = SddCompilerTopDown.compile(input, f, tracker);
+        final LngResult<SddCompilationResult> result = SddCompilerTopDown.compile(input.cnf(f), f, tracker);
         if (result.isSuccess()) {
             tracker.done();
         } else {

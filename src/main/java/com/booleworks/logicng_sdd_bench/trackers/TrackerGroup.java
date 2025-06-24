@@ -8,22 +8,21 @@ import java.util.List;
 
 public class TrackerGroup implements ComputationHandler {
     private final List<ComputationHandler> trackers;
+    private final ComputationHandler handler;
 
-    public TrackerGroup(List<ComputationHandler> trackers, ComputationHandler handler) {
+    public TrackerGroup(final List<ComputationHandler> trackers, final ComputationHandler handler) {
         this.trackers = trackers;
         this.handler = handler;
     }
 
-    public TrackerGroup(List<ComputationHandler> trackers) {
+    public TrackerGroup(final List<ComputationHandler> trackers) {
         this.trackers = trackers;
         this.handler = NopHandler.get();
     }
 
-    private final ComputationHandler handler;
-
     @Override
-    public boolean shouldResume(LngEvent event) {
-        for (var tracker : trackers) {
+    public boolean shouldResume(final LngEvent event) {
+        for (final var tracker : trackers) {
             tracker.shouldResume(event);
         }
         return handler.shouldResume(event);

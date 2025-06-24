@@ -17,7 +17,7 @@ public record ProjectionProblem(Formula formula, Set<Variable> quantifiedVariabl
             final Random random = new Random(seed);
             final List<Variable> variables = new ArrayList<>(formula.variables(f));
             final SortedSet<Variable> quantifiedVariables = new TreeSet<>();
-            final int samples = (int) ratio * variables.size();
+            final int samples = (int) (ratio * (double) variables.size());
             for (int i = 0; i < samples; ++i) {
                 final int index = random.nextInt(variables.size());
                 quantifiedVariables.add(variables.remove(index));

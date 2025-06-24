@@ -16,6 +16,7 @@ import com.booleworks.logicng.knowledgecompilation.sdd.functions.SddModelCountFu
 import com.booleworks.logicng_sdd_bench.Logger;
 import com.booleworks.logicng_sdd_bench.Util;
 import com.booleworks.logicng_sdd_bench.experiments.problems.ProjectionProblem;
+import com.booleworks.logicng_sdd_bench.experiments.results.ModelCountingResult;
 import com.booleworks.logicng_sdd_bench.experiments.results.TimingResult;
 import com.booleworks.logicng_sdd_bench.trackers.SegmentedTimeTracker;
 
@@ -25,10 +26,10 @@ import java.util.List;
 import java.util.Set;
 import java.util.function.Supplier;
 
-public class PmcNaiveSddExperiment extends Experiment<ProjectionProblem, SegmentedTimeTracker> {
+public class PmcNaiveSddExperiment extends Experiment<ProjectionProblem, ModelCountingResult> {
     @Override
-    public SegmentedTimeTracker execute(final ProjectionProblem input, final FormulaFactory f, final Logger logger,
-                                        final Supplier<ComputationHandler> handler) {
+    public ModelCountingResult execute(final ProjectionProblem input, final FormulaFactory f, final Logger logger,
+                                       final Supplier<ComputationHandler> handler) {
         final SegmentedTimeTracker tracker = new SegmentedTimeTracker();
         tracker.start();
         final Formula cnf = Util.encodeAsPureCnf(f, input.formula());
@@ -39,18 +40,17 @@ public class PmcNaiveSddExperiment extends Experiment<ProjectionProblem, Segment
         final Set<Integer> quantifiedVariableIdxs =
                 varsToIndicesOnlyKnown(input.quantifiedVariables(), sdd, new HashSet<>());
         final LngResult<SddNode> quantified =
-                SddQuantification.exists(quantifiedVariableIdxs, compiled.getNode(), compiled.getVTree(), sdd,
-                        handler.get());
+                SddQuantification.exists(quantifiedVariableIdxs, compiled.getNode(), sdd, handler.get());
         if (!quantified.isSuccess()) {
             tracker.timeout();
-            return tracker;
+            return new ModelCountingResult(null, tracker);
         }
         tracker.end("Quantification");
+        System.out.println("N: " + sdd.getSddNodeCount());
 
-        final BigInteger mc = sdd.apply(
-                new SddModelCountFunction(input.projectedVariables(), quantified.getResult(), compiled.getVTree()));
-        tracker.end("MC");
-        return tracker;
+        final BigInteger mc = sdd.apply(new SddModelCountFunction(input.projectedVariables(), quantified.getResult()));
+        tracker.end("Counting");
+        return new ModelCountingResult(mc, tracker);
     }
 
     @Override

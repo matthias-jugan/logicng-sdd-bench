@@ -157,7 +157,7 @@ public class App {
 
     private static void log(final Logger logger, final String msg) {
         logger.summary(msg);
-        logger.event(msg);
+        //logger.event(msg);
     }
 
     public static ArrayList<InputFile> scanInputs(final String path) {

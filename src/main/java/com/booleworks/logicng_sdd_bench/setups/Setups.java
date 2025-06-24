@@ -21,7 +21,11 @@ public class Setups {
             "compile-s", CompilationSetups::compileS,
             "compilation-progress", CompilationSetups::compilationProgress,
             "model-counting", ModelCountingSetups::modelCounting,
-            "projected-model-counting", ModelCountingSetups::pmc
+            "projected-model-counting", ModelCountingSetups::pmc,
+            "minimize", MinimizationSetups::minimize,
+            "minimize2", MinimizationSetups::minimize2,
+            "projected-compile", CompilationSetups::projectedCompile,
+            "compile-cnf", CompilationSetups::compileCNF
     );
 
 }

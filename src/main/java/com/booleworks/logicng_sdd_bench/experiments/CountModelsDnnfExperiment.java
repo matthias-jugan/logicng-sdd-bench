@@ -11,6 +11,7 @@ import com.booleworks.logicng_sdd_bench.Logger;
 import com.booleworks.logicng_sdd_bench.Util;
 import com.booleworks.logicng_sdd_bench.experiments.results.ModelCountingResult;
 import com.booleworks.logicng_sdd_bench.experiments.results.TimingResult;
+import com.booleworks.logicng_sdd_bench.trackers.SegmentedTimeTracker;
 
 import java.math.BigInteger;
 import java.util.List;
@@ -20,16 +21,17 @@ public class CountModelsDnnfExperiment extends Experiment<Formula, ModelCounting
     @Override
     public ModelCountingResult execute(final Formula input, final FormulaFactory f, final Logger logger,
                                        final Supplier<ComputationHandler> handler) {
+        final SegmentedTimeTracker tracker = new SegmentedTimeTracker();
         final Formula cnf = Util.encodeAsPureCnf(f, input);
         final LngResult<Dnnf> dnnf = DnnfCompiler.compile(f, cnf, handler.get());
         if (!dnnf.isSuccess()) {
-            System.err.println("Timeout");
-            return ModelCountingResult.invalid();
+            tracker.timeout();
+            return new ModelCountingResult(null, tracker);
         }
-        final long startTime = System.currentTimeMillis();
+        tracker.start();
         final BigInteger count = dnnf.getResult().execute(new DnnfModelCountFunction(f));
-        final long endTime = System.currentTimeMillis();
-        return new ModelCountingResult(endTime - startTime, count);
+        tracker.end("Counting");
+        return new ModelCountingResult(count, tracker);
     }
 
     @Override

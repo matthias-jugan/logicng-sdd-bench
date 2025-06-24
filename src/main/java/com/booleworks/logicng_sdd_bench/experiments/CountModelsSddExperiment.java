@@ -13,6 +13,7 @@ import com.booleworks.logicng_sdd_bench.Logger;
 import com.booleworks.logicng_sdd_bench.Util;
 import com.booleworks.logicng_sdd_bench.experiments.results.ModelCountingResult;
 import com.booleworks.logicng_sdd_bench.experiments.results.TimingResult;
+import com.booleworks.logicng_sdd_bench.trackers.SegmentedTimeTracker;
 
 import java.math.BigInteger;
 import java.util.List;
@@ -24,18 +25,20 @@ public class CountModelsSddExperiment extends Experiment<Formula, ModelCountingR
     @Override
     public ModelCountingResult execute(final Formula input, final FormulaFactory f, final Logger logger,
                                        final Supplier<ComputationHandler> handler) {
+        final SegmentedTimeTracker tracker = new SegmentedTimeTracker();
         final Formula cnf = Util.encodeAsPureCnf(f, input);
         final LngResult<SddCompilationResult> result = SddCompilerTopDown.compile(cnf, f, handler.get());
         final Sdd sdd = result.getResult().getSdd();
         if (!result.isSuccess()) {
-            return ModelCountingResult.invalid();
+            tracker.timeout();
+            return new ModelCountingResult(null, tracker);
         }
+        tracker.start();
         final Set<Variable> vars = input.variables(f);
-        final long startTime = System.currentTimeMillis();
         final BigInteger count =
-                sdd.apply(new SddModelCountFunction(vars, result.getResult().getNode(), result.getResult().getVTree()));
-        final long endTime = System.currentTimeMillis();
-        return new ModelCountingResult(endTime - startTime, count);
+                sdd.apply(new SddModelCountFunction(vars, result.getResult().getNode()));
+        tracker.end("Counting");
+        return new ModelCountingResult(count, tracker);
     }
 
     @Override

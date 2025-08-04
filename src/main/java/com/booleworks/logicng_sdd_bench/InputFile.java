@@ -14,8 +14,10 @@ public record InputFile(String name, File file, Category category, InputFormat f
     }
 
     public enum InputFormat {
+        PDF,
         DIMACS,
-        ARBITRARY
+        ARBITRARY,
+        EXPORT
     }
 
     @Override

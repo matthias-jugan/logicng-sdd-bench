@@ -3,6 +3,7 @@ package com.booleworks.logicng_sdd_bench;
 import com.booleworks.logicng.handlers.ComputationHandler;
 import com.booleworks.logicng.handlers.NopHandler;
 import com.booleworks.logicng.handlers.TimeoutHandler;
+import com.booleworks.logicng.util.Pair;
 import com.booleworks.logicng_sdd_bench.setups.Setups;
 
 import java.io.BufferedReader;
@@ -13,6 +14,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -34,7 +36,9 @@ public class App {
         System.err.println("-t <timout>: Timeout in ms");
         System.err.println("-c (<category> )+: Add files of category");
         System.err.println("-f (<path> )+: Add files at path");
+        System.err.println("-e (<file> )+: Exclude path");
         System.err.println("-n (<file> )+: Add file with name");
+        System.err.println("--args (<string> )*: Arguments passed to the experiment");
         System.err.println();
         System.err.println("-v <\"all\"|\"summary\"|\"silent\"|\"silent-force\">: Print verbosity. default: silent");
         System.err.println("-o <\"auto\"|\"none\">: Generates new log, summary, and time files. default: auto");
@@ -43,12 +47,12 @@ public class App {
         System.err.println("-ot <file>: Pass time file");
         System.err.println();
         System.err.println("List of all experiments:");
-        for (final String k : Setups.SETUPS.keySet()) {
-            System.err.printf("- %s\n", k);
+        for (final var k : Setups.SETUPS) {
+            System.err.printf("- %s\n", k.getFirst());
         }
     }
 
-    public static void main(final String[] args) throws IOException {
+    public static void main(final String[] args) throws Exception {
         final LocalDateTime startTime = LocalDateTime.now();
         final Map<String, List<String>> arguments = groupArguments(List.of(args));
 
@@ -64,6 +68,15 @@ public class App {
                 }
             });
         }
+        String benchmarkPath = BENCHMARK_PATH;
+        if (arguments.containsKey("B")) {
+            benchmarkPath = arguments.get("B").getFirst();
+        }
+        final List<Filter> filters = collectFilters(arguments, benchmarkPath);
+        List<InputFile> inputs = scanInputs(benchmarkPath);
+        if (!filters.isEmpty()) {
+            inputs = filterInputs(filters, inputs);
+        }
 
         if (!arguments.containsKey("E") || arguments.get("E").isEmpty()) {
             System.err.println("No experiment was specified");
@@ -71,16 +84,22 @@ public class App {
             return;
         }
         final String experimentName = arguments.get("E").get(0);
-        final Setups.RunSetup experiment = Setups.SETUPS.get(experimentName);
-        if (experiment == null) {
+
+        if (experimentName.equals("export")) {
+            runExportMode(inputs);
+            return;
+        }
+        inputs = inputs.stream().filter(file -> file.format() != InputFile.InputFormat.EXPORT).toList();
+
+        final var experiment = Setups.SETUPS
+                .stream()
+                .filter(s -> s.getFirst().equals(experimentName))
+                .map(Pair::getSecond)
+                .findFirst();
+        if (experiment.isEmpty()) {
             System.err.println("Unknown experiment " + experimentName);
             printUsage();
             return;
-        }
-
-        String benchmarkPath = BENCHMARK_PATH;
-        if (arguments.containsKey("B")) {
-            benchmarkPath = arguments.get("B").getFirst();
         }
 
         File logFile = null;
@@ -119,7 +138,6 @@ public class App {
             };
         }
 
-        final List<Filter> filters = collectFilters(arguments, benchmarkPath);
         long timeout = -1;
         if (arguments.containsKey("t")) {
             final long t = Long.parseLong(arguments.get("t").getFirst());
@@ -127,16 +145,11 @@ public class App {
                 timeout = t;
             }
         }
-        final Settings settings = new Settings(timeout);
-
-        List<InputFile> inputs = scanInputs(benchmarkPath);
-        if (!filters.isEmpty()) {
-            inputs = filterInputs(filters, inputs);
-        }
 
         final long ft = timeout;
         final Supplier<ComputationHandler> handler =
                 ft == -1 ? NopHandler::get : () -> new TimeoutHandler(ft);
+        final var as = arguments.getOrDefault("-args", List.of());
         try (final Logger logger = Logger.of(logFile, timesFile, summaryFile, verbosity)) {
             log(logger, "=== Setup ===");
             log(logger, String.format("Time: %s", startTime.format(DateTimeFormatter.ISO_DATE_TIME)));
@@ -146,14 +159,49 @@ public class App {
             log(logger, String.format("Files: %d", inputs.size()));
             log(logger, String.format("Filters: %s", filters));
             log(logger, "");
-            log(logger, String.format("Timeout: %dms", settings.timeout()));
+            log(logger, String.format("Arguments: %s", as));
+            log(logger, String.format("Timeout: %dms", timeout));
             log(logger, String.format("Heap Size: %dMB", Runtime.getRuntime().maxMemory() / (1024 * 1024)));
             log(logger, "======");
-            experiment.run(inputs, settings, logger, handler);
+            experiment.get().run(inputs, as, logger, handler);
         } catch (final Exception e) {
             throw new RuntimeException(e);
         }
     }
+
+    private static void runExportMode(final List<InputFile> inputs)
+            throws Exception {
+        System.out.printf("PDF Country Prefix: %s\nPdf Date Prefix: %s\n", Pdf.COUNTRY_PREFIX, Pdf.DATE_PREFIX);
+        if (Pdf.COUNTRY_PREFIX.isBlank() || Pdf.DATE_PREFIX.isBlank()) {
+            System.out.println(
+                    ConsoleColors.YELLOW + "Pdf prefixes might not be defined properly" + ConsoleColors.RESET);
+        }
+        final var pdfInputs = inputs.stream()
+                .filter(file -> file.format() == InputFile.InputFormat.PDF)
+                .sorted(Comparator.comparing(InputFile::name))
+                .toList();
+        final var exportInputs = inputs.stream()
+                .filter(file -> file.format() == InputFile.InputFormat.EXPORT)
+                .toList();
+
+        System.out.println("Export files: " + exportInputs.stream().map(InputFile::name).toList());
+        System.out.println("Pdf files: " + pdfInputs.stream().map(InputFile::name).toList());
+        for (final InputFile exportFile : exportInputs) {
+            final var reader = new BufferedReader(new FileReader(exportFile.file()));
+            String line;
+            int linenumber = 0;
+            while ((line = reader.readLine()) != null) {
+                if (line.startsWith("//") || line.isBlank()) {
+                    continue;
+                }
+                linenumber++;
+                System.out.printf("Execute %s at line %d\n", exportFile.name(), linenumber);
+                final List<String> arguments = List.of(line.split(" "));
+                PdfExport.export(exportFile.file().getParentFile(), pdfInputs, arguments);
+            }
+        }
+    }
+
 
     private static void log(final Logger logger, final String msg) {
         logger.summary(msg);
@@ -198,7 +246,11 @@ public class App {
     }
 
     private static List<InputFile> filterInputs(final Collection<Filter> filters, final Collection<InputFile> inputs) {
-        return inputs.stream().filter(i -> filters.stream().anyMatch(f -> f.matches(i))).collect(Collectors.toList());
+        return inputs
+                .stream()
+                .filter(i -> filters.stream().anyMatch(f -> f.matches(i)))
+                .filter(i -> filters.stream().noneMatch(f -> f instanceof Filter.Exclude && f.matches(i)))
+                .collect(Collectors.toList());
     }
 
 
@@ -225,6 +277,10 @@ public class App {
         name = name.toLowerCase().trim();
         if (name.endsWith(".cnf") || name.endsWith(".dimacs")) {
             return InputFile.InputFormat.DIMACS;
+        } else if (name.endsWith(".export")) {
+            return InputFile.InputFormat.EXPORT;
+        } else if (name.startsWith("pdf_")) {
+            return InputFile.InputFormat.PDF;
         } else {
             return InputFile.InputFormat.ARBITRARY;
         }
@@ -245,6 +301,11 @@ public class App {
         if (args.containsKey("f")) {
             for (final String f : args.get("f")) {
                 filters.add(new Filter.File(new File(benchmarkPath + "/" + f)));
+            }
+        }
+        if (args.containsKey("e")) {
+            for (final String f : args.get("e")) {
+                filters.add(new Filter.Exclude(new File(benchmarkPath + "/" + f)));
             }
         }
         if (args.containsKey("n")) {

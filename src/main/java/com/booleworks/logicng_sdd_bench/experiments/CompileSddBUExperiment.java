@@ -3,43 +3,32 @@ package com.booleworks.logicng_sdd_bench.experiments;
 import com.booleworks.logicng.formulas.Formula;
 import com.booleworks.logicng.formulas.FormulaFactory;
 import com.booleworks.logicng.handlers.ComputationHandler;
-import com.booleworks.logicng.handlers.LngResult;
-import com.booleworks.logicng.knowledgecompilation.sdd.compilers.SddCompilerBottomUp;
-import com.booleworks.logicng.knowledgecompilation.sdd.datastructures.Sdd;
-import com.booleworks.logicng.knowledgecompilation.sdd.datastructures.SddNode;
-import com.booleworks.logicng.knowledgecompilation.sdd.datastructures.vtree.DecisionVTreeGenerator;
-import com.booleworks.logicng.knowledgecompilation.sdd.datastructures.vtree.VTree;
-import com.booleworks.logicng.knowledgecompilation.sdd.datastructures.vtree.VTreeRoot;
+import com.booleworks.logicng.knowledgecompilation.sdd.algorithms.SddSize;
+import com.booleworks.logicng.knowledgecompilation.sdd.compilers.SddCompiler;
+import com.booleworks.logicng.knowledgecompilation.sdd.compilers.SddCompilerConfig;
 import com.booleworks.logicng_sdd_bench.Logger;
-import com.booleworks.logicng_sdd_bench.Util;
-import com.booleworks.logicng_sdd_bench.experiments.results.TimingResult;
-import com.booleworks.logicng_sdd_bench.trackers.CompilationTimeTracker;
+import com.booleworks.logicng_sdd_bench.trackers.CompilationTracker;
 
-import java.util.List;
 import java.util.function.Supplier;
 
-public class CompileSddBUExperiment extends Experiment<Formula, CompilationTimeTracker> {
+public class CompileSddBUExperiment implements Experiment<Formula, CompilationTracker> {
 
     @Override
-    public CompilationTimeTracker execute(final Formula input, final FormulaFactory f, final Logger logger,
-                                          final Supplier<ComputationHandler> handler) {
-        final CompilationTimeTracker tracker = new CompilationTimeTracker(handler.get());
-        final Formula cnf = Util.encodeAsPureCnf(f, input);
-        final Sdd sdd = Sdd.independent(f);
-        final LngResult<VTree> vTree = new DecisionVTreeGenerator(cnf).generate(sdd, tracker);
-        if (!vTree.isSuccess()) {
-            return tracker;
-        }
-        final VTreeRoot root = sdd.constructRoot(vTree.getResult());
-        final LngResult<SddNode> result = SddCompilerBottomUp.cnfToSdd(cnf, sdd, tracker);
+    public CompilationTracker execute(final Formula input, final FormulaFactory f, final Logger logger,
+                                      final Supplier<ComputationHandler> handler) {
+        final var tracker = new CompilationTracker(handler.get());
+        final Formula cnf = input.cnf(f);
+        tracker.setFormulaVariableCount(input.variables(f).size());
+        tracker.start();
+        final var config = SddCompilerConfig.builder()
+                .compiler(SddCompilerConfig.Compiler.BOTTOM_UP)
+                .build();
+        final var result = SddCompiler.compile(cnf, config, f, tracker);
         if (result.isSuccess()) {
             tracker.done();
+            tracker.setNodeSize(SddSize.size(result.getResult().getNode()));
+            tracker.setSddSize(result.getResult().getSdd().getSddNodeCount());
         }
         return tracker;
-    }
-
-    @Override
-    public List<String> getLabels() {
-        return TimingResult.getLabels();
     }
 }

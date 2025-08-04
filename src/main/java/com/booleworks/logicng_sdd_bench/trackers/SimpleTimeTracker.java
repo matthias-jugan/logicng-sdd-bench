@@ -4,14 +4,14 @@ import com.booleworks.logicng.handlers.ComputationHandler;
 import com.booleworks.logicng.handlers.events.LngEvent;
 
 public class SimpleTimeTracker implements ComputationHandler {
-    long startTime = -1;
-    long endTime = -1;
+    protected long startTime = -1;
+    protected long endTime = -1;
 
     public SimpleTimeTracker() {
     }
 
     @Override
-    public boolean shouldResume(LngEvent event) {
+    public boolean shouldResume(final LngEvent event) {
         if (event == BenchmarkEvent.START_EXPERIMENT) {
             startTime = System.currentTimeMillis();
         } else if (event == BenchmarkEvent.COMPLETED_EXPERIMENT) {
@@ -25,6 +25,14 @@ public class SimpleTimeTracker implements ComputationHandler {
             return -1;
         } else {
             return endTime - startTime;
+        }
+    }
+
+    public long getCurrentTime() {
+        if (startTime == -1) {
+            return -1;
+        } else {
+            return System.currentTimeMillis() - startTime;
         }
     }
 }

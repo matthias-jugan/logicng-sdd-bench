@@ -2,11 +2,12 @@ package com.booleworks.logicng_sdd_bench.experiments.problems;
 
 import com.booleworks.logicng.formulas.Formula;
 import com.booleworks.logicng.formulas.FormulaFactory;
+import com.booleworks.logicng_sdd_bench.Input;
 
 public interface ProblemFunction<I> {
-    public static Formula id(final Formula formula, final FormulaFactory f) {
-        return formula;
+    static Formula id(final Input input, final FormulaFactory f) {
+        return input.asFormula();
     }
 
-    I generate(Formula formula, FormulaFactory f);
+    I generate(Input input, FormulaFactory f);
 }

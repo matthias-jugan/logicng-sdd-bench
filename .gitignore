@@ -24,4 +24,8 @@ test_files/partialweightedmaxsat/log.txt
 .project
 
 # Benchmarks
+exported_vtrees/
 benchmark_results/
+benchmarks/*/pdf/
+setups/exports/
+*.export

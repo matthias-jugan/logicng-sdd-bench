@@ -14,10 +14,9 @@ import com.booleworks.logicng_sdd_bench.experiments.results.ModelCountingResult;
 import com.booleworks.logicng_sdd_bench.trackers.SegmentedTimeTracker;
 
 import java.math.BigInteger;
-import java.util.List;
 import java.util.function.Supplier;
 
-public class PmcAdvMeExperiment extends Experiment<ProjectionProblem, ModelCountingResult> {
+public class PmcAdvMeExperiment implements Experiment<ProjectionProblem, ModelCountingResult> {
     @Override
     public ModelCountingResult execute(final ProjectionProblem input, final FormulaFactory f, final Logger logger,
                                        final Supplier<ComputationHandler> handler) {
@@ -36,10 +35,5 @@ public class PmcAdvMeExperiment extends Experiment<ProjectionProblem, ModelCount
             tracker.timeout();
             return new ModelCountingResult(null, tracker);
         }
-    }
-
-    @Override
-    public List<String> getLabels() {
-        return List.of();
     }
 }

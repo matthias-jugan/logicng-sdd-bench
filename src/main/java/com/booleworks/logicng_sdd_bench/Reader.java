@@ -1,6 +1,5 @@
 package com.booleworks.logicng_sdd_bench;
 
-import com.booleworks.logicng.formulas.Formula;
 import com.booleworks.logicng.formulas.FormulaFactory;
 import com.booleworks.logicng.io.parsers.ParserException;
 import com.booleworks.logicng.io.readers.DimacsReader;
@@ -12,10 +11,12 @@ public class Reader {
     private Reader() {
     }
 
-    public static Formula load(final InputFile file, final FormulaFactory f) throws ParserException, IOException {
+    public static Input load(final InputFile file, final FormulaFactory f) throws ParserException, IOException {
         return switch (file.format()) {
-            case DIMACS -> f.and(DimacsReader.readCNF(f, file.file()));
-            case ARBITRARY -> f.and(FormulaReader.readFormulas(f, file.file()));
+            case DIMACS -> new Input.Formula(f.and(DimacsReader.readCNF(f, file.file())));
+            case ARBITRARY -> new Input.Formula(f.and(FormulaReader.readFormulas(f, file.file())));
+            case PDF -> new Input.Pdf(new Pdf(file.name(), f, FormulaReader.readFormula(f, file.file())));
+            case EXPORT -> throw new IllegalArgumentException("Cannot load an export file as formula");
         };
     }
 }

@@ -8,7 +8,7 @@ import com.booleworks.logicng_sdd_bench.experiments.results.ExperimentResult;
 
 import java.util.List;
 
-public class CompilationTimeTracker implements ComputationHandler, ExperimentResult {
+public class CompilationTracker implements ComputationHandler, ExperimentResult {
 
     private long dTreeStart = -1;
     private long dTreeEnd = -1;
@@ -19,17 +19,18 @@ public class CompilationTimeTracker implements ComputationHandler, ExperimentRes
     private long globalStart = -1;
     private long globalEnd = -1;
     private final ComputationHandler handler;
-    public long exps;
+    private long sddSize = -1;
+    private long nodeSize = -1;
+    private int formulaVariableCount = -1;
+    private int projectedVariableCount = -1;
 
-    public CompilationTimeTracker(final ComputationHandler handler) {
+    public CompilationTracker(final ComputationHandler handler) {
         this.handler = handler;
     }
 
     @Override
     public boolean shouldResume(final LngEvent event) {
-        if (event == SimpleEvent.SDD_SHANNON_EXPANSION) {
-            exps++;
-        } else if (event == SimpleEvent.VTREE_CUTSET_GENERATION && dTreeStart != -1) {
+        if (event == SimpleEvent.VTREE_CUTSET_GENERATION && dTreeStart != -1) {
             if (dTreeEnd == -1) {
                 dTreeEnd = System.currentTimeMillis();
             }
@@ -72,6 +73,38 @@ public class CompilationTimeTracker implements ComputationHandler, ExperimentRes
         final long t = System.currentTimeMillis();
         compilationEnd = t;
         globalEnd = t;
+    }
+
+    public int getFormulaVariableCount() {
+        return formulaVariableCount;
+    }
+
+    public void setFormulaVariableCount(final int formulaVariableCount) {
+        this.formulaVariableCount = formulaVariableCount;
+    }
+
+    public int getProjectedVariableCount() {
+        return projectedVariableCount;
+    }
+
+    public void setProjectedVariableCount(final int projectedVariableCount) {
+        this.projectedVariableCount = projectedVariableCount;
+    }
+
+    public long getSddSize() {
+        return sddSize;
+    }
+
+    public void setSddSize(final long sddSize) {
+        this.sddSize = sddSize;
+    }
+
+    public long getNodeSize() {
+        return nodeSize;
+    }
+
+    public void setNodeSize(final long nodeSize) {
+        this.nodeSize = nodeSize;
     }
 
     public long getGlobal() {
@@ -118,12 +151,17 @@ public class CompilationTimeTracker implements ComputationHandler, ExperimentRes
                 String.valueOf(getGlobal()),
                 String.valueOf(getDTree()),
                 String.valueOf(getVTree()),
-                String.valueOf(getCompilation())
+                String.valueOf(getCompilation()),
+                String.valueOf(getNodeSize()),
+                String.valueOf(getSddSize()),
+                String.valueOf(getFormulaVariableCount()),
+                String.valueOf(getProjectedVariableCount())
         );
     }
 
     @Override
     public String getEssentialsAsCsv() {
-        return String.valueOf(getGlobal());
+        return getGlobal() + "," + getNodeSize() + "," + getSddSize() + "," + getFormulaVariableCount() + ","
+                + getProjectedVariableCount();
     }
 }

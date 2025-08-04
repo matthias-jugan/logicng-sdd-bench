@@ -1,36 +1,73 @@
 package com.booleworks.logicng_sdd_bench.setups;
 
 import com.booleworks.logicng.handlers.ComputationHandler;
-import com.booleworks.logicng.util.Pair;
+import com.booleworks.logicng.knowledgecompilation.sdd.datastructures.SddMinimizationConfig;
 import com.booleworks.logicng_sdd_bench.InputFile;
 import com.booleworks.logicng_sdd_bench.Logger;
-import com.booleworks.logicng_sdd_bench.Settings;
+import com.booleworks.logicng_sdd_bench.experiments.ExperimentEntry;
 import com.booleworks.logicng_sdd_bench.experiments.ExperimentGroup;
 import com.booleworks.logicng_sdd_bench.experiments.MinimizeSddExperiment;
 import com.booleworks.logicng_sdd_bench.experiments.problems.MinimizationProblem;
 
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.nio.file.Path;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.function.Supplier;
 
 public class MinimizationSetups {
     public static void minimize(
-            final List<InputFile> inputs, final Settings settings, final Logger logger,
-            final Supplier<ComputationHandler> handler) {
+            final List<InputFile> inputs, final List<String> arguments, final Logger logger,
+            final Supplier<ComputationHandler> handler) throws IOException {
+        final var export = arguments.stream().filter(a -> a.startsWith("export-vtree:")).findFirst();
         final LinkedHashMap<InputFile, ExperimentGroup.MergeResult<MinimizeSddExperiment.Result>> results
                 = new ExperimentGroup<>(List.of(
-                new Pair<>("Minimize (Unlim)", new MinimizeSddExperiment())
-        )).runExperiments(inputs, logger, MinimizationProblem.minimizationWithTimeouts(-1, -1), handler);
+                new ExperimentEntry<>("Bottom_Up", new MinimizeSddExperiment(),
+                        MinimizationProblem.limitedMinimization(SddMinimizationConfig.Algorithm
+                                .BOTTOM_UP, -1, -1, 10_000_000L)),
+                new ExperimentEntry<>("Dec_Threshold", new MinimizeSddExperiment(),
+                        MinimizationProblem.limitedMinimization(SddMinimizationConfig.Algorithm
+                                .DEC_THRESHOLD, -1, -1, 10_000_000L)),
+                new ExperimentEntry<>("Const_Dec", new MinimizeSddExperiment(),
+                        MinimizationProblem.limitedMinimization(SddMinimizationConfig.Algorithm
+                                        .CONST_DEC, -1, -1,
+                                10_000_000L)), new ExperimentEntry<>("Window", new MinimizeSddExperiment(),
+                        MinimizationProblem.limitedMinimization(SddMinimizationConfig.Algorithm
+                                .WINDOW, -1, -1, 10_000_000L))
+        )).runExperiments(inputs, logger, handler);
+        if (export.isPresent()) {
+            final String path = export.get().split(":")[1];
+            for (final var resultEntry : results.entrySet()) {
+                for (final var experimentResult : resultEntry.getValue().results()) {
+                    if (experimentResult.getSecond().vtreeExport() != null) {
+                        final File file = Path.of(path,
+                                        String.format("%s_%s.vtree", resultEntry.getKey().name(),
+                                                experimentResult.getFirst()))
+                                .toFile();
+                        try (
+                                final FileWriter writer = new FileWriter(file)
+                        ) {
+                            writer.write(experimentResult.getSecond().vtreeExport());
+                            writer.flush();
+                        }
+                    }
+                }
+            }
+        }
         printResult(results, logger);
     }
 
     public static void minimize2(
-            final List<InputFile> inputs, final Settings settings, final Logger logger,
+            final List<InputFile> inputs, final List<String> arguments, final Logger logger,
             final Supplier<ComputationHandler> handler) {
         final LinkedHashMap<InputFile, ExperimentGroup.MergeResult<MinimizeSddExperiment.Result>> results
                 = new ExperimentGroup<>(List.of(
-                new Pair<>("Minimize", new MinimizeSddExperiment())
-        )).runExperiments(inputs, logger, MinimizationProblem.minimizationWithTimeouts(-1, 5), handler);
+                new ExperimentEntry<>("Minimize (Unlim)", new MinimizeSddExperiment(),
+                        MinimizationProblem.limitedMinimization(SddMinimizationConfig.Algorithm.DEC_THRESHOLD, -1, -1,
+                                10_000_000L))
+        )).runExperiments(inputs, logger, handler);
         printResult(results, logger);
     }
 
@@ -45,6 +82,9 @@ public class MinimizationSetups {
         long finalSize = 0;
         for (final var result : results.values()) {
             final var r = result.results().getFirst().getSecond();
+            if (r == null) {
+                continue;
+            }
             total++;
             if (r.time() == -1) {
                 crashed += 1;

@@ -2,43 +2,47 @@ package com.booleworks.logicng_sdd_bench.experiments;
 
 import com.booleworks.logicng.formulas.FormulaFactory;
 import com.booleworks.logicng.handlers.ComputationHandler;
-import com.booleworks.logicng.handlers.LngResult;
 import com.booleworks.logicng.handlers.events.SimpleEvent;
-import com.booleworks.logicng.knowledgecompilation.sdd.compilers.SddCompilerTopDown;
-import com.booleworks.logicng.knowledgecompilation.sdd.datastructures.SddCompilationResult;
+import com.booleworks.logicng.knowledgecompilation.sdd.algorithms.SddSize;
+import com.booleworks.logicng.knowledgecompilation.sdd.compilers.SddCompiler;
+import com.booleworks.logicng.knowledgecompilation.sdd.compilers.SddCompilerConfig;
 import com.booleworks.logicng_sdd_bench.Logger;
+import com.booleworks.logicng_sdd_bench.Util;
 import com.booleworks.logicng_sdd_bench.experiments.problems.ProjectionProblem;
-import com.booleworks.logicng_sdd_bench.experiments.results.TimingResult;
-import com.booleworks.logicng_sdd_bench.trackers.CompilationTimeTracker;
+import com.booleworks.logicng_sdd_bench.trackers.CompilationTracker;
 import com.booleworks.logicng_sdd_bench.trackers.SimpleCounter;
 import com.booleworks.logicng_sdd_bench.trackers.TrackerGroup;
 
 import java.util.List;
 import java.util.function.Supplier;
 
-public class PcSddExperiment extends Experiment<ProjectionProblem, CompilationTimeTracker> {
-    @Override
-    public CompilationTimeTracker execute(final ProjectionProblem input, final FormulaFactory f, final Logger logger,
-                                          final Supplier<ComputationHandler> handler) {
-        logger.event("Started PcSddExperiment");
-        final CompilationTimeTracker compTracker = new CompilationTimeTracker(handler.get());
-        final SimpleCounter applyTracker = new SimpleCounter(SimpleEvent.SDD_APPLY);
-        final var trackerGroup = new TrackerGroup(List.of(compTracker, applyTracker), handler.get());
-        compTracker.start();
-        final LngResult<SddCompilationResult> compiledResult =
-                SddCompilerTopDown.compileProjected(input.formula(), input.projectedVariables(), f, trackerGroup);
-        if (compiledResult.isSuccess()) {
-            logger.event("Completed PcSddExperiment");
-            compTracker.done();
-        } else {
-            logger.event("Aborted PcSddExperiment");
-        }
-        System.out.println(applyTracker.getCounter());
-        return compTracker;
+public class PcSddExperiment implements Experiment<ProjectionProblem, CompilationTracker> {
+    final Supplier<SddCompilerConfig.Builder> config;
+
+    public PcSddExperiment(final Supplier<SddCompilerConfig.Builder> config) {
+        this.config = config;
+    }
+
+    public PcSddExperiment() {
+        this(Util.DEFAULT_COMPILER_CONFIG);
     }
 
     @Override
-    public List<String> getLabels() {
-        return TimingResult.getLabels();
+    public CompilationTracker execute(final ProjectionProblem input, final FormulaFactory f, final Logger logger,
+                                      final Supplier<ComputationHandler> handler) {
+        final CompilationTracker compTracker = new CompilationTracker(handler.get());
+        final SimpleCounter applyTracker = new SimpleCounter(SimpleEvent.SDD_APPLY);
+        final var trackerGroup = new TrackerGroup(List.of(compTracker, applyTracker), handler.get());
+        compTracker.setFormulaVariableCount(input.quantifiedVariables().size() + input.projectedVariables().size());
+        compTracker.setProjectedVariableCount(input.projectedVariables().size());
+        compTracker.start();
+        final var c = config.get().variables(input.projectedVariables()).build();
+        final var compiledResult = SddCompiler.compile(input.formula().cnf(f), c, f, trackerGroup);
+        if (compiledResult.isSuccess()) {
+            compTracker.done();
+            compTracker.setNodeSize(SddSize.size(compiledResult.getResult().getNode()));
+            compTracker.setSddSize(compiledResult.getResult().getSdd().getSddNodeCount());
+        }
+        return compTracker;
     }
 }

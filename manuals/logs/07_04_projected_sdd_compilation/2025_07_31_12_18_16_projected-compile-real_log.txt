@@ -1,0 +1,289 @@
+Warmup
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c20_d01.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c20_d01.txt
+Obtained result: [Projected Compilation: ([349, 160, 253, 44, 12835, 22755, 507, 489]), Compile + Eliminate: ([324, <Compilation, 313>, <Quantification, 11>, 12835, 40513])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c30_d01.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c30_d01.txt
+Obtained result: [Projected Compilation: ([226, 101, 166, 22, 14876, 15763, 508, 487]), Compile + Eliminate: ([222, <Compilation, 216>, <Quantification, 6>, 14876, 32985])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_d001/auto4_s2_c40_d01.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_d001/auto4_s2_c40_d01.txt
+Obtained result: [Projected Compilation: ([126, 85, 109, 2, 2427, 2519, 450, 440]), Compile + Eliminate: ([124, <Compilation, 123>, <Quantification, 1>, 2427, 9017])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c30_d01.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c30_d01.txt
+Obtained result: [Projected Compilation: ([176, 68, 115, 31, 11856, 12599, 509, 491]), Compile + Eliminate: ([176, <Compilation, 172>, <Quantification, 4>, 11856, 26484])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c50_d01.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c50_d01.txt
+Obtained result: [Projected Compilation: ([543, 193, 293, 202, 23320, 55299, 528, 491]), Compile + Eliminate: ([573, <Compilation, 533>, <Quantification, 40>, 23320, 114053])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c40_d01.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c40_d01.txt
+Obtained result: [Projected Compilation: ([563, 183, 270, 255, 53350, 63405, 523, 490]), Compile + Eliminate: ([566, <Compilation, 536>, <Quantification, 30>, 53350, 124325])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_d001/auto6_s2_c40_d01.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_d001/auto6_s2_c40_d01.txt
+Obtained result: [Projected Compilation: ([411, 190, 286, 87, 30024, 52559, 596, 565]), Compile + Eliminate: ([413, <Compilation, 392>, <Quantification, 21>, 30024, 81642])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_d001/auto6_s2_c50_d01.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_d001/auto6_s2_c50_d01.txt
+Obtained result: [Projected Compilation: ([705, 193, 305, 366, 15507, 58305, 604, 569]), Compile + Eliminate: ([752, <Compilation, 690>, <Quantification, 62>, 15507, 120952])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c50_d01.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c50_d01.txt
+Obtained result: [Projected Compilation: ([429, 195, 315, 74, 9845, 20188, 528, 487]), Compile + Eliminate: ([442, <Compilation, 428>, <Quantification, 14>, 9845, 41379])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c40_d01.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c40_d01.txt
+Obtained result: [Projected Compilation: ([1177, 381, 606, 519, 57611, 109011, 541, 506]), Compile + Eliminate: ([1145, <Compilation, 1040>, <Quantification, 105>, 57611, 223190])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c10_d01.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c10_d01.txt
+Obtained result: [Projected Compilation: ([236, 77, 135, 75, 19094, 41264, 497, 491]), Compile + Eliminate: ([243, <Compilation, 216>, <Quantification, 27>, 19094, 72779])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_d001/auto5_s2_c60_d01.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_d001/auto5_s2_c60_d01.txt
+Obtained result: [Projected Compilation: ([2046, 494, 686, 1304, 43895, 233730, 517, 471]), Compile + Eliminate: ([2134, <Compilation, 1841>, <Quantification, 293>, 43895, 586612])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c10_d01.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c10_d01.txt
+Obtained result: [Projected Compilation: ([243, 93, 162, 51, 10799, 25024, 493, 487]), Compile + Eliminate: ([254, <Compilation, 236>, <Quantification, 18>, 10799, 45923])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_d001/auto4_s2_c60_d01.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_d001/auto4_s2_c60_d01.txt
+Obtained result: [Projected Compilation: ([146, 92, 126, 4, 2468, 3135, 453, 438]), Compile + Eliminate: ([146, <Compilation, 145>, <Quantification, 1>, 2468, 10009])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c60_d01.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c60_d01.txt
+Obtained result: [Projected Compilation: ([5798, 834, 1139, 4577, 143656, 335860, 549, 498]), Compile + Eliminate: ([6088, <Compilation, 5725>, <Quantification, 363>, 143656, 1075947])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_d001/auto6_s2_c60_d01.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_d001/auto6_s2_c60_d01.txt
+Obtained result: [Projected Compilation: ([634, 300, 454, 135, 8725, 34442, 609, 564]), Compile + Eliminate: ([638, <Compilation, 621>, <Quantification, 17>, 8725, 57831])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c05_d05.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c05_d05.txt
+Obtained result: [Projected Compilation: ([100, 72, 89, 2, 2417, 2415, 430, 428]), Compile + Eliminate: ([108, <Compilation, 107>, <Quantification, 1>, 2417, 8108])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c15_d15.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c15_d15.txt
+Obtained result: [Projected Compilation: ([2283, 201, 302, 1893, 24953, 28569, 489, 475]), Compile + Eliminate: ([1971, <Compilation, 1954>, <Quantification, 17>, 24953, 61566])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c25_d25.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c25_d25.txt
+Obtained result: [Projected Compilation: ([18652, 1814, 2425, 15809, 130018, 691958, 610, 583]), Compile + Eliminate: ([19169, <Compilation, 18226>, <Quantification, 943>, 130018, 1395840])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c05_d05.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c05_d05.txt
+Obtained result: [Projected Compilation: ([980, 364, 522, 362, 19384, 40344, 572, 565]), Compile + Eliminate: ([995, <Compilation, 952>, <Quantification, 43>, 19384, 79461])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c15_d15.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c15_d15.txt
+Obtained result: [Projected Compilation: ([270, 103, 152, 6, 3392, 3450, 331, 323]), Compile + Eliminate: ([252, <Compilation, 251>, <Quantification, 1>, 3392, 10135])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c25_d25.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c25_d25.txt
+Obtained result: [Projected Compilation: ([-1, 45250, 55052, -1, -1, -1, 552, 507]), Compile + Eliminate: ([-1, -1, -1])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c25_d25.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c25_d25.txt
+Obtained result: [Projected Compilation: ([-1, 2822, 3877, -1, -1, -1, 528, 492]), Compile + Eliminate: ([-1, -1, -1])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c05_d05.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c05_d05.txt
+Obtained result: [Projected Compilation: ([1022, 535, 626, 4, 3319, 3323, 322, 319]), Compile + Eliminate: ([177, <Compilation, 165>, <Quantification, 12>, 3319, 8747])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c15_d15.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c15_d15.txt
+Obtained result: [Projected Compilation: ([1260, 391, 547, 562, 56049, 64638, 573, 563]), Compile + Eliminate: ([1248, <Compilation, 1212>, <Quantification, 36>, 56049, 129356])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c05_d05.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c05_d05.txt
+Obtained result: [Projected Compilation: ([497, 167, 247, 194, 44700, 67581, 479, 472]), Compile + Eliminate: ([573, <Compilation, 500>, <Quantification, 73>, 44700, 170271])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c15_d15.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c15_d15.txt
+Obtained result: [Projected Compilation: ([209, 113, 155, 26, 2740, 2817, 444, 439]), Compile + Eliminate: ([191, <Compilation, 188>, <Quantification, 3>, 2740, 15455])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c25_d25.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c25_d25.txt
+Obtained result: [Projected Compilation: ([168616, 2110, 2673, 165788, 256051, 978251, 499, 475]), Compile + Eliminate: ([-1, -1, -1])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c15_d15.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c15_d15.txt
+Obtained result: [Projected Compilation: ([7962, 1089, 1538, 6049, 268330, 385437, 602, 583]), Compile + Eliminate: ([7708, <Compilation, 7430>, <Quantification, 278>, 268330, 678938])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c25_d25.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c25_d25.txt
+Obtained result: [Projected Compilation: ([400, 136, 218, 13, 4993, 6020, 335, 323]), Compile + Eliminate: ([431, <Compilation, 428>, <Quantification, 3>, 4993, 21316])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c15_d15.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c15_d15.txt
+Obtained result: [Projected Compilation: ([-1, 25025, 30363, -1, -1, -1, 534, 507]), Compile + Eliminate: ([-1, -1, -1])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c05_d05.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c05_d05.txt
+Obtained result: [Projected Compilation: ([1477, 683, 859, 209, 27393, 63571, 497, 490]), Compile + Eliminate: ([617, <Compilation, 528>, <Quantification, 89>, 27393, 109602])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c15_d15.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c15_d15.txt
+Obtained result: [Projected Compilation: ([1573, 403, 662, 562, 71722, 77830, 511, 492]), Compile + Eliminate: ([1576, <Compilation, 1541>, <Quantification, 35>, 71722, 154437])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c05_d05.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c05_d05.txt
+Obtained result: [Projected Compilation: ([3352, 1137, 1724, 1293, 38595, 65771, 516, 506]), Compile + Eliminate: ([3462, <Compilation, 3410>, <Quantification, 52>, 38595, 165250])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c25_d25.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c25_d25.txt
+Obtained result: [Projected Compilation: ([4762, 806, 1173, 3332, 64235, 254259, 583, 569]), Compile + Eliminate: ([4896, <Compilation, 4505>, <Quantification, 391>, 64235, 428247])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c05_d05.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c05_d05.txt
+Obtained result: [Projected Compilation: ([1991, 436, 673, 1218, 37123, 90108, 589, 581]), Compile + Eliminate: ([1972, <Compilation, 1851>, <Quantification, 121>, 37123, 154337])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c25_d25.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c25_d25.txt
+Obtained result: [Projected Compilation: ([602, 166, 230, 325, 2702, 3079, 444, 438]), Compile + Eliminate: ([510, <Compilation, 507>, <Quantification, 3>, 2702, 14599])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c10_d10.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c10_d10.txt
+Obtained result: [Projected Compilation: ([7591, 853, 1187, 6164, 163498, 281240, 595, 580]), Compile + Eliminate: ([7624, <Compilation, 7368>, <Quantification, 256>, 163498, 499623])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c20_d20.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c20_d20.txt
+Obtained result: [Projected Compilation: ([-1, 2068, 2692, -1, -1, -1, 495, 473]), Compile + Eliminate: ([-1, -1, -1])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c10_d10.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c10_d10.txt
+Obtained result: [Projected Compilation: ([8116, 3199, 4458, 2447, 73114, 90219, 523, 505]), Compile + Eliminate: ([8613, <Compilation, 8471>, <Quantification, 142>, 73114, 215911])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c20_d20.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c20_d20.txt
+Obtained result: [Projected Compilation: ([464, 214, 267, 9, 4518, 4699, 328, 320]), Compile + Eliminate: ([364, <Compilation, 362>, <Quantification, 2>, 4518, 14524])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c20_d20.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c20_d20.txt
+Obtained result: [Projected Compilation: ([5088, 1067, 1465, 3322, 42083, 202156, 582, 567]), Compile + Eliminate: ([4962, <Compilation, 4657>, <Quantification, 305>, 42083, 323455])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c10_d10.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c10_d10.txt
+Obtained result: [Projected Compilation: ([864, 332, 513, 173, 28043, 39843, 505, 490]), Compile + Eliminate: ([872, <Compilation, 853>, <Quantification, 19>, 28043, 83419])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c20_d20.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c20_d20.txt
+Obtained result: [Projected Compilation: ([254, 144, 194, 28, 2859, 3393, 446, 440]), Compile + Eliminate: ([247, <Compilation, 243>, <Quantification, 4>, 2859, 14369])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c20_d20.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c20_d20.txt
+Obtained result: [Projected Compilation: ([-1, 5908, 7665, -1, -1, -1, 608, 583]), Compile + Eliminate: ([-1, -1, -1])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c10_d10.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c10_d10.txt
+Obtained result: [Projected Compilation: ([891, 345, 502, 221, 33409, 52104, 482, 471]), Compile + Eliminate: ([773, <Compilation, 631>, <Quantification, 142>, 33409, 108916])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c20_d20.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c20_d20.txt
+Obtained result: [Projected Compilation: ([-1, 72367, 84931, -1, -1, -1, 545, 507]), Compile + Eliminate: ([-1, -1, -1])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c10_d10.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c10_d10.txt
+Obtained result: [Projected Compilation: ([446, 148, 249, 4, 2447, 2487, 321, 315]), Compile + Eliminate: ([220, <Compilation, 210>, <Quantification, 10>, 2447, 7028])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c10_d10.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c10_d10.txt
+Obtained result: [Projected Compilation: ([1601, 611, 827, 623, 36167, 49719, 574, 565]), Compile + Eliminate: ([1591, <Compilation, 1528>, <Quantification, 63>, 36167, 98372])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c20_d20.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c20_d20.txt
+Obtained result: [Projected Compilation: ([9288, 2024, 2962, 5239, 94138, 342039, 521, 492]), Compile + Eliminate: ([9258, <Compilation, 8843>, <Quantification, 415>, 94138, 706891])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c10_d10.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c10_d10.txt
+Obtained result: [Projected Compilation: ([898, 193, 269, 591, 2774, 3074, 445, 438]), Compile + Eliminate: ([498, <Compilation, 494>, <Quantification, 4>, 2774, 18808])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d30.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d30.txt
+Obtained result: [Projected Compilation: ([-1, 17114, 23746, -1, -1, -1, 536, 506]), Compile + Eliminate: ([-1, -1, -1])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d50.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d50.txt
+Obtained result: [Projected Compilation: ([1428, 438, 582, 87, 6524, 7046, 481, 472]), Compile + Eliminate: ([391, <Compilation, 371>, <Quantification, 20>, 6524, 19175])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d40.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d40.txt
+Obtained result: [Projected Compilation: ([116531, 1520, 1911, 114509, 9212, 42320, 485, 473]), Compile + Eliminate: ([155770, <Compilation, 155346>, <Quantification, 424>, 9212, 1967714])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d30.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d30.txt
+Obtained result: [Projected Compilation: ([7687, 341, 733, 6850, 64179, 72487, 513, 491]), Compile + Eliminate: ([6524, <Compilation, 6376>, <Quantification, 148>, 64179, 549515])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d20.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d20.txt
+Obtained result: [Projected Compilation: ([-1, 26469, 33795, -1, -1, -1, 524, 504]), Compile + Eliminate: ([-1, -1, -1])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d20.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d20.txt
+Obtained result: [Projected Compilation: ([3215, 1038, 1438, 719, 28723, 29572, 591, 582]), Compile + Eliminate: ([2363, <Compilation, 2292>, <Quantification, 71>, 28723, 70736])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d50.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d50.txt
+Obtained result: [Projected Compilation: ([-1, 28243, 35600, -1, -1, -1, 524, 505]), Compile + Eliminate: ([-1, -1, -1])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d40.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d40.txt
+Obtained result: [Projected Compilation: ([36064, 1330, 1895, 33261, 10278, 27933, 517, 490]), Compile + Eliminate: ([38352, <Compilation, 38012>, <Quantification, 340>, 10278, 1496590])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_c001_dn/auto4_s1_c01_d20.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_c001_dn/auto4_s1_c01_d20.txt
+Obtained result: [Projected Compilation: ([972, 349, 420, 407, 2340, 2557, 442, 439]), Compile + Eliminate: ([515, <Compilation, 512>, <Quantification, 3>, 2340, 15587])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d30.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d30.txt
+Obtained result: [Projected Compilation: ([262, 87, 167, 25, 4984, 5499, 480, 472]), Compile + Eliminate: ([255, <Compilation, 252>, <Quantification, 3>, 4984, 14652])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d50.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d50.txt
+Obtained result: [Projected Compilation: ([-1, 11993, 14550, -1, -1, -1, 612, 585]), Compile + Eliminate: ([-1, -1, -1])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_c001_dn/auto3_s1_c01_d20.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_c001_dn/auto3_s1_c01_d20.txt
+Obtained result: [Projected Compilation: ([1052, 422, 626, 269, 23857, 24190, 571, 566]), Compile + Eliminate: ([1130, <Compilation, 1097>, <Quantification, 33>, 23857, 61175])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d40.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d40.txt
+Obtained result: [Projected Compilation: ([-1, 9464, 11548, -1, -1, -1, 602, 581]), Compile + Eliminate: ([-1, -1, -1])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d20.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d20.txt
+Obtained result: [Projected Compilation: ([617, 277, 416, 50, 9981, 10063, 476, 471]), Compile + Eliminate: ([647, <Compilation, 613>, <Quantification, 34>, 9981, 26813])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d50.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d50.txt
+Obtained result: [Projected Compilation: ([4762, 1422, 2150, 2204, 31912, 34262, 517, 493]), Compile + Eliminate: ([4966, <Compilation, 4840>, <Quantification, 126>, 31912, 472854])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d40.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d40.txt
+Obtained result: [Projected Compilation: ([-1, 33579, 42600, -1, -1, -1, 545, 505]), Compile + Eliminate: ([-1, -1, -1])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d10.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d10.txt
+Obtained result: [Projected Compilation: ([386, 156, 253, 9, 4741, 4745, 472, 470]), Compile + Eliminate: ([253, <Compilation, 230>, <Quantification, 23>, 4741, 14885])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d60.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d60.txt
+Obtained result: [Projected Compilation: ([8122, 2274, 3070, 4618, 10775, 29968, 524, 492]), Compile + Eliminate: ([9627, <Compilation, 9221>, <Quantification, 406>, 10775, 1925914])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d60.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d60.txt
+Obtained result: [Projected Compilation: ([-1, 17901, 19707, -1, -1, -1, 612, 584]), Compile + Eliminate: ([-1, -1, -1])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_c001_dn/auto3_s1_c01_d10.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_c001_dn/auto3_s1_c01_d10.txt
+Obtained result: [Projected Compilation: ([521, 240, 353, 22, 6262, 6324, 562, 560]), Compile + Eliminate: ([433, <Compilation, 413>, <Quantification, 20>, 6262, 17579])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d60.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d60.txt
+Obtained result: [Projected Compilation: ([-1, 15142, 21101, -1, -1, -1, 527, 504]), Compile + Eliminate: ([-1, -1, -1])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d10.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d10.txt
+Obtained result: [Projected Compilation: ([1694, 515, 700, 119, 8125, 8497, 584, 579]), Compile + Eliminate: ([801, <Compilation, 779>, <Quantification, 22>, 8125, 23975])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d10.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d10.txt
+Obtained result: [Projected Compilation: ([2788, 1278, 1869, 379, 11546, 12816, 515, 505]), Compile + Eliminate: ([2433, <Compilation, 2403>, <Quantification, 30>, 11546, 41627])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d10.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d10.txt
+Obtained result: [Projected Compilation: ([471, 177, 316, 41, 5637, 6898, 499, 490]), Compile + Eliminate: ([427, <Compilation, 424>, <Quantification, 3>, 5637, 22351])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d60.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d60.txt
+Obtained result: [Projected Compilation: ([242600, 1437, 1777, 240726, 7409, 26327, 482, 472]), Compile + Eliminate: ([119508, <Compilation, 119147>, <Quantification, 361>, 7409, 1870485])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v02.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v02.txt
+Obtained result: [Projected Compilation: ([168, 83, 135, 4, 3901, 3899, 497, 497]), Compile + Eliminate: ([145, <Compilation, 143>, <Quantification, 2>, 3901, 10769])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_c001_d001/auto3_s0_c01_d01_v09.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_c001_d001/auto3_s0_c01_d01_v09.txt
+Obtained result: [Projected Compilation: ([113, 57, 90, 10, 6136, 6134, 548, 548]), Compile + Eliminate: ([125, <Compilation, 123>, <Quantification, 2>, 6136, 14346])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v01.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v01.txt
+Obtained result: [Projected Compilation: ([124, 54, 97, 5, 4316, 4314, 486, 486]), Compile + Eliminate: ([131, <Compilation, 129>, <Quantification, 2>, 4316, 10151])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v00.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v00.txt
+Obtained result: [Projected Compilation: ([267, 109, 209, 19, 6656, 6654, 502, 502]), Compile + Eliminate: ([258, <Compilation, 255>, <Quantification, 3>, 6656, 18883])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v04.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v04.txt
+Obtained result: [Projected Compilation: ([117, 55, 92, 3, 3768, 3766, 487, 487]), Compile + Eliminate: ([126, <Compilation, 125>, <Quantification, 1>, 3768, 10099])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v05.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v05.txt
+Obtained result: [Projected Compilation: ([176, 75, 142, 5, 4347, 4345, 494, 494]), Compile + Eliminate: ([183, <Compilation, 180>, <Quantification, 3>, 4347, 12158])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v07.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v07.txt
+Obtained result: [Projected Compilation: ([85, 37, 63, 2, 2888, 2886, 485, 485]), Compile + Eliminate: ([94, <Compilation, 93>, <Quantification, 1>, 2888, 7921])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_c001_d001/auto2_s0_c01_d01_v03.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_c001_d001/auto2_s0_c01_d01_v03.txt
+Obtained result: [Projected Compilation: ([51, 23, 37, 5, 1918, 1916, 315, 315]), Compile + Eliminate: ([49, <Compilation, 48>, <Quantification, 1>, 1918, 4914])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_c001_d001/auto2_s0_c01_d01_v02.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_c001_d001/auto2_s0_c01_d01_v02.txt
+Obtained result: [Projected Compilation: ([54, 25, 45, 1, 2194, 2192, 314, 314]), Compile + Eliminate: ([54, <Compilation, 53>, <Quantification, 1>, 2194, 5506])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_c001_d001/auto0_s0_c01_d01_v08.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_c001_d001/auto0_s0_c01_d01_v08.txt
+Obtained result: [Projected Compilation: ([112, 51, 86, 11, 5988, 5986, 488, 488]), Compile + Eliminate: ([111, <Compilation, 109>, <Quantification, 2>, 5988, 12527])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v06.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v06.txt
+Obtained result: [Projected Compilation: ([242, 105, 194, 10, 5876, 5874, 495, 495]), Compile + Eliminate: ([242, <Compilation, 239>, <Quantification, 3>, 5876, 16846])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_c001_d001/auto6_s0_c01_d01_v09.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_c001_d001/auto6_s0_c01_d01_v09.txt
+Obtained result: [Projected Compilation: ([114, 57, 92, 10, 6213, 6211, 564, 564]), Compile + Eliminate: ([128, <Compilation, 122>, <Quantification, 6>, 6213, 14427])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_c001_d001/auto6_s0_c01_d01_v02.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_c001_d001/auto6_s0_c01_d01_v02.txt
+Obtained result: [Projected Compilation: ([124, 55, 99, 11, 5202, 5200, 559, 559]), Compile + Eliminate: ([109, <Compilation, 107>, <Quantification, 2>, 5202, 12815])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_c001_d001/auto5_s0_c01_d01_v02.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_c001_d001/auto5_s0_c01_d01_v02.txt
+Obtained result: [Projected Compilation: ([87, 39, 71, 4, 3828, 3826, 468, 468]), Compile + Eliminate: ([94, <Compilation, 92>, <Quantification, 2>, 3828, 10311])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_c001_d001/auto6_s0_c01_d01_v05.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_c001_d001/auto6_s0_c01_d01_v05.txt
+Obtained result: [Projected Compilation: ([120, 57, 97, 9, 5210, 5208, 558, 558]), Compile + Eliminate: ([118, <Compilation, 117>, <Quantification, 1>, 5210, 13030])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_c001_d001/auto0_s0_c01_d01_v05.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_c001_d001/auto0_s0_c01_d01_v05.txt
+Obtained result: [Projected Compilation: ([95, 46, 75, 6, 3896, 3894, 487, 487]), Compile + Eliminate: ([102, <Compilation, 100>, <Quantification, 2>, 3896, 9516])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v08.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v08.txt
+Obtained result: [Projected Compilation: ([141, 63, 113, 4, 4653, 4651, 486, 486]), Compile + Eliminate: ([145, <Compilation, 142>, <Quantification, 3>, 4653, 11735])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v09.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v09.txt
+Obtained result: [Projected Compilation: ([90, 44, 74, 2, 3514, 3512, 483, 483]), Compile + Eliminate: ([96, <Compilation, 95>, <Quantification, 1>, 3514, 7589])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_c001_d001/auto2_s0_c01_d01_v08.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_c001_d001/auto2_s0_c01_d01_v08.txt
+Obtained result: [Projected Compilation: ([48, 22, 39, 1, 1956, 1954, 314, 314]), Compile + Eliminate: ([48, <Compilation, 47>, <Quantification, 1>, 1956, 4954])]
+Run Projected Compilation for benchmarks/suite1/automotive/auto_c001_d001/auto0_s0_c01_d01_v02.txt
+Run Compile + Eliminate for benchmarks/suite1/automotive/auto_c001_d001/auto0_s0_c01_d01_v02.txt
+Obtained result: [Projected Compilation: ([81, 36, 65, 2, 3532, 3530, 490, 490]), Compile + Eliminate: ([86, <Compilation, 85>, <Quantification, 1>, 3532, 9170])]

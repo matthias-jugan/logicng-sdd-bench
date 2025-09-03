@@ -1,0 +1,12 @@
+=== Setup ===
+Time: 2025-08-06T17:33:42.656691
+Experiment: model-counting
+
+Input source: benchmarks
+Files: 55
+Filters: [File[path=benchmarks/suite1], Exclude[path=benchmarks/suite1/automotive], Exclude[path=benchmarks/suite1/mercedes/C220_FW], Exclude[path=benchmarks/suite1/mercedes/C168_FW]]
+
+Arguments: []
+Timeout: 300000ms
+Heap Size: 32768MB
+======

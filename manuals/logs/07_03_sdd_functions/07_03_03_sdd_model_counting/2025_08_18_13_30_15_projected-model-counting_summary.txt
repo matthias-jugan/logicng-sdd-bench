@@ -1,0 +1,12 @@
+=== Setup ===
+Time: 2025-08-18T13:30:15.95763
+Experiment: projected-model-counting
+
+Input source: benchmarks
+Files: 76
+Filters: [File[path=benchmarks/suite1/automotive], Exclude[path=benchmarks/suite1/automotive/auto_c001_d001], Exclude[path=benchmarks/automotive/auto_c001_dn/auto1_s1_c01_d1]]
+
+Arguments: [with-add-vars]
+Timeout: 300000ms
+Heap Size: 32768MB
+======

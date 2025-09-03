@@ -23,11 +23,9 @@ public class ModelCountingSetups {
         }
         BigInteger ref = null;
         for (final var v : vs) {
-            if (v.getSecond() == null) {
-                System.out.println("null");
+            if (v == null || v.getSecond() == null) {
                 continue;
             }
-            System.out.println(v.getSecond().count());
             if (ref == null) {
                 ref = v.getSecond().count();
             } else {
@@ -43,8 +41,7 @@ public class ModelCountingSetups {
     public static void modelCounting(
             final List<InputFile> inputs, final List<String> arguments, final Logger logger,
             final Supplier<ComputationHandler> handler) {
-        final var results
-                = new ExperimentGroup<>(List.of(
+        final var results = new ExperimentGroup<>(List.of(
                 new ExperimentEntry<>("DNNF Count", new CountModelsDnnfExperiment(), ProblemFunction::id),
                 new ExperimentEntry<>("SDD Count", new CountModelsSddExperiment(), ProblemFunction::id)
         )).runExperiments(inputs, logger, handler, COMPARE_MC);
@@ -56,6 +53,6 @@ public class ModelCountingSetups {
         final var results = new ExperimentGroup<>(List.of(
                 new ExperimentEntry<>("SDD Proj Comp", new PmcNaiveSddExperiment(),
                         ProjectedCompilationSetups.exportedPdfToProjectionProblem)
-        )).runExperiments(inputs, logger, handler);
+        )).runExperiments(inputs, logger, handler, COMPARE_MC);
     }
 }

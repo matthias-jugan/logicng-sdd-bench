@@ -1,0 +1,768 @@
+Warmup
+Run SDD (TD) for benchmarks/suite1/other/qg6-09.cnf
+Run SDD (BU) for benchmarks/suite1/other/qg6-09.cnf
+Run BDD (BU) for benchmarks/suite1/other/qg6-09.cnf
+Run DNNF for benchmarks/suite1/other/qg6-09.cnf
+Obtained result: [SDD (TD): ([681, 562, 648, 1, 3524, 3522, 729, -1]), SDD (BU): ([879, 635, 639, 199, 3524, 3522, 729, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 729, -1]), DNNF: ([763, 731, -2, 11, 957, -1, 729, -1])]
+Run SDD (TD) for benchmarks/suite1/other/uf250-026.cnf
+Run SDD (BU) for benchmarks/suite1/other/uf250-026.cnf
+Run BDD (BU) for benchmarks/suite1/other/uf250-026.cnf
+Run DNNF for benchmarks/suite1/other/uf250-026.cnf
+Obtained result: [SDD (TD): ([4168, 0, 4, 5, 1057, 1058, 250, -1]), SDD (BU): ([4125, 1, 1, 6, 1057, 1058, 250, -1]), BDD (BU): ([4152, -2, -2, -2, 321, -1, 250, -1]), DNNF: ([4099, 1, -2, 1, 284, -1, 250, -1])]
+Run SDD (TD) for benchmarks/suite1/other/qg1-07.cnf
+Run SDD (BU) for benchmarks/suite1/other/qg1-07.cnf
+Run BDD (BU) for benchmarks/suite1/other/qg1-07.cnf
+Run DNNF for benchmarks/suite1/other/qg1-07.cnf
+Obtained result: [SDD (TD): ([674, 483, 587, 8, 2585, 2583, 343, -1]), SDD (BU): ([52226, 608, 614, 51425, 2585, 2583, 343, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 343, -1]), DNNF: ([849, 666, -2, 88, 505, -1, 343, -1])]
+Run SDD (TD) for benchmarks/suite1/other/4blocksb.cnf
+Run SDD (BU) for benchmarks/suite1/other/4blocksb.cnf
+Run BDD (BU) for benchmarks/suite1/other/4blocksb.cnf
+Run DNNF for benchmarks/suite1/other/4blocksb.cnf
+Obtained result: [SDD (TD): ([68, 4, 30, 4, 1721, 1719, 410, -1]), SDD (BU): ([96, 11, 12, 20, 1721, 1719, 410, -1]), BDD (BU): ([100, -2, -2, -2, 480, -1, 410, -1]), DNNF: ([25, 4, -2, 1, 469, -1, 410, -1])]
+Run SDD (TD) for benchmarks/suite1/other/2bitcomp_5.cnf
+Run SDD (BU) for benchmarks/suite1/other/2bitcomp_5.cnf
+Run BDD (BU) for benchmarks/suite1/other/2bitcomp_5.cnf
+Run DNNF for benchmarks/suite1/other/2bitcomp_5.cnf
+Obtained result: [SDD (TD): ([413, 4, 15, 396, 525848, 525846, 95, -1]), SDD (BU): ([106132, 3, 3, 106127, 525848, 525846, 95, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 95, -1]), DNNF: ([363, 37, -2, 324, 18917, -1, 95, -1])]
+Run SDD (TD) for benchmarks/suite1/other/log-1.cnf
+Run SDD (BU) for benchmarks/suite1/other/log-1.cnf
+Run BDD (BU) for benchmarks/suite1/other/log-1.cnf
+Run DNNF for benchmarks/suite1/other/log-1.cnf
+Obtained result: [SDD (TD): ([181, 44, 150, 18, 5957, 5959, 939, -1]), SDD (BU): ([120, 18, 20, 85, 5957, 5955, 939, -1]), BDD (BU): ([871, -2, -2, -2, 22748, -1, 939, -1]), DNNF: ([111, 69, -2, 32, 1403, -1, 939, -1])]
+Run SDD (TD) for benchmarks/suite1/other/log-3.cnf
+Run SDD (BU) for benchmarks/suite1/other/log-3.cnf
+Skipped SDD (BU) with input log-3.cnf because of an exception:
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because "count" is null
+Run BDD (BU) for benchmarks/suite1/other/log-3.cnf
+Run DNNF for benchmarks/suite1/other/log-3.cnf
+Obtained result: [SDD (TD): ([2495, 1509, 1956, 316, 93539, 93537, 1413, -1]), SDD (BU): (null), BDD (BU): ([-1, -2, -2, -2, -1, -1, 1413, -1]), DNNF: ([5048, 1586, -2, 3340, 2573, -1, 1413, -1])]
+Run SDD (TD) for benchmarks/suite1/other/log-2.cnf
+Run SDD (BU) for benchmarks/suite1/other/log-2.cnf
+Run BDD (BU) for benchmarks/suite1/other/log-2.cnf
+Run DNNF for benchmarks/suite1/other/log-2.cnf
+Obtained result: [SDD (TD): ([6551, 2887, 3481, 2951, 321129, 321174, 1337, -1]), SDD (BU): ([-1, 2808, 2815, -1, -1, -1, 1337, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 1337, -1]), DNNF: ([11663, 2968, -2, 8579, 3222, -1, 1337, -1])]
+Run SDD (TD) for benchmarks/suite1/other/prob004-log-a.cnf
+Run SDD (BU) for benchmarks/suite1/other/prob004-log-a.cnf
+Run BDD (BU) for benchmarks/suite1/other/prob004-log-a.cnf
+Run DNNF for benchmarks/suite1/other/prob004-log-a.cnf
+Obtained result: [SDD (TD): ([5289, 932, 1590, 3630, 1658766, 1658764, 1790, -1]), SDD (BU): ([-1, 963, 969, -1, -1, -1, 1790, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 1790, -1]), DNNF: ([24455, 1295, -2, 23093, 16768, -1, 1790, -1])]
+Run SDD (TD) for benchmarks/suite1/other/qg7-09.cnf
+Run SDD (BU) for benchmarks/suite1/other/qg7-09.cnf
+Run BDD (BU) for benchmarks/suite1/other/qg7-09.cnf
+Run DNNF for benchmarks/suite1/other/qg7-09.cnf
+Obtained result: [SDD (TD): ([761, 589, 735, 2, 3596, 3594, 729, -1]), SDD (BU): ([3947, 592, 596, 3296, 3596, 3594, 729, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 729, -1]), DNNF: ([820, 764, -2, 14, 957, -1, 729, -1])]
+Run SDD (TD) for benchmarks/suite1/other/ra.cnf
+Run SDD (BU) for benchmarks/suite1/other/ra.cnf
+Run BDD (BU) for benchmarks/suite1/other/ra.cnf
+Run DNNF for benchmarks/suite1/other/ra.cnf
+Obtained result: [SDD (TD): ([8778, 3644, 4415, 4279, 269541, 269539, 1236, -1]), SDD (BU): ([-1, 3600, 3613, -1, -1, -1, 1236, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 1236, -1]), DNNF: ([9187, 3321, -2, 5771, 35513, -1, 1236, -1])]
+Run SDD (TD) for benchmarks/suite1/other/huge.cnf
+Run SDD (BU) for benchmarks/suite1/other/huge.cnf
+Run BDD (BU) for benchmarks/suite1/other/huge.cnf
+Run DNNF for benchmarks/suite1/other/huge.cnf
+Obtained result: [SDD (TD): ([29, -2, 4, 3, 1826, 1825, 459, -1]), SDD (BU): ([30, -2, 1, 11, 1826, 1825, 459, -1]), BDD (BU): ([92, -2, -2, -2, 459, -1, 459, -1]), DNNF: ([5, -2, -2, -2, 460, -1, 459, -1])]
+Run SDD (TD) for benchmarks/suite1/other/bw_large.a.cnf
+Run SDD (BU) for benchmarks/suite1/other/bw_large.a.cnf
+Run BDD (BU) for benchmarks/suite1/other/bw_large.a.cnf
+Run DNNF for benchmarks/suite1/other/bw_large.a.cnf
+Obtained result: [SDD (TD): ([8, -2, 2, 2, 1826, 1825, 459, -1]), SDD (BU): ([13, -2, 0, 2, 1826, 1825, 459, -1]), BDD (BU): ([20, -2, -2, -2, 459, -1, 459, -1]), DNNF: ([4, -2, -2, -2, 460, -1, 459, -1])]
+Run SDD (TD) for benchmarks/suite1/other/qg2-07.cnf
+Run SDD (BU) for benchmarks/suite1/other/qg2-07.cnf
+Run BDD (BU) for benchmarks/suite1/other/qg2-07.cnf
+Run DNNF for benchmarks/suite1/other/qg2-07.cnf
+Obtained result: [SDD (TD): ([1186, 953, 1068, 6, 3397, 3395, 343, -1]), SDD (BU): ([12528, 833, 837, 11468, 3397, 3395, 343, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 343, -1]), DNNF: ([1156, 916, -2, 146, 531, -1, 343, -1])]
+Run SDD (TD) for benchmarks/suite1/other/bw_large.b.cnf
+Run SDD (BU) for benchmarks/suite1/other/bw_large.b.cnf
+Run BDD (BU) for benchmarks/suite1/other/bw_large.b.cnf
+Run DNNF for benchmarks/suite1/other/bw_large.b.cnf
+Obtained result: [SDD (TD): ([20, 0, 9, 0, 4354, 4352, 1087, -1]), SDD (BU): ([25, 0, 2, 3, 4354, 4352, 1087, -1]), BDD (BU): ([54, -2, -2, -2, 1105, -1, 1087, -1]), DNNF: ([13, 1, -2, 0, 1108, -1, 1087, -1])]
+Run SDD (TD) for benchmarks/suite1/other/ssa7552-038.cnf
+Run SDD (BU) for benchmarks/suite1/other/ssa7552-038.cnf
+Run BDD (BU) for benchmarks/suite1/other/ssa7552-038.cnf
+Run DNNF for benchmarks/suite1/other/ssa7552-038.cnf
+Obtained result: [SDD (TD): ([461, 139, 407, 34, 23109, 23123, 1501, -1]), SDD (BU): ([12371, 135, 138, 12214, 23109, 23107, 1501, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 1501, -1]), DNNF: ([204, 158, -2, 26, 3248, -1, 1501, -1])]
+Run SDD (TD) for benchmarks/suite1/other/tire-2.cnf
+Run SDD (BU) for benchmarks/suite1/other/tire-2.cnf
+Run BDD (BU) for benchmarks/suite1/other/tire-2.cnf
+Run DNNF for benchmarks/suite1/other/tire-2.cnf
+Obtained result: [SDD (TD): ([23, 5, 17, 2, 3959, 3957, 550, -1]), SDD (BU): ([41, 4, 6, 31, 3959, 3957, 550, -1]), BDD (BU): ([93, -2, -2, -2, 5708, -1, 550, -1]), DNNF: ([18, 5, -2, 10, 894, -1, 550, -1])]
+Run SDD (TD) for benchmarks/suite1/other/tire-3.cnf
+Run SDD (BU) for benchmarks/suite1/other/tire-3.cnf
+Run BDD (BU) for benchmarks/suite1/other/tire-3.cnf
+Run DNNF for benchmarks/suite1/other/tire-3.cnf
+Obtained result: [SDD (TD): ([41, 8, 27, 11, 10112, 10110, 577, -1]), SDD (BU): ([449, 8, 9, 435, 10112, 10110, 577, -1]), BDD (BU): ([1790, -2, -2, -2, 16555, -1, 577, -1]), DNNF: ([34, 9, -2, 21, 1361, -1, 577, -1])]
+Run SDD (TD) for benchmarks/suite1/other/tire-4.cnf
+Run SDD (BU) for benchmarks/suite1/other/tire-4.cnf
+Run BDD (BU) for benchmarks/suite1/other/tire-4.cnf
+Run DNNF for benchmarks/suite1/other/tire-4.cnf
+Obtained result: [SDD (TD): ([57, 12, 39, 10, 8781, 8779, 812, -1]), SDD (BU): ([113, 13, 14, 86, 8781, 8779, 812, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 812, -1]), DNNF: ([55, 22, -2, 19, 1555, -1, 812, -1])]
+Run SDD (TD) for benchmarks/suite1/other/qg3-08.cnf
+Run SDD (BU) for benchmarks/suite1/other/qg3-08.cnf
+Run BDD (BU) for benchmarks/suite1/other/qg3-08.cnf
+Run DNNF for benchmarks/suite1/other/qg3-08.cnf
+Obtained result: [SDD (TD): ([776, 667, 730, 7, 5985, 5983, 512, -1]), SDD (BU): ([-1, 650, 652, -1, -1, -1, 512, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 512, -1]), DNNF: ([1062, 864, -2, 166, 775, -1, 512, -1])]
+Run SDD (TD) for benchmarks/suite1/other/ais10.cnf
+Run SDD (BU) for benchmarks/suite1/other/ais10.cnf
+Run BDD (BU) for benchmarks/suite1/other/ais10.cnf
+Run DNNF for benchmarks/suite1/other/ais10.cnf
+Obtained result: [SDD (TD): ([5394, 317, 391, 4244, 34118, 34116, 181, -1]), SDD (BU): ([-1, 324, 324, -1, -1, -1, 181, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 181, -1]), DNNF: ([26072, 460, -2, 24839, 1, -1, 181, -1])]
+Run SDD (TD) for benchmarks/suite1/other/cnt06.shuffled.cnf
+Run SDD (BU) for benchmarks/suite1/other/cnt06.shuffled.cnf
+Run BDD (BU) for benchmarks/suite1/other/cnt06.shuffled.cnf
+Run DNNF for benchmarks/suite1/other/cnt06.shuffled.cnf
+Obtained result: [SDD (TD): ([28, -2, 4, 5, 3037, 3036, 762, -1]), SDD (BU): ([39, -2, 1, 18, 3037, 3036, 762, -1]), BDD (BU): ([79, -2, -2, -2, 762, -1, 762, -1]), DNNF: ([18, -2, -2, -2, 763, -1, 762, -1])]
+Run SDD (TD) for benchmarks/suite1/mercedes/D1119_M20.cnf
+Run SDD (BU) for benchmarks/suite1/mercedes/D1119_M20.cnf
+Run BDD (BU) for benchmarks/suite1/mercedes/D1119_M20.cnf
+Run DNNF for benchmarks/suite1/mercedes/D1119_M20.cnf
+Obtained result: [SDD (TD): ([121, 7, 90, 24, 6040, 6039, 1392, -1]), SDD (BU): ([59, 2, 4, 51, 6040, 6039, 1392, -1]), BDD (BU): ([135, -2, -2, -2, 1793, -1, 1392, -1]), DNNF: ([39, 10, -2, 26, 1528, -1, 1392, -1])]
+Run SDD (TD) for benchmarks/suite1/mercedes/C638_FVK.cnf
+Run SDD (BU) for benchmarks/suite1/mercedes/C638_FVK.cnf
+Run BDD (BU) for benchmarks/suite1/mercedes/C638_FVK.cnf
+Run DNNF for benchmarks/suite1/mercedes/C638_FVK.cnf
+Obtained result: [SDD (TD): ([857, 608, 796, 53, 13182, 13182, 1727, -1]), SDD (BU): ([2160, 604, 606, 1544, 13182, 13180, 1727, -1]), BDD (BU): ([2167, -2, -2, -2, 35523, -1, 1727, -1]), DNNF: ([1160, 1114, -2, 40, 2847, -1, 1727, -1])]
+Run SDD (TD) for benchmarks/suite1/mercedes/D1119_M23.cnf
+Run SDD (BU) for benchmarks/suite1/mercedes/D1119_M23.cnf
+Run BDD (BU) for benchmarks/suite1/mercedes/D1119_M23.cnf
+Run DNNF for benchmarks/suite1/mercedes/D1119_M23.cnf
+Obtained result: [SDD (TD): ([29, 2, 16, 8, 6347, 6345, 1405, -1]), SDD (BU): ([29, 2, 3, 21, 6347, 6345, 1405, -1]), BDD (BU): ([87, -2, -2, -2, 1970, -1, 1405, -1]), DNNF: ([6, 2, -2, 1, 1534, -1, 1405, -1])]
+Run SDD (TD) for benchmarks/suite1/mercedes/C220_FV.cnf
+Run SDD (BU) for benchmarks/suite1/mercedes/C220_FV.cnf
+Run BDD (BU) for benchmarks/suite1/mercedes/C220_FV.cnf
+Run DNNF for benchmarks/suite1/mercedes/C220_FV.cnf
+Obtained result: [SDD (TD): ([-1, 372, 674, -1, -1, -1, 1782, -1]), SDD (BU): ([-1, 386, 389, -1, -1, -1, 1782, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 1782, -1]), DNNF: ([-1, 363, -2, -1, -1, -1, 1782, -1])]
+Run SDD (TD) for benchmarks/suite1/mercedes/C140_FC.cnf
+Run SDD (BU) for benchmarks/suite1/mercedes/C140_FC.cnf
+Run BDD (BU) for benchmarks/suite1/mercedes/C140_FC.cnf
+Run DNNF for benchmarks/suite1/mercedes/C140_FC.cnf
+Obtained result: [SDD (TD): ([33381, 166, 382, 32978, 5146608, 5146606, 1691, -1]), SDD (BU): ([-1, 182, 184, -1, -1, -1, 1691, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 1691, -1]), DNNF: ([17861, 425, -2, 17406, 133900, -1, 1691, -1])]
+Run SDD (TD) for benchmarks/suite1/mercedes/C220_FW.cnf
+Run SDD (BU) for benchmarks/suite1/mercedes/C220_FW.cnf
+Run BDD (BU) for benchmarks/suite1/mercedes/C220_FW.cnf
+Run DNNF for benchmarks/suite1/mercedes/C220_FW.cnf
+Obtained result: [SDD (TD): ([-1, 639, 968, -1, -1, -1, 1775, -1]), SDD (BU): ([-1, 731, 745, -1, -1, -1, 1775, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 1775, -1]), DNNF: ([217876, 664, -2, 217089, 1539452, -1, 1775, -1])]
+Run SDD (TD) for benchmarks/suite1/mercedes/C208_FA.cnf
+Run SDD (BU) for benchmarks/suite1/mercedes/C208_FA.cnf
+Run BDD (BU) for benchmarks/suite1/mercedes/C208_FA.cnf
+Run DNNF for benchmarks/suite1/mercedes/C208_FA.cnf
+Obtained result: [SDD (TD): ([144234, 1083, 1919, 142020, 5275433, 5275432, 1803, -1]), SDD (BU): ([-1, 1112, 1133, -1, -1, -1, 1803, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 1803, -1]), DNNF: ([54749, 1238, -2, 53379, 363028, -1, 1803, -1])]
+Run SDD (TD) for benchmarks/suite1/mercedes/C230_FR.cnf
+Run SDD (BU) for benchmarks/suite1/mercedes/C230_FR.cnf
+Run BDD (BU) for benchmarks/suite1/mercedes/C230_FR.cnf
+Run DNNF for benchmarks/suite1/mercedes/C230_FR.cnf
+Obtained result: [SDD (TD): ([127922, 440, 717, 127125, 2185177, 2204967, 1775, -1]), SDD (BU): ([-1, 446, 454, -1, -1, -1, 1775, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 1775, -1]), DNNF: ([11378, 484, -2, 10839, 116543, -1, 1775, -1])]
+Run SDD (TD) for benchmarks/suite1/mercedes/C208_FC.cnf
+Run SDD (BU) for benchmarks/suite1/mercedes/C208_FC.cnf
+Run BDD (BU) for benchmarks/suite1/mercedes/C208_FC.cnf
+Run DNNF for benchmarks/suite1/mercedes/C208_FC.cnf
+Obtained result: [SDD (TD): ([-1, 712, 1129, -1, -1, -1, 1800, -1]), SDD (BU): ([-1, 672, 676, -1, -1, -1, 1800, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 1800, -1]), DNNF: ([39714, 718, -2, 38913, 403152, -1, 1800, -1])]
+Run SDD (TD) for benchmarks/suite1/mercedes/C140_FW.cnf
+Run SDD (BU) for benchmarks/suite1/mercedes/C140_FW.cnf
+Run BDD (BU) for benchmarks/suite1/mercedes/C140_FW.cnf
+Run DNNF for benchmarks/suite1/mercedes/C140_FW.cnf
+Obtained result: [SDD (TD): ([-1, 374, 684, -1, -1, -1, 1701, -1]), SDD (BU): ([-1, 482, 492, -1, -1, -1, 1701, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 1701, -1]), DNNF: ([10568, 533, -2, 9965, 124354, -1, 1701, -1])]
+Run SDD (TD) for benchmarks/suite1/mercedes/C140_FV.cnf
+Run SDD (BU) for benchmarks/suite1/mercedes/C140_FV.cnf
+Run BDD (BU) for benchmarks/suite1/mercedes/C140_FV.cnf
+Run DNNF for benchmarks/suite1/mercedes/C140_FV.cnf
+Obtained result: [SDD (TD): ([14224, 465, 875, 13258, 1408982, 1408980, 1705, -1]), SDD (BU): ([-1, 461, 465, -1, -1, -1, 1705, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 1705, -1]), DNNF: ([8688, 637, -2, 7952, 55160, -1, 1705, -1])]
+Run SDD (TD) for benchmarks/suite1/mercedes/C168_FW.cnf
+Run SDD (BU) for benchmarks/suite1/mercedes/C168_FW.cnf
+Run BDD (BU) for benchmarks/suite1/mercedes/C168_FW.cnf
+Run DNNF for benchmarks/suite1/mercedes/C168_FW.cnf
+Obtained result: [SDD (TD): ([-1, 1656, 2103, -1, -1, -1, 1804, -1]), SDD (BU): ([-1, 1624, 1635, -1, -1, -1, 1804, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 1804, -1]), DNNF: ([245971, 2425, -2, 243442, 557607, -1, 1804, -1])]
+Run SDD (TD) for benchmarks/suite1/mercedes/C202_FS.cnf
+Run SDD (BU) for benchmarks/suite1/mercedes/C202_FS.cnf
+Run BDD (BU) for benchmarks/suite1/mercedes/C202_FS.cnf
+Run DNNF for benchmarks/suite1/mercedes/C202_FS.cnf
+Obtained result: [SDD (TD): ([-1, 1838, 2782, -1, -1, -1, 1822, -1]), SDD (BU): ([-1, 2144, 2163, -1, -1, -1, 1822, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 1822, -1]), DNNF: ([-1, 1920, -2, -1, -1, -1, 1822, -1])]
+Run SDD (TD) for benchmarks/suite1/mercedes/C210_FS.cnf
+Run SDD (BU) for benchmarks/suite1/mercedes/C210_FS.cnf
+Run BDD (BU) for benchmarks/suite1/mercedes/C210_FS.cnf
+Run DNNF for benchmarks/suite1/mercedes/C210_FS.cnf
+Obtained result: [SDD (TD): ([-1, 1162, 1700, -1, -1, -1, 1870, -1]), SDD (BU): ([-1, 1202, 1214, -1, -1, -1, 1870, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 1870, -1]), DNNF: ([-1, 1115, -2, -1, -1, -1, 1870, -1])]
+Run SDD (TD) for benchmarks/suite1/mercedes/C638_FKA.cnf
+Run SDD (BU) for benchmarks/suite1/mercedes/C638_FKA.cnf
+Run BDD (BU) for benchmarks/suite1/mercedes/C638_FKA.cnf
+Run DNNF for benchmarks/suite1/mercedes/C638_FKA.cnf
+Obtained result: [SDD (TD): ([4120, 2290, 2517, 1487, 76939, 76938, 1753, -1]), SDD (BU): ([-1, 2271, 2278, -1, -1, -1, 1753, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 1753, -1]), DNNF: ([2576, 2219, -2, 331, 7726, -1, 1753, -1])]
+Run SDD (TD) for benchmarks/suite1/mercedes/C170_FR.cnf
+Run SDD (BU) for benchmarks/suite1/mercedes/C170_FR.cnf
+Run BDD (BU) for benchmarks/suite1/mercedes/C170_FR.cnf
+Run DNNF for benchmarks/suite1/mercedes/C170_FR.cnf
+Obtained result: [SDD (TD): ([-1, 1097, 1932, -1, -1, -1, 1765, -1]), SDD (BU): ([-1, 1181, 1213, -1, -1, -1, 1765, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 1765, -1]), DNNF: ([-1, 1132, -2, -1, -1, -1, 1765, -1])]
+Run SDD (TD) for benchmarks/suite1/mercedes/C203_FCL.cnf
+Run SDD (BU) for benchmarks/suite1/mercedes/C203_FCL.cnf
+Run BDD (BU) for benchmarks/suite1/mercedes/C203_FCL.cnf
+Run DNNF for benchmarks/suite1/mercedes/C203_FCL.cnf
+Obtained result: [SDD (TD): ([16218, 384, 668, 15457, 1200602, 1200600, 1819, -1]), SDD (BU): ([-1, 384, 392, -1, -1, -1, 1819, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 1819, -1]), DNNF: ([14057, 362, -2, 13646, 130320, -1, 1819, -1])]
+Run SDD (TD) for benchmarks/suite1/mercedes/C638_FKB.cnf
+Run SDD (BU) for benchmarks/suite1/mercedes/C638_FKB.cnf
+Run BDD (BU) for benchmarks/suite1/mercedes/C638_FKB.cnf
+Run DNNF for benchmarks/suite1/mercedes/C638_FKB.cnf
+Obtained result: [SDD (TD): ([-1, 1076, 1260, -1, -1, -1, 1750, -1]), SDD (BU): ([-1, 1055, 1057, -1, -1, -1, 1750, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 1750, -1]), DNNF: ([2278, 2175, -2, 93, 4460, -1, 1750, -1])]
+Run SDD (TD) for benchmarks/suite1/mercedes/C129_FR.cnf
+Run SDD (BU) for benchmarks/suite1/mercedes/C129_FR.cnf
+Run BDD (BU) for benchmarks/suite1/mercedes/C129_FR.cnf
+Run DNNF for benchmarks/suite1/mercedes/C129_FR.cnf
+Obtained result: [SDD (TD): ([23933, 370, 743, 23124, 5958783, 5958781, 1739, -1]), SDD (BU): ([-1, 321, 325, -1, -1, -1, 1739, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 1739, -1]), DNNF: ([15281, 555, -2, 14654, 107704, -1, 1739, -1])]
+Run SDD (TD) for benchmarks/suite1/mercedes/C210_FW.cnf
+Run SDD (BU) for benchmarks/suite1/mercedes/C210_FW.cnf
+Run BDD (BU) for benchmarks/suite1/mercedes/C210_FW.cnf
+Run DNNF for benchmarks/suite1/mercedes/C210_FW.cnf
+Obtained result: [SDD (TD): ([-1, 1555, 2306, -1, -1, -1, 1891, -1]), SDD (BU): ([-1, 1819, 1832, -1, -1, -1, 1891, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 1891, -1]), DNNF: ([-1, 1930, -2, -1, -1, -1, 1891, -1])]
+Run SDD (TD) for benchmarks/suite1/mercedes/C202_FW.cnf
+Run SDD (BU) for benchmarks/suite1/mercedes/C202_FW.cnf
+Run BDD (BU) for benchmarks/suite1/mercedes/C202_FW.cnf
+Run DNNF for benchmarks/suite1/mercedes/C202_FW.cnf
+Obtained result: [SDD (TD): ([-1, 1921, 2771, -1, -1, -1, 1820, -1]), SDD (BU): ([-1, 1867, 1883, -1, -1, -1, 1820, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 1820, -1]), DNNF: ([-1, 1895, -2, -1, -1, -1, 1820, -1])]
+Run SDD (TD) for benchmarks/suite1/mercedes/C215_FC.cnf
+Run SDD (BU) for benchmarks/suite1/mercedes/C215_FC.cnf
+Run BDD (BU) for benchmarks/suite1/mercedes/C215_FC.cnf
+Run DNNF for benchmarks/suite1/mercedes/C215_FC.cnf
+Obtained result: [SDD (TD): ([-1, 432, 715, -1, -1, -1, 1735, -1]), SDD (BU): ([-1, 413, 421, -1, -1, -1, 1735, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 1735, -1]), DNNF: ([14654, 492, -2, 14109, 128920, -1, 1735, -1])]
+Run SDD (TD) for benchmarks/suite1/mercedes/C169_FW.cnf
+Run SDD (BU) for benchmarks/suite1/mercedes/C169_FW.cnf
+Run BDD (BU) for benchmarks/suite1/mercedes/C169_FW.cnf
+Run DNNF for benchmarks/suite1/mercedes/C169_FW.cnf
+Obtained result: [SDD (TD): ([108, 4, 65, 19, 5622, 5621, 1402, -1]), SDD (BU): ([67, 6, 8, 47, 5622, 5621, 1402, -1]), BDD (BU): ([194, -2, -2, -2, 1607, -1, 1402, -1]), DNNF: ([7, 2, -2, 1, 1439, -1, 1402, -1])]
+Run SDD (TD) for benchmarks/suite1/mercedes/C169_FV.cnf
+Run SDD (BU) for benchmarks/suite1/mercedes/C169_FV.cnf
+Run BDD (BU) for benchmarks/suite1/mercedes/C169_FV.cnf
+Run DNNF for benchmarks/suite1/mercedes/C169_FV.cnf
+Obtained result: [SDD (TD): ([12, 1, 8, 1, 5622, 5621, 1402, -1]), SDD (BU): ([12, 1, 2, 6, 5622, 5621, 1402, -1]), BDD (BU): ([95, -2, -2, -2, 1607, -1, 1402, -1]), DNNF: ([5, 2, -2, 0, 1439, -1, 1402, -1])]
+Run SDD (TD) for benchmarks/suite1/mercedes/C209_FC.cnf
+Run SDD (BU) for benchmarks/suite1/mercedes/C209_FC.cnf
+Run BDD (BU) for benchmarks/suite1/mercedes/C209_FC.cnf
+Run DNNF for benchmarks/suite1/mercedes/C209_FC.cnf
+Obtained result: [SDD (TD): ([2504, 170, 414, 2042, 582939, 582937, 1834, -1]), SDD (BU): ([-1, 173, 175, -1, -1, -1, 1834, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 1834, -1]), DNNF: ([2205, 382, -2, 1707, 26438, -1, 1834, -1])]
+Run SDD (TD) for benchmarks/suite1/mercedes/C250_FW.cnf
+Run SDD (BU) for benchmarks/suite1/mercedes/C250_FW.cnf
+Run BDD (BU) for benchmarks/suite1/mercedes/C250_FW.cnf
+Run DNNF for benchmarks/suite1/mercedes/C250_FW.cnf
+Obtained result: [SDD (TD): ([130, 10, 101, 24, 5945, 5943, 1442, -1]), SDD (BU): ([144, 3, 5, 132, 5945, 5943, 1442, -1]), BDD (BU): ([215, -2, -2, -2, 3189, -1, 1442, -1]), DNNF: ([35, 19, -2, 12, 1542, -1, 1442, -1])]
+Run SDD (TD) for benchmarks/suite1/mercedes/C209_FA.cnf
+Run SDD (BU) for benchmarks/suite1/mercedes/C209_FA.cnf
+Run BDD (BU) for benchmarks/suite1/mercedes/C209_FA.cnf
+Run DNNF for benchmarks/suite1/mercedes/C209_FA.cnf
+Obtained result: [SDD (TD): ([1114, 252, 520, 561, 151556, 151554, 1785, -1]), SDD (BU): ([53130, 204, 207, 52893, 151556, 151554, 1785, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 1785, -1]), DNNF: ([1034, 355, -2, 629, 9642, -1, 1785, -1])]
+Run SDD (TD) for benchmarks/suite1/mercedes/C250_FV.cnf
+Run SDD (BU) for benchmarks/suite1/mercedes/C250_FV.cnf
+Run BDD (BU) for benchmarks/suite1/mercedes/C250_FV.cnf
+Run DNNF for benchmarks/suite1/mercedes/C250_FV.cnf
+Obtained result: [SDD (TD): ([168, 21, 119, 22, 5945, 5943, 1442, -1]), SDD (BU): ([146, 4, 6, 128, 5945, 5943, 1442, -1]), BDD (BU): ([217, -2, -2, -2, 3189, -1, 1442, -1]), DNNF: ([30, 15, -2, 11, 1542, -1, 1442, -1])]
+Run SDD (TD) for benchmarks/suite1/mercedes/C171_FR.cnf
+Run SDD (BU) for benchmarks/suite1/mercedes/C171_FR.cnf
+Run BDD (BU) for benchmarks/suite1/mercedes/C171_FR.cnf
+Run DNNF for benchmarks/suite1/mercedes/C171_FR.cnf
+Obtained result: [SDD (TD): ([1022, 98, 349, 658, 223940, 223939, 1743, -1]), SDD (BU): ([18792, 63, 65, 18712, 223940, 223939, 1743, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 1743, -1]), DNNF: ([701, 136, -2, 553, 11687, -1, 1743, -1])]
+Run SDD (TD) for benchmarks/suite1/mercedes/C210_FVF.cnf
+Run SDD (BU) for benchmarks/suite1/mercedes/C210_FVF.cnf
+Run BDD (BU) for benchmarks/suite1/mercedes/C210_FVF.cnf
+Run DNNF for benchmarks/suite1/mercedes/C210_FVF.cnf
+Obtained result: [SDD (TD): ([3526, 268, 525, 2980, 990829, 990827, 1835, -1]), SDD (BU): ([-1, 326, 334, -1, -1, -1, 1835, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 1835, -1]), DNNF: ([4759, 360, -2, 4376, 43975, -1, 1835, -1])]
+Run SDD (TD) for benchmarks/suite1/mercedes/C203_FS.cnf
+Run SDD (BU) for benchmarks/suite1/mercedes/C203_FS.cnf
+Run BDD (BU) for benchmarks/suite1/mercedes/C203_FS.cnf
+Run DNNF for benchmarks/suite1/mercedes/C203_FS.cnf
+Obtained result: [SDD (TD): ([139601, 484, 837, 138702, 1550338, 1550336, 1838, -1]), SDD (BU): ([-1, 531, 539, -1, -1, -1, 1838, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 1838, -1]), DNNF: ([22652, 462, -2, 22136, 172688, -1, 1838, -1])]
+Run SDD (TD) for benchmarks/suite1/mercedes/C211_FS.cnf
+Run SDD (BU) for benchmarks/suite1/mercedes/C211_FS.cnf
+Run BDD (BU) for benchmarks/suite1/mercedes/C211_FS.cnf
+Run DNNF for benchmarks/suite1/mercedes/C211_FS.cnf
+Obtained result: [SDD (TD): ([321, 73, 242, 37, 7945, 7945, 1602, -1]), SDD (BU): ([302, 58, 65, 220, 7945, 7944, 1602, -1]), BDD (BU): ([1490, -2, -2, -2, 23001, -1, 1602, -1]), DNNF: ([100, 60, -2, 29, 1912, -1, 1602, -1])]
+Run SDD (TD) for benchmarks/suite1/mercedes/C211_FW.cnf
+Run SDD (BU) for benchmarks/suite1/mercedes/C211_FW.cnf
+Run BDD (BU) for benchmarks/suite1/mercedes/C211_FW.cnf
+Run DNNF for benchmarks/suite1/mercedes/C211_FW.cnf
+Obtained result: [SDD (TD): ([157188, 176, 504, 156560, 10495293, 10495291, 1634, -1]), SDD (BU): ([-1, 274, 281, -1, -1, -1, 1634, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 1634, -1]), DNNF: ([8832, 271, -2, 8435, 29809, -1, 1634, -1])]
+Run SDD (TD) for benchmarks/suite1/mercedes/C203_FW.cnf
+Run SDD (BU) for benchmarks/suite1/mercedes/C203_FW.cnf
+Run BDD (BU) for benchmarks/suite1/mercedes/C203_FW.cnf
+Run DNNF for benchmarks/suite1/mercedes/C203_FW.cnf
+Obtained result: [SDD (TD): ([22220, 400, 722, 21449, 5693156, 5693154, 1885, -1]), SDD (BU): ([-1, 509, 517, -1, -1, -1, 1885, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 1885, -1]), DNNF: ([31073, 551, -2, 30480, 268241, -1, 1885, -1])]
+Run SDD (TD) for benchmarks/suite1/mercedes/C163_FW.cnf
+Run SDD (BU) for benchmarks/suite1/mercedes/C163_FW.cnf
+Run BDD (BU) for benchmarks/suite1/mercedes/C163_FW.cnf
+Run DNNF for benchmarks/suite1/mercedes/C163_FW.cnf
+Obtained result: [SDD (TD): ([4062, 538, 813, 3170, 546900, 546898, 1791, -1]), SDD (BU): ([-1, 409, 413, -1, -1, -1, 1791, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 1791, -1]), DNNF: ([6372, 499, -2, 5817, 35430, -1, 1791, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c20_d01.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c20_d01.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c20_d01.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c20_d01.txt
+Obtained result: [SDD (TD): ([652, 255, 417, 208, 29697, 29695, 507, -1]), SDD (BU): ([1651, 187, 190, 1421, 29697, 29695, 507, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 507, -1]), DNNF: ([670, 343, -2, 284, 2465, -1, 507, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c30_d01.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c30_d01.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c30_d01.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c30_d01.txt
+Obtained result: [SDD (TD): ([549, 226, 393, 85, 20364, 20362, 508, -1]), SDD (BU): ([1988, 97, 99, 1859, 20364, 20362, 508, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 508, -1]), DNNF: ([438, 295, -2, 116, 1893, -1, 508, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_d001/auto4_s2_c40_d01.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_d001/auto4_s2_c40_d01.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_d001/auto4_s2_c40_d01.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_d001/auto4_s2_c40_d01.txt
+Obtained result: [SDD (TD): ([284, 131, 250, 25, 8296, 8294, 450, -1]), SDD (BU): ([292, 94, 95, 185, 8296, 8294, 450, -1]), BDD (BU): ([775, -2, -2, -2, 22812, -1, 450, -1]), DNNF: ([236, 178, -2, 51, 1192, -1, 450, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c30_d01.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c30_d01.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c30_d01.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c30_d01.txt
+Obtained result: [SDD (TD): ([322, 118, 239, 62, 17400, 17399, 509, -1]), SDD (BU): ([880, 82, 84, 771, 17400, 17399, 509, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 509, -1]), DNNF: ([444, 248, -2, 175, 2038, -1, 509, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c50_d01.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c50_d01.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c50_d01.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c50_d01.txt
+Obtained result: [SDD (TD): ([1057, 401, 635, 390, 61722, 61720, 528, -1]), SDD (BU): ([12728, 339, 355, 12337, 61722, 61720, 528, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 528, -1]), DNNF: ([1802, 611, -2, 1159, 4919, -1, 528, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c40_d01.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c40_d01.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c40_d01.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c40_d01.txt
+Obtained result: [SDD (TD): ([911, 281, 527, 358, 62534, 62532, 523, -1]), SDD (BU): ([6271, 235, 238, 6001, 62534, 62532, 523, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 523, -1]), DNNF: ([1430, 423, -2, 823, 4900, -1, 523, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_d001/auto6_s2_c40_d01.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_d001/auto6_s2_c40_d01.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_d001/auto6_s2_c40_d01.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_d001/auto6_s2_c40_d01.txt
+Obtained result: [SDD (TD): ([746, 362, 582, 136, 50212, 50210, 596, -1]), SDD (BU): ([7641, 467, 474, 7074, 50212, 50210, 596, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 596, -1]), DNNF: ([1519, 743, -2, 524, 3864, -1, 596, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_d001/auto6_s2_c50_d01.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_d001/auto6_s2_c50_d01.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_d001/auto6_s2_c50_d01.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_d001/auto6_s2_c50_d01.txt
+Obtained result: [SDD (TD): ([941, 351, 546, 365, 71313, 71311, 604, -1]), SDD (BU): ([27834, 323, 327, 27479, 71313, 71311, 604, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 604, -1]), DNNF: ([1476, 625, -2, 823, 7048, -1, 604, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c50_d01.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c50_d01.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c50_d01.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c50_d01.txt
+Obtained result: [SDD (TD): ([819, 340, 601, 191, 24664, 24662, 528, -1]), SDD (BU): ([4912, 289, 293, 4582, 24664, 24662, 528, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 528, -1]), DNNF: ([985, 588, -2, 364, 2548, -1, 528, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c40_d01.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c40_d01.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c40_d01.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c40_d01.txt
+Obtained result: [SDD (TD): ([1318, 446, 805, 477, 116752, 116750, 541, -1]), SDD (BU): ([-1, 776, 793, -1, -1, -1, 541, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 541, -1]), DNNF: ([2135, 541, -2, 1552, 5150, -1, 541, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c10_d01.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c10_d01.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c10_d01.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c10_d01.txt
+Obtained result: [SDD (TD): ([414, 145, 272, 121, 39460, 39458, 497, -1]), SDD (BU): ([10449, 133, 136, 10275, 39460, 39458, 497, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 497, -1]), DNNF: ([577, 236, -2, 311, 3401, -1, 497, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_d001/auto5_s2_c60_d01.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_d001/auto5_s2_c60_d01.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_d001/auto5_s2_c60_d01.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_d001/auto5_s2_c60_d01.txt
+Obtained result: [SDD (TD): ([2321, 924, 1178, 1048, 355412, 355417, 517, -1]), SDD (BU): ([127876, 566, 575, 127247, 355412, 355411, 517, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 517, -1]), DNNF: ([5285, 1075, -2, 4158, 8310, -1, 517, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c10_d01.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c10_d01.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c10_d01.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c10_d01.txt
+Obtained result: [SDD (TD): ([400, 162, 296, 83, 23310, 23308, 493, -1]), SDD (BU): ([2045, 128, 130, 1887, 23310, 23308, 493, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 493, -1]), DNNF: ([422, 261, -2, 137, 2124, -1, 493, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_d001/auto4_s2_c60_d01.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_d001/auto4_s2_c60_d01.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_d001/auto4_s2_c60_d01.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_d001/auto4_s2_c60_d01.txt
+Obtained result: [SDD (TD): ([427, 240, 353, 31, 8838, 8836, 453, -1]), SDD (BU): ([424, 163, 165, 240, 8838, 8836, 453, -1]), BDD (BU): ([1066, -2, -2, -2, 24991, -1, 453, -1]), DNNF: ([229, 187, -2, 28, 1262, -1, 453, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c60_d01.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c60_d01.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c60_d01.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c60_d01.txt
+Obtained result: [SDD (TD): ([5091, 897, 1212, 3811, 742289, 742328, 549, -1]), SDD (BU): ([-1, 920, 926, -1, -1, -1, 549, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 549, -1]), DNNF: ([11340, 1397, -2, 9889, 15571, -1, 549, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_d001/auto6_s2_c60_d01.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_d001/auto6_s2_c60_d01.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_d001/auto6_s2_c60_d01.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_d001/auto6_s2_c60_d01.txt
+Obtained result: [SDD (TD): ([908, 490, 699, 159, 40852, 40850, 609, -1]), SDD (BU): ([4124, 468, 471, 3616, 40852, 40850, 609, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 609, -1]), DNNF: ([1180, 671, -2, 407, 4107, -1, 609, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c05_d05.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c05_d05.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c05_d05.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c05_d05.txt
+Obtained result: [SDD (TD): ([308, 169, 255, 21, 7513, 7511, 430, -1]), SDD (BU): ([303, 130, 133, 154, 7513, 7511, 430, -1]), BDD (BU): ([655, -2, -2, -2, 23074, -1, 430, -1]), DNNF: ([208, 177, -2, 25, 1153, -1, 430, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c15_d15.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c15_d15.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c15_d15.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c15_d15.txt
+Obtained result: [SDD (TD): ([1758, 216, 389, 1294, 35414, 35438, 489, -1]), SDD (BU): ([-1, 222, 224, -1, -1, -1, 489, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 489, -1]), DNNF: ([1080, 424, -2, 581, 3061, -1, 489, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c25_d25.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c25_d25.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c25_d25.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c25_d25.txt
+Obtained result: [SDD (TD): ([14787, 2505, 3309, 11017, 715460, 715508, 610, -1]), SDD (BU): ([-1, 2228, 2240, -1, -1, -1, 610, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 610, -1]), DNNF: ([131343, 2292, -2, 128709, 36421, -1, 610, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c05_d05.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c05_d05.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c05_d05.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c05_d05.txt
+Obtained result: [SDD (TD): ([1166, 545, 760, 326, 46867, 46875, 572, -1]), SDD (BU): ([-1, 700, 709, -1, -1, -1, 572, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 572, -1]), DNNF: ([1649, 670, -2, 891, 4611, -1, 572, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c15_d15.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c15_d15.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c15_d15.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c15_d15.txt
+Obtained result: [SDD (TD): ([556, 255, 377, 39, 8481, 8479, 331, -1]), SDD (BU): ([77574, 155, 157, 77296, 8481, 8479, 331, -1]), BDD (BU): ([1572, -2, -2, -2, 18805, -1, 331, -1]), DNNF: ([462, 287, -2, 64, 1146, -1, 331, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c25_d25.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c25_d25.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c25_d25.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c25_d25.txt
+Obtained result: [SDD (TD): ([-1, 74682, 86884, -1, -1, -1, 552, -1]), SDD (BU): ([-1, 74005, 74060, -1, -1, -1, 552, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 552, -1]), DNNF: ([-1, 83317, -2, -1, -1, -1, 552, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c25_d25.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c25_d25.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c25_d25.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c25_d25.txt
+Obtained result: [SDD (TD): ([-1, 4121, 5335, -1, -1, -1, 528, -1]), SDD (BU): ([-1, 4163, 4182, -1, -1, -1, 528, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 528, -1]), DNNF: ([-1, 4115, -2, -1, -1, -1, 528, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c05_d05.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c05_d05.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c05_d05.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c05_d05.txt
+Obtained result: [SDD (TD): ([348, 151, 235, 25, 8208, 8206, 322, -1]), SDD (BU): ([-1, 81, 83, -1, -1, -1, 322, -1]), BDD (BU): ([658, -2, -2, -2, 13800, -1, 322, -1]), DNNF: ([255, 157, -2, 41, 1092, -1, 322, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c15_d15.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c15_d15.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c15_d15.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c15_d15.txt
+Obtained result: [SDD (TD): ([1485, 527, 752, 619, 71621, 71619, 573, -1]), SDD (BU): ([-1, 493, 497, -1, -1, -1, 573, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 573, -1]), DNNF: ([2213, 622, -2, 1494, 6176, -1, 573, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c05_d05.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c05_d05.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c05_d05.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c05_d05.txt
+Obtained result: [SDD (TD): ([692, 261, 403, 240, 104860, 104858, 479, -1]), SDD (BU): ([-1, 211, 214, -1, -1, -1, 479, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 479, -1]), DNNF: ([1575, 381, -2, 1150, 7595, -1, 479, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c15_d15.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c15_d15.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c15_d15.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c15_d15.txt
+Obtained result: [SDD (TD): ([365, 219, 310, 31, 13250, 13954, 444, -1]), SDD (BU): ([32437, 203, 204, 32202, 13250, 13248, 444, -1]), BDD (BU): ([4936, -2, -2, -2, 67868, -1, 444, -1]), DNNF: ([347, 300, -2, 28, 1354, -1, 444, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c25_d25.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c25_d25.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c25_d25.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c25_d25.txt
+Obtained result: [SDD (TD): ([168554, 3616, 4291, 164141, 7621514, 7621512, 499, -1]), SDD (BU): ([-1, 3789, 3804, -1, -1, -1, 499, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 499, -1]), DNNF: ([76237, 3958, -2, 72170, 189583, -1, 499, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c15_d15.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c15_d15.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c15_d15.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c15_d15.txt
+Obtained result: [SDD (TD): ([8195, 1425, 1873, 6069, 308530, 308528, 602, -1]), SDD (BU): ([-1, 1495, 1512, -1, -1, -1, 602, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 602, -1]), DNNF: ([23878, 1465, -2, 22205, 20284, -1, 602, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c25_d25.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c25_d25.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c25_d25.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c25_d25.txt
+Obtained result: [SDD (TD): ([649, 244, 385, 52, 17756, 17754, 335, -1]), SDD (BU): ([-1, 221, 225, -1, -1, -1, 335, -1]), BDD (BU): ([248314, -2, -2, -2, 105224, -1, 335, -1]), DNNF: ([638, 351, -2, 135, 1670, -1, 335, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c15_d15.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c15_d15.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c15_d15.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c15_d15.txt
+Obtained result: [SDD (TD): ([-1, 42151, 47909, -1, -1, -1, 534, -1]), SDD (BU): ([-1, 42061, 42093, -1, -1, -1, 534, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 534, -1]), DNNF: ([-1, 39972, -2, -1, -1, -1, 534, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c05_d05.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c05_d05.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c05_d05.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c05_d05.txt
+Obtained result: [SDD (TD): ([747, 289, 450, 202, 55841, 55839, 497, -1]), SDD (BU): ([223942, 172, 178, 223692, 55841, 55839, 497, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 497, -1]), DNNF: ([1260, 263, -2, 939, 4820, -1, 497, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c15_d15.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c15_d15.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c15_d15.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c15_d15.txt
+Obtained result: [SDD (TD): ([1689, 521, 881, 576, 80381, 80379, 511, -1]), SDD (BU): ([-1, 523, 537, -1, -1, -1, 511, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 511, -1]), DNNF: ([7553, 621, -2, 6695, 4922, -1, 511, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c05_d05.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c05_d05.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c05_d05.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c05_d05.txt
+Obtained result: [SDD (TD): ([3721, 1482, 2097, 1327, 102799, 102881, 516, -1]), SDD (BU): ([-1, 1557, 1576, -1, -1, -1, 516, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 516, -1]), DNNF: ([7224, 1506, -2, 5430, 9819, -1, 516, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c25_d25.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c25_d25.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c25_d25.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c25_d25.txt
+Obtained result: [SDD (TD): ([4927, 1256, 1656, 3064, 183211, 183209, 583, -1]), SDD (BU): ([-1, 1362, 1378, -1, -1, -1, 583, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 583, -1]), DNNF: ([13741, 1168, -2, 12284, 22545, -1, 583, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c05_d05.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c05_d05.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c05_d05.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c05_d05.txt
+Obtained result: [SDD (TD): ([2054, 474, 765, 1145, 78354, 78352, 589, -1]), SDD (BU): ([-1, 418, 423, -1, -1, -1, 589, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 589, -1]), DNNF: ([2389, 556, -2, 1682, 7043, -1, 589, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c25_d25.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c25_d25.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c25_d25.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c25_d25.txt
+Obtained result: [SDD (TD): ([661, 204, 334, 288, 12364, 13151, 444, -1]), SDD (BU): ([6901, 160, 162, 6694, 12364, 12362, 444, -1]), BDD (BU): ([4348, -2, -2, -2, 90671, -1, 444, -1]), DNNF: ([366, 272, -2, 57, 1452, -1, 444, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c10_d10.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c10_d10.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c10_d10.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c10_d10.txt
+Obtained result: [SDD (TD): ([8100, 1168, 1632, 6265, 228005, 228003, 595, -1]), SDD (BU): ([-1, 1086, 1095, -1, -1, -1, 595, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 595, -1]), DNNF: ([18419, 1133, -2, 17105, 16098, -1, 595, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c20_d20.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c20_d20.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c20_d20.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c20_d20.txt
+Obtained result: [SDD (TD): ([-1, 3059, 3670, -1, -1, -1, 495, -1]), SDD (BU): ([-1, 3217, 3235, -1, -1, -1, 495, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 495, -1]), DNNF: ([277944, 3065, -2, 274180, 139133, -1, 495, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c10_d10.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c10_d10.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c10_d10.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c10_d10.txt
+Obtained result: [SDD (TD): ([7867, 3154, 4610, 2442, 128432, 128430, 523, -1]), SDD (BU): ([-1, 3219, 3254, -1, -1, -1, 523, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 523, -1]), DNNF: ([44750, 3130, -2, 40825, 8762, -1, 523, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c20_d20.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c20_d20.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c20_d20.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c20_d20.txt
+Obtained result: [SDD (TD): ([472, 206, 334, 42, 11688, 11686, 328, -1]), SDD (BU): ([-1, 107, 111, -1, -1, -1, 328, -1]), BDD (BU): ([2085, -2, -2, -2, 44352, -1, 328, -1]), DNNF: ([496, 290, -2, 84, 1347, -1, 328, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c20_d20.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c20_d20.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c20_d20.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c20_d20.txt
+Obtained result: [SDD (TD): ([4767, 1065, 1541, 2956, 140526, 140524, 582, -1]), SDD (BU): ([-1, 959, 968, -1, -1, -1, 582, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 582, -1]), DNNF: ([11925, 1116, -2, 10497, 15765, -1, 582, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c10_d10.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c10_d10.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c10_d10.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c10_d10.txt
+Obtained result: [SDD (TD): ([1194, 498, 791, 233, 46009, 46007, 505, -1]), SDD (BU): ([71234, 378, 383, 70698, 46009, 46007, 505, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 505, -1]), DNNF: ([2991, 578, -2, 2266, 3501, -1, 505, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c20_d20.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c20_d20.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c20_d20.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c20_d20.txt
+Obtained result: [SDD (TD): ([426, 253, 362, 36, 12334, 12781, 446, -1]), SDD (BU): ([16072, 233, 235, 15804, 12334, 12332, 446, -1]), BDD (BU): ([17061, -2, -2, -2, 192877, -1, 446, -1]), DNNF: ([370, 304, -2, 35, 1406, -1, 446, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c20_d20.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c20_d20.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c20_d20.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c20_d20.txt
+Obtained result: [SDD (TD): ([-1, 5616, 7481, -1, -1, -1, 608, -1]), SDD (BU): ([-1, 5862, 5893, -1, -1, -1, 608, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 608, -1]), DNNF: ([-1, 5938, -2, -1, -1, -1, 608, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c10_d10.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c10_d10.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c10_d10.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c10_d10.txt
+Obtained result: [SDD (TD): ([772, 338, 493, 181, 59186, 59190, 482, -1]), SDD (BU): ([-1, 241, 244, -1, -1, -1, 482, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 482, -1]), DNNF: ([1363, 354, -2, 958, 4646, -1, 482, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c20_d20.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c20_d20.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c20_d20.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c20_d20.txt
+Obtained result: [SDD (TD): ([-1, 72610, 85165, -1, -1, -1, 545, -1]), SDD (BU): ([-1, 70488, 70535, -1, -1, -1, 545, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 545, -1]), DNNF: ([-1, -1, -2, -2, -1, -1, 545, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c10_d10.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c10_d10.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c10_d10.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c10_d10.txt
+Obtained result: [SDD (TD): ([321, 129, 219, 28, 6241, 6239, 321, -1]), SDD (BU): ([2936, 137, 143, 2715, 6241, 6239, 321, -1]), BDD (BU): ([835, -2, -2, -2, 8868, -1, 321, -1]), DNNF: ([256, 152, -2, 30, 962, -1, 321, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c10_d10.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c10_d10.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c10_d10.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c10_d10.txt
+Obtained result: [SDD (TD): ([1152, 442, 641, 431, 54178, 54176, 574, -1]), SDD (BU): ([-1, 386, 389, -1, -1, -1, 574, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 574, -1]), DNNF: ([1443, 507, -2, 849, 4797, -1, 574, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c20_d20.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c20_d20.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c20_d20.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c20_d20.txt
+Obtained result: [SDD (TD): ([7777, 1802, 2613, 4369, 368482, 368480, 521, -1]), SDD (BU): ([-1, 1701, 1733, -1, -1, -1, 521, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 521, -1]), DNNF: ([-1, 1768, -2, -1, -1, -1, 521, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c10_d10.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c10_d10.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c10_d10.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c10_d10.txt
+Obtained result: [SDD (TD): ([753, 315, 436, 239, 16140, 17141, 445, -1]), SDD (BU): ([38871, 259, 261, 38565, 16140, 16138, 445, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 445, -1]), DNNF: ([561, 387, -2, 54, 1647, -1, 445, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d30.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d30.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d30.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d30.txt
+Obtained result: [SDD (TD): ([-1, 24307, 29650, -1, -1, -1, 536, -1]), SDD (BU): ([-1, 25432, 25461, -1, -1, -1, 536, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 536, -1]), DNNF: ([-1, 24267, -2, -1, -1, -1, 536, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d50.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d50.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d50.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d50.txt
+Obtained result: [SDD (TD): ([586, 273, 412, 87, 13935, 13933, 481, -1]), SDD (BU): ([10733, 271, 278, 10385, 13935, 13933, 481, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 481, -1]), DNNF: ([597, 262, -2, 265, 1867, -1, 481, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d40.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d40.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d40.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d40.txt
+Obtained result: [SDD (TD): ([126544, 2496, 2956, 123464, 1927722, 1927720, 485, -1]), SDD (BU): ([-1, 2617, 2628, -1, -1, -1, 485, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 485, -1]), DNNF: ([6386, 2443, -2, 3849, 19588, -1, 485, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d30.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d30.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d30.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d30.txt
+Obtained result: [SDD (TD): ([6548, 620, 1104, 5339, 476025, 476023, 513, -1]), SDD (BU): ([-1, 471, 476, -1, -1, -1, 513, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 513, -1]), DNNF: ([7898, 592, -2, 7264, 21466, -1, 513, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d20.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d20.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d20.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d20.txt
+Obtained result: [SDD (TD): ([-1, 41171, 47622, -1, -1, -1, 524, -1]), SDD (BU): ([-1, 41733, 41766, -1, -1, -1, 524, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 524, -1]), DNNF: ([-1, 39657, -2, -1, -1, -1, 524, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d20.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d20.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d20.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d20.txt
+Obtained result: [SDD (TD): ([2037, 987, 1397, 443, 44317, 44315, 591, -1]), SDD (BU): ([-1, 975, 990, -1, -1, -1, 591, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 591, -1]), DNNF: ([3909, 962, -2, 2724, 4146, -1, 591, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d50.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d50.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d50.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d50.txt
+Obtained result: [SDD (TD): ([-1, 26717, 32322, -1, -1, -1, 524, -1]), SDD (BU): ([-1, 27090, 27119, -1, -1, -1, 524, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 524, -1]), DNNF: ([-1, 25554, -2, -1, -1, -1, 524, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d40.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d40.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d40.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d40.txt
+Obtained result: [SDD (TD): ([36022, 1191, 1739, 34159, 1478910, 1478908, 517, -1]), SDD (BU): ([-1, 1147, 1159, -1, -1, -1, 517, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 517, -1]), DNNF: ([11079, 1125, -2, 9504, 25491, -1, 517, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_c001_dn/auto4_s1_c01_d20.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto4_s1_c01_d20.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto4_s1_c01_d20.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto4_s1_c01_d20.txt
+Obtained result: [SDD (TD): ([655, 320, 436, 153, 13335, 14434, 442, -1]), SDD (BU): ([1750, 233, 235, 1470, 13335, 13333, 442, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 442, -1]), DNNF: ([408, 335, -2, 37, 1450, -1, 442, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d30.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d30.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d30.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d30.txt
+Obtained result: [SDD (TD): ([364, 139, 261, 68, 11349, 11347, 480, -1]), SDD (BU): ([1745, 207, 212, 1432, 11349, 11347, 480, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 480, -1]), DNNF: ([436, 208, -2, 186, 1657, -1, 480, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d50.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d50.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d50.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d50.txt
+Obtained result: [SDD (TD): ([-1, 10584, 12513, -1, -1, -1, 612, -1]), SDD (BU): ([-1, 10635, 10656, -1, -1, -1, 612, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 612, -1]), DNNF: ([-1, 10573, -2, -1, -1, -1, 612, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_c001_dn/auto3_s1_c01_d20.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto3_s1_c01_d20.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto3_s1_c01_d20.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto3_s1_c01_d20.txt
+Obtained result: [SDD (TD): ([1247, 561, 800, 311, 39666, 39664, 571, -1]), SDD (BU): ([-1, 564, 574, -1, -1, -1, 571, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 571, -1]), DNNF: ([1427, 562, -2, 774, 4113, -1, 571, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d40.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d40.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d40.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d40.txt
+Obtained result: [SDD (TD): ([-1, 13602, 15290, -1, -1, -1, 602, -1]), SDD (BU): ([-1, 13625, 13646, -1, -1, -1, 602, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 602, -1]), DNNF: ([-1, 14229, -2, -1, -1, -1, 602, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d20.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d20.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d20.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d20.txt
+Obtained result: [SDD (TD): ([580, 272, 406, 98, 18628, 18626, 476, -1]), SDD (BU): ([42637, 256, 262, 42247, 18628, 18626, 476, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 476, -1]), DNNF: ([566, 265, -2, 259, 2298, -1, 476, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d50.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d50.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d50.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d50.txt
+Obtained result: [SDD (TD): ([4322, 1238, 1912, 2337, 440138, 440136, 517, -1]), SDD (BU): ([-1, 1188, 1195, -1, -1, -1, 517, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 517, -1]), DNNF: ([3809, 1209, -2, 2422, 13738, -1, 517, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d40.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d40.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d40.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d40.txt
+Obtained result: [SDD (TD): ([-1, 31682, 37694, -1, -1, -1, 545, -1]), SDD (BU): ([-1, 32179, 32210, -1, -1, -1, 545, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 545, -1]), DNNF: ([-1, 30004, -2, -1, -1, -1, 545, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d10.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d10.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d10.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d10.txt
+Obtained result: [SDD (TD): ([501, 168, 358, 56, 11977, 11975, 472, -1]), SDD (BU): ([6097, 113, 116, 5943, 11977, 11975, 472, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 472, -1]), DNNF: ([209, 140, -2, 49, 1611, -1, 472, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d60.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d60.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d60.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d60.txt
+Obtained result: [SDD (TD): ([8588, 2158, 2816, 5439, 1908971, 1908969, 524, -1]), SDD (BU): ([-1, 2154, 2167, -1, -1, -1, 524, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 524, -1]), DNNF: ([12079, 2934, -2, 9044, 27589, -1, 524, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d60.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d60.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d60.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d60.txt
+Obtained result: [SDD (TD): ([-1, 17390, 18885, -1, -1, -1, 612, -1]), SDD (BU): ([-1, 15896, 15914, -1, -1, -1, 612, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 612, -1]), DNNF: ([-1, 16172, -2, -1, -1, -1, 612, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_c001_dn/auto3_s1_c01_d10.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto3_s1_c01_d10.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto3_s1_c01_d10.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto3_s1_c01_d10.txt
+Obtained result: [SDD (TD): ([478, 243, 353, 59, 13662, 13660, 562, -1]), SDD (BU): ([-1, 154, 160, -1, -1, -1, 562, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 562, -1]), DNNF: ([339, 229, -2, 76, 1772, -1, 562, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d60.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d60.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d60.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d60.txt
+Obtained result: [SDD (TD): ([-1, 13802, 18321, -1, -1, -1, 527, -1]), SDD (BU): ([-1, 13970, 14000, -1, -1, -1, 527, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 527, -1]), DNNF: ([-1, 15601, -2, -1, -1, -1, 527, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d10.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d10.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d10.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d10.txt
+Obtained result: [SDD (TD): ([1469, 765, 1003, 187, 18249, 18247, 584, -1]), SDD (BU): ([154277, 581, 588, 153395, 18249, 18247, 584, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 584, -1]), DNNF: ([1263, 712, -2, 476, 2052, -1, 584, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d10.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d10.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d10.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d10.txt
+Obtained result: [SDD (TD): ([3286, 1246, 2083, 580, 31517, 31515, 515, -1]), SDD (BU): ([-1, 1559, 1583, -1, -1, -1, 515, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 515, -1]), DNNF: ([2597, 1156, -2, 1065, 3165, -1, 515, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d10.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d10.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d10.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d10.txt
+Obtained result: [SDD (TD): ([648, 261, 463, 89, 17559, 17557, 499, -1]), SDD (BU): ([-1, 378, 387, -1, -1, -1, 499, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 499, -1]), DNNF: ([609, 367, -2, 158, 1581, -1, 499, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d60.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d60.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d60.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d60.txt
+Obtained result: [SDD (TD): ([107092, 2388, 2791, 104181, 1846714, 1846712, 482, -1]), SDD (BU): ([-1, 2472, 2482, -1, -1, -1, 482, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 482, -1]), DNNF: ([4851, 2297, -2, 2507, 20054, -1, 482, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v02.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v02.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v02.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v02.txt
+Obtained result: [SDD (TD): ([337, 148, 259, 29, 8908, 8906, 497, -1]), SDD (BU): ([465, 71, 73, 341, 8908, 8906, 497, -1]), BDD (BU): ([3998, -2, -2, -2, 66965, -1, 497, -1]), DNNF: ([192, 146, -2, 31, 1557, -1, 497, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_c001_d001/auto3_s0_c01_d01_v09.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_c001_d001/auto3_s0_c01_d01_v09.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_c001_d001/auto3_s0_c01_d01_v09.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_d001/auto3_s0_c01_d01_v09.txt
+Obtained result: [SDD (TD): ([251, 100, 199, 43, 10968, 10966, 548, -1]), SDD (BU): ([317, 69, 70, 236, 10968, 10966, 548, -1]), BDD (BU): ([1482, -2, -2, -2, 45785, -1, 548, -1]), DNNF: ([102, 68, -2, 26, 1615, -1, 548, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v01.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v01.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v01.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v01.txt
+Obtained result: [SDD (TD): ([104, 45, 84, 8, 8085, 8083, 486, -1]), SDD (BU): ([167, 46, 48, 104, 8085, 8083, 486, -1]), BDD (BU): ([2641, -2, -2, -2, 59576, -1, 486, -1]), DNNF: ([74, 47, -2, 15, 1415, -1, 486, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v00.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v00.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v00.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v00.txt
+Obtained result: [SDD (TD): ([229, 102, 187, 20, 14363, 14361, 502, -1]), SDD (BU): ([3468, 92, 94, 3348, 14363, 14361, 502, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 502, -1]), DNNF: ([293, 197, -2, 74, 2011, -1, 502, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v04.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v04.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v04.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v04.txt
+Obtained result: [SDD (TD): ([235, 88, 194, 26, 8261, 8259, 487, -1]), SDD (BU): ([367, 67, 72, 274, 8261, 8259, 487, -1]), BDD (BU): ([1609, -2, -2, -2, 46681, -1, 487, -1]), DNNF: ([166, 125, -2, 28, 1403, -1, 487, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v05.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v05.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v05.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v05.txt
+Obtained result: [SDD (TD): ([268, 104, 221, 30, 9730, 9728, 494, -1]), SDD (BU): ([460, 68, 70, 368, 9730, 9728, 494, -1]), BDD (BU): ([9418, -2, -2, -2, 77101, -1, 494, -1]), DNNF: ([101, 70, -2, 16, 1620, -1, 494, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v07.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v07.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v07.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v07.txt
+Obtained result: [SDD (TD): ([76, 33, 65, 2, 6861, 6859, 485, -1]), SDD (BU): ([71, 33, 33, 24, 6861, 6859, 485, -1]), BDD (BU): ([1198, -2, -2, -2, 54943, -1, 485, -1]), DNNF: ([46, 36, -2, 4, 1238, -1, 485, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_c001_d001/auto2_s0_c01_d01_v03.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_c001_d001/auto2_s0_c01_d01_v03.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_c001_d001/auto2_s0_c01_d01_v03.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_d001/auto2_s0_c01_d01_v03.txt
+Obtained result: [SDD (TD): ([45, 21, 36, 5, 4616, 4614, 315, -1]), SDD (BU): ([47, 22, 22, 18, 4616, 4614, 315, -1]), BDD (BU): ([113, -2, -2, -2, 3560, -1, 315, -1]), DNNF: ([28, 22, -2, 3, 814, -1, 315, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_c001_d001/auto2_s0_c01_d01_v02.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_c001_d001/auto2_s0_c01_d01_v02.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_c001_d001/auto2_s0_c01_d01_v02.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_d001/auto2_s0_c01_d01_v02.txt
+Obtained result: [SDD (TD): ([45, 22, 39, 2, 5108, 5106, 314, -1]), SDD (BU): ([46, 22, 23, 17, 5108, 5106, 314, -1]), BDD (BU): ([177, -2, -2, -2, 7975, -1, 314, -1]), DNNF: ([33, 26, -2, 3, 858, -1, 314, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_c001_d001/auto0_s0_c01_d01_v08.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_c001_d001/auto0_s0_c01_d01_v08.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_c001_d001/auto0_s0_c01_d01_v08.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_d001/auto0_s0_c01_d01_v08.txt
+Obtained result: [SDD (TD): ([96, 42, 77, 12, 9897, 9895, 488, -1]), SDD (BU): ([128, 43, 44, 74, 9897, 9895, 488, -1]), BDD (BU): ([1166, -2, -2, -2, 25192, -1, 488, -1]), DNNF: ([71, 48, -2, 15, 1463, -1, 488, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v06.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v06.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v06.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v06.txt
+Obtained result: [SDD (TD): ([224, 95, 191, 12, 13051, 13049, 495, -1]), SDD (BU): ([458, 92, 94, 337, 13051, 13049, 495, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 495, -1]), DNNF: ([140, 93, -2, 25, 1868, -1, 495, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_c001_d001/auto6_s0_c01_d01_v09.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_c001_d001/auto6_s0_c01_d01_v09.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_c001_d001/auto6_s0_c01_d01_v09.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_d001/auto6_s0_c01_d01_v09.txt
+Obtained result: [SDD (TD): ([102, 53, 86, 9, 11052, 11050, 564, -1]), SDD (BU): ([201, 54, 56, 136, 11052, 11050, 564, -1]), BDD (BU): ([14341, -2, -2, -2, 152309, -1, 564, -1]), DNNF: ([85, 53, -2, 26, 1741, -1, 564, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_c001_d001/auto6_s0_c01_d01_v02.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_c001_d001/auto6_s0_c01_d01_v02.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_c001_d001/auto6_s0_c01_d01_v02.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_d001/auto6_s0_c01_d01_v02.txt
+Obtained result: [SDD (TD): ([100, 47, 84, 9, 9949, 9947, 559, -1]), SDD (BU): ([208, 47, 49, 150, 9949, 9947, 559, -1]), BDD (BU): ([1314, -2, -2, -2, 58068, -1, 559, -1]), DNNF: ([84, 50, -2, 27, 1505, -1, 559, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_c001_d001/auto5_s0_c01_d01_v02.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_c001_d001/auto5_s0_c01_d01_v02.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_c001_d001/auto5_s0_c01_d01_v02.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_d001/auto5_s0_c01_d01_v02.txt
+Obtained result: [SDD (TD): ([79, 37, 68, 4, 8249, 8247, 468, -1]), SDD (BU): ([90, 36, 38, 44, 8249, 8247, 468, -1]), BDD (BU): ([2445, -2, -2, -2, 63503, -1, 468, -1]), DNNF: ([63, 44, -2, 13, 1320, -1, 468, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_c001_d001/auto6_s0_c01_d01_v05.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_c001_d001/auto6_s0_c01_d01_v05.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_c001_d001/auto6_s0_c01_d01_v05.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_d001/auto6_s0_c01_d01_v05.txt
+Obtained result: [SDD (TD): ([109, 51, 92, 9, 10152, 10150, 558, -1]), SDD (BU): ([194, 45, 45, 140, 10152, 10150, 558, -1]), BDD (BU): ([1758, -2, -2, -2, 75533, -1, 558, -1]), DNNF: ([89, 54, -2, 27, 1509, -1, 558, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_c001_d001/auto0_s0_c01_d01_v05.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_c001_d001/auto0_s0_c01_d01_v05.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_c001_d001/auto0_s0_c01_d01_v05.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_d001/auto0_s0_c01_d01_v05.txt
+Obtained result: [SDD (TD): ([89, 43, 76, 6, 7653, 7651, 487, -1]), SDD (BU): ([101, 40, 42, 50, 7653, 7651, 487, -1]), BDD (BU): ([4181, -2, -2, -2, 96854, -1, 487, -1]), DNNF: ([54, 38, -2, 10, 1319, -1, 487, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v08.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v08.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v08.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v08.txt
+Obtained result: [SDD (TD): ([128, 58, 111, 5, 9352, 9350, 486, -1]), SDD (BU): ([188, 55, 57, 116, 9352, 9350, 486, -1]), BDD (BU): ([-1, -2, -2, -2, -1, -1, 486, -1]), DNNF: ([145, 101, -2, 32, 1526, -1, 486, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v09.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v09.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v09.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v09.txt
+Obtained result: [SDD (TD): ([162, 45, 130, 23, 6893, 6891, 483, -1]), SDD (BU): ([323, 42, 44, 268, 6893, 6891, 483, -1]), BDD (BU): ([1037, -2, -2, -2, 24999, -1, 483, -1]), DNNF: ([153, 117, -2, 28, 1259, -1, 483, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_c001_d001/auto2_s0_c01_d01_v08.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_c001_d001/auto2_s0_c01_d01_v08.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_c001_d001/auto2_s0_c01_d01_v08.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_d001/auto2_s0_c01_d01_v08.txt
+Obtained result: [SDD (TD): ([183, 59, 165, 13, 4654, 4652, 314, -1]), SDD (BU): ([152, 30, 31, 115, 4654, 4652, 314, -1]), BDD (BU): ([202, -2, -2, -2, 4887, -1, 314, -1]), DNNF: ([57, 50, -2, 3, 820, -1, 314, -1])]
+Run SDD (TD) for benchmarks/suite1/automotive/auto_c001_d001/auto0_s0_c01_d01_v02.txt
+Run SDD (BU) for benchmarks/suite1/automotive/auto_c001_d001/auto0_s0_c01_d01_v02.txt
+Run BDD (BU) for benchmarks/suite1/automotive/auto_c001_d001/auto0_s0_c01_d01_v02.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_d001/auto0_s0_c01_d01_v02.txt
+Obtained result: [SDD (TD): ([78, 34, 68, 3, 7581, 7579, 490, -1]), SDD (BU): ([98, 38, 40, 48, 7581, 7579, 490, -1]), BDD (BU): ([20358, -2, -2, -2, 157242, -1, 490, -1]), DNNF: ([57, 43, -2, 8, 1252, -1, 490, -1])]

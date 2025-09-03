@@ -1,0 +1,12 @@
+=== Setup ===
+Time: 2025-08-28T13:52:34.475654
+Experiment: projected-model-enumeration-real
+
+Input source: benchmarks
+Files: 76
+Filters: [File[path=benchmarks/suite1/automotive], Exclude[path=benchmarks/suite1/automotive/auto_c001_d001], Exclude[path=benchmarks/automotive/auto_c001_dn/auto1_s1_c01_d1]]
+
+Arguments: [no-with-add-vars]
+Timeout: 300000ms
+Heap Size: 32768MB
+======

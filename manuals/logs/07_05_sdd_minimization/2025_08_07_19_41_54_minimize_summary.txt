@@ -1,0 +1,21 @@
+=== Setup ===
+Time: 2025-08-07T19:41:54.271065
+Experiment: minimize
+
+Input source: benchmarks
+Files: 10
+Filters: [File[path=benchmarks/suite1/automotive/auto_c001_d001/auto0_s0_c01_d01_v08.txt], File[path=benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c40_d01.txt], File[path=benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d10.txt], File[path=benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c05_d05.txt], File[path=benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c60_d01.txt], File[path=benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d40.txt], File[path=benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c25_d25.txt], File[path=benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c15_d15.txt], File[path=benchmarks/suite1/mercedes/C171_FR.cnf], File[path=benchmarks/suite1/mercedes/C203_FW.cnf]]
+
+Arguments: [export-vtree:exported_vtrees]
+Timeout: 1800000ms
+Heap Size: 32768MB
+======
+=== Minimize Summary ===
+
+Total Problems: 10
+Completed: 10
+Crashed: 0
+Time: 14492746ms (1449274.60ms/p)
+Start Size: 16723898 nodes (1672389 nodes/p)
+Final Size: 15903310 nodes (1590331 nodes/p)
+Improvement: 1.05

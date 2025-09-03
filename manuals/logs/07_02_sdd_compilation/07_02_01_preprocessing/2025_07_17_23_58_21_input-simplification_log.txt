@@ -1,0 +1,459 @@
+Run Simplified for benchmarks/suite1/other/qg6-09.cnf
+Run Not Simplified for benchmarks/suite1/other/qg6-09.cnf
+Obtained result: [Simplified: ([1149, 823, 1059, 8, 3524, 3522]), Not Simplified: ([44740, 43704, 44730, 10, 4729, 4728])]
+Run Simplified for benchmarks/suite1/other/uf250-026.cnf
+Run Not Simplified for benchmarks/suite1/other/uf250-026.cnf
+Obtained result: [Simplified: ([4004, 0, 1, 2, 1057, 1058]), Not Simplified: ([-1, 494, 505, -1, -1, -1])]
+Run Simplified for benchmarks/suite1/other/qg1-07.cnf
+Run Not Simplified for benchmarks/suite1/other/qg1-07.cnf
+Obtained result: [Simplified: ([566, 451, 484, 4, 2585, 2583]), Not Simplified: ([48473, 47022, 48461, 12, 3282, 3282])]
+Run Simplified for benchmarks/suite1/other/4blocksb.cnf
+Run Not Simplified for benchmarks/suite1/other/4blocksb.cnf
+Obtained result: [Simplified: ([27, 1, 3, 0, 1721, 1719]), Not Simplified: ([14736, 11340, 11728, 3008, 1584, 1585])]
+Run Simplified for benchmarks/suite1/other/2bitcomp_5.cnf
+Run Not Simplified for benchmarks/suite1/other/2bitcomp_5.cnf
+Obtained result: [Simplified: ([318, 4, 5, 311, 525848, 525846]), Not Simplified: ([104, 4, 5, 99, 93821, 93819])]
+Run Simplified for benchmarks/suite1/other/log-1.cnf
+Run Not Simplified for benchmarks/suite1/other/log-1.cnf
+Obtained result: [Simplified: ([63, 19, 49, 2, 5957, 5959]), Not Simplified: ([803, 306, 495, 308, 37329, 37327])]
+Run Simplified for benchmarks/suite1/other/log-3.cnf
+Run Not Simplified for benchmarks/suite1/other/log-3.cnf
+Obtained result: [Simplified: ([1935, 1122, 1568, 241, 93539, 93537]), Not Simplified: ([56346, 52208, 55253, 1093, 236549, 236612])]
+Run Simplified for benchmarks/suite1/other/log-2.cnf
+Run Not Simplified for benchmarks/suite1/other/log-2.cnf
+Obtained result: [Simplified: ([5992, 2424, 3009, 2858, 321129, 321174]), Not Simplified: ([42481, 33216, 35512, 6969, 1380099, 1380654])]
+Run Simplified for benchmarks/suite1/other/prob004-log-a.cnf
+Run Not Simplified for benchmarks/suite1/other/prob004-log-a.cnf
+Obtained result: [Simplified: ([5337, 927, 1573, 3691, 1658766, 1658764]), Not Simplified: ([199946, 123199, 125545, 74401, 21460733, 21462514])]
+Run Simplified for benchmarks/suite1/other/qg7-09.cnf
+Run Not Simplified for benchmarks/suite1/other/qg7-09.cnf
+Obtained result: [Simplified: ([678, 538, 632, 0, 3596, 3594]), Not Simplified: ([35833, 34929, 35831, 2, 4698, 4697])]
+Run Simplified for benchmarks/suite1/other/ra.cnf
+Run Not Simplified for benchmarks/suite1/other/ra.cnf
+Obtained result: [Simplified: ([8457, 3282, 4050, 4296, 269541, 269539]), Not Simplified: ([8240, 3228, 4005, 4235, 269541, 269539])]
+Run Simplified for benchmarks/suite1/other/huge.cnf
+Run Not Simplified for benchmarks/suite1/other/huge.cnf
+Obtained result: [Simplified: ([16, -2, 1, 0, 1826, 1825]), Not Simplified: ([2129, 2040, 2127, 2, 1530, 1590])]
+Run Simplified for benchmarks/suite1/other/bw_large.a.cnf
+Run Not Simplified for benchmarks/suite1/other/bw_large.a.cnf
+Obtained result: [Simplified: ([11, -2, 1, 1, 1826, 1825]), Not Simplified: ([1865, 1772, 1863, 2, 1530, 1590])]
+Run Simplified for benchmarks/suite1/other/qg2-07.cnf
+Run Not Simplified for benchmarks/suite1/other/qg2-07.cnf
+Obtained result: [Simplified: ([870, 708, 759, 4, 3397, 3395]), Not Simplified: ([46259, 45106, 46247, 12, 5125, 5125])]
+Run Simplified for benchmarks/suite1/other/bw_large.b.cnf
+Run Not Simplified for benchmarks/suite1/other/bw_large.b.cnf
+Obtained result: [Simplified: ([23, 0, 4, 0, 4354, 4352]), Not Simplified: ([22096, 21324, 22085, 11, 5134, 5237])]
+Run Simplified for benchmarks/suite1/other/ssa7552-038.cnf
+Run Not Simplified for benchmarks/suite1/other/ssa7552-038.cnf
+Obtained result: [Simplified: ([455, 142, 407, 30, 23109, 23123]), Not Simplified: ([603, 216, 551, 52, 26764, 26765])]
+Run Simplified for benchmarks/suite1/other/tire-2.cnf
+Run Not Simplified for benchmarks/suite1/other/tire-2.cnf
+Obtained result: [Simplified: ([20, 5, 14, 2, 3959, 3957]), Not Simplified: ([210, 144, 195, 15, 10818, 10819])]
+Run Simplified for benchmarks/suite1/other/tire-3.cnf
+Run Not Simplified for benchmarks/suite1/other/tire-3.cnf
+Obtained result: [Simplified: ([34, 8, 23, 7, 10112, 10110]), Not Simplified: ([305, 143, 199, 106, 53550, 53551])]
+Run Simplified for benchmarks/suite1/other/tire-4.cnf
+Run Not Simplified for benchmarks/suite1/other/tire-4.cnf
+Obtained result: [Simplified: ([54, 15, 40, 8, 8781, 8779]), Not Simplified: ([659, 407, 526, 133, 65799, 65819])]
+Run Simplified for benchmarks/suite1/other/qg3-08.cnf
+Run Not Simplified for benchmarks/suite1/other/qg3-08.cnf
+Obtained result: [Simplified: ([710, 627, 675, 7, 5985, 5983]), Not Simplified: ([9057, 8808, 9034, 23, 9657, 9656])]
+Run Simplified for benchmarks/suite1/other/ais10.cnf
+Run Not Simplified for benchmarks/suite1/other/ais10.cnf
+Obtained result: [Simplified: ([5130, 267, 282, 4095, 34118, 34116]), Not Simplified: ([4488, 301, 316, 4172, 34118, 34116])]
+Run Simplified for benchmarks/suite1/other/cnt06.shuffled.cnf
+Run Not Simplified for benchmarks/suite1/other/cnt06.shuffled.cnf
+Obtained result: [Simplified: ([17, -2, 1, 0, 3037, 3036]), Not Simplified: ([217, 86, 201, 16, 3027, 5289])]
+Run Simplified for benchmarks/suite1/mercedes/D1119_M20.cnf
+Run Not Simplified for benchmarks/suite1/mercedes/D1119_M20.cnf
+Obtained result: [Simplified: ([19, 1, 12, 2, 6040, 6039]), Not Simplified: ([31, 5, 29, 2, 6336, 6343])]
+Run Simplified for benchmarks/suite1/mercedes/C638_FVK.cnf
+Run Not Simplified for benchmarks/suite1/mercedes/C638_FVK.cnf
+Obtained result: [Simplified: ([782, 644, 730, 44, 13182, 13182]), Not Simplified: ([1112, 883, 1047, 65, 17239, 17251])]
+Run Simplified for benchmarks/suite1/mercedes/D1119_M23.cnf
+Run Not Simplified for benchmarks/suite1/mercedes/D1119_M23.cnf
+Obtained result: [Simplified: ([32, 1, 13, 6, 6347, 6345]), Not Simplified: ([211, 151, 203, 8, 6999, 7103])]
+Run Simplified for benchmarks/suite1/mercedes/C220_FV.cnf
+Run Not Simplified for benchmarks/suite1/mercedes/C220_FV.cnf
+Obtained result: [Simplified: ([-1, 385, 675, -1, -1, -1]), Not Simplified: ([-1, 1230, 1681, -1, -1, -1])]
+Run Simplified for benchmarks/suite1/mercedes/C140_FC.cnf
+Run Not Simplified for benchmarks/suite1/mercedes/C140_FC.cnf
+Obtained result: [Simplified: ([30675, 188, 379, 30263, 5146608, 5146606]), Not Simplified: ([-1, 673, 995, -1, -1, -1])]
+Run Simplified for benchmarks/suite1/mercedes/C220_FW.cnf
+Run Not Simplified for benchmarks/suite1/mercedes/C220_FW.cnf
+Obtained result: [Simplified: ([-1, 343, 615, -1, -1, -1]), Not Simplified: ([-1, 1267, 1759, -1, -1, -1])]
+Run Simplified for benchmarks/suite1/mercedes/C208_FA.cnf
+Run Not Simplified for benchmarks/suite1/mercedes/C208_FA.cnf
+Obtained result: [Simplified: ([-1, 391, 751, -1, -1, -1]), Not Simplified: ([-1, 3820, 4298, -1, -1, -1])]
+Run Simplified for benchmarks/suite1/mercedes/C230_FR.cnf
+Run Not Simplified for benchmarks/suite1/mercedes/C230_FR.cnf
+Obtained result: [Simplified: ([119893, 234, 469, 119383, 2185177, 2204967]), Not Simplified: ([40198, 560, 863, 39335, 8094168, 8094175])]
+Run Simplified for benchmarks/suite1/mercedes/C208_FC.cnf
+Run Not Simplified for benchmarks/suite1/mercedes/C208_FC.cnf
+Obtained result: [Simplified: ([43419, 511, 883, 42452, 4182579, 4182578]), Not Simplified: ([-1, 4504, 5071, -1, -1, -1])]
+Run Simplified for benchmarks/suite1/mercedes/C140_FW.cnf
+Run Not Simplified for benchmarks/suite1/mercedes/C140_FW.cnf
+Obtained result: [Simplified: ([25621, 259, 518, 25049, 1371807, 1371807]), Not Simplified: ([-1, 1195, 1640, -1, -1, -1])]
+Run Simplified for benchmarks/suite1/mercedes/C140_FV.cnf
+Run Not Simplified for benchmarks/suite1/mercedes/C140_FV.cnf
+Obtained result: [Simplified: ([15020, 351, 691, 14227, 1408982, 1408980]), Not Simplified: ([-1, 4283, 4902, -1, -1, -1])]
+Run Simplified for benchmarks/suite1/mercedes/C168_FW.cnf
+Run Not Simplified for benchmarks/suite1/mercedes/C168_FW.cnf
+Obtained result: [Simplified: ([-1, 922, 1292, -1, -1, -1]), Not Simplified: ([-1, 2590, 3198, -1, -1, -1])]
+Run Simplified for benchmarks/suite1/mercedes/C202_FS.cnf
+Run Not Simplified for benchmarks/suite1/mercedes/C202_FS.cnf
+Obtained result: [Simplified: ([-1, 796, 1246, -1, -1, -1]), Not Simplified: ([-1, 2352, 3018, -1, -1, -1])]
+Run Simplified for benchmarks/suite1/mercedes/C210_FS.cnf
+Run Not Simplified for benchmarks/suite1/mercedes/C210_FS.cnf
+Obtained result: [Simplified: ([-1, 640, 1036, -1, -1, -1]), Not Simplified: ([-1, 1607, 2222, -1, -1, -1])]
+Run Simplified for benchmarks/suite1/mercedes/C638_FKA.cnf
+Run Not Simplified for benchmarks/suite1/mercedes/C638_FKA.cnf
+Obtained result: [Simplified: ([2495, 1121, 1244, 1225, 76939, 76938]), Not Simplified: ([17608, 2158, 2738, 14870, 548675, 548678])]
+Run Simplified for benchmarks/suite1/mercedes/C170_FR.cnf
+Run Not Simplified for benchmarks/suite1/mercedes/C170_FR.cnf
+Obtained result: [Simplified: ([-1, 604, 1248, -1, -1, -1]), Not Simplified: ([-1, 4086, 4964, -1, -1, -1])]
+Run Simplified for benchmarks/suite1/mercedes/C203_FCL.cnf
+Run Not Simplified for benchmarks/suite1/mercedes/C203_FCL.cnf
+Obtained result: [Simplified: ([16159, 226, 468, 15636, 1200602, 1200600]), Not Simplified: ([78716, 647, 1037, 77679, 3697705, 3697713])]
+Run Simplified for benchmarks/suite1/mercedes/C638_FKB.cnf
+Run Not Simplified for benchmarks/suite1/mercedes/C638_FKB.cnf
+Obtained result: [Simplified: ([-1, 1060, 1202, -1, -1, -1]), Not Simplified: ([2582, 1881, 2099, 483, 38512, 38521])]
+Run Simplified for benchmarks/suite1/mercedes/C129_FR.cnf
+Run Not Simplified for benchmarks/suite1/mercedes/C129_FR.cnf
+Obtained result: [Simplified: ([23347, 335, 680, 22599, 5958783, 5958781]), Not Simplified: ([-1, 1255, 1782, -1, -1, -1])]
+Run Simplified for benchmarks/suite1/mercedes/C210_FW.cnf
+Run Not Simplified for benchmarks/suite1/mercedes/C210_FW.cnf
+Obtained result: [Simplified: ([-1, 1234, 1798, -1, -1, -1]), Not Simplified: ([-1, 3689, 4766, -1, -1, -1])]
+Run Simplified for benchmarks/suite1/mercedes/C202_FW.cnf
+Run Not Simplified for benchmarks/suite1/mercedes/C202_FW.cnf
+Obtained result: [Simplified: ([-1, 1603, 2396, -1, -1, -1]), Not Simplified: ([-1, 3741, 4882, -1, -1, -1])]
+Run Simplified for benchmarks/suite1/mercedes/C215_FC.cnf
+Run Not Simplified for benchmarks/suite1/mercedes/C215_FC.cnf
+Obtained result: [Simplified: ([-1, 298, 585, -1, -1, -1]), Not Simplified: ([45769, 717, 1147, 44622, 5468395, 5468398])]
+Run Simplified for benchmarks/suite1/mercedes/C169_FW.cnf
+Run Not Simplified for benchmarks/suite1/mercedes/C169_FW.cnf
+Obtained result: [Simplified: ([27, 3, 16, 1, 5622, 5621]), Not Simplified: ([105, 35, 101, 4, 5833, 5842])]
+Run Simplified for benchmarks/suite1/mercedes/C169_FV.cnf
+Run Not Simplified for benchmarks/suite1/mercedes/C169_FV.cnf
+Obtained result: [Simplified: ([14, 1, 8, 1, 5622, 5621]), Not Simplified: ([77, 26, 76, 1, 5833, 5842])]
+Run Simplified for benchmarks/suite1/mercedes/C209_FC.cnf
+Run Not Simplified for benchmarks/suite1/mercedes/C209_FC.cnf
+Obtained result: [Simplified: ([2975, 202, 471, 2455, 582939, 582937]), Not Simplified: ([5866, 600, 1003, 4863, 627636, 627636])]
+Run Simplified for benchmarks/suite1/mercedes/C250_FW.cnf
+Run Not Simplified for benchmarks/suite1/mercedes/C250_FW.cnf
+Obtained result: [Simplified: ([31, 1, 25, 1, 5945, 5943]), Not Simplified: ([153, 63, 148, 5, 6700, 6707])]
+Run Simplified for benchmarks/suite1/mercedes/C209_FA.cnf
+Run Not Simplified for benchmarks/suite1/mercedes/C209_FA.cnf
+Obtained result: [Simplified: ([1175, 165, 416, 727, 151556, 151554]), Not Simplified: ([2021, 434, 772, 1249, 199248, 199267])]
+Run Simplified for benchmarks/suite1/mercedes/C250_FV.cnf
+Run Not Simplified for benchmarks/suite1/mercedes/C250_FV.cnf
+Obtained result: [Simplified: ([30, 2, 25, 1, 5945, 5943]), Not Simplified: ([153, 61, 148, 5, 6700, 6707])]
+Run Simplified for benchmarks/suite1/mercedes/C171_FR.cnf
+Run Not Simplified for benchmarks/suite1/mercedes/C171_FR.cnf
+Obtained result: [Simplified: ([1151, 57, 277, 861, 223940, 223939]), Not Simplified: ([2562, 373, 680, 1882, 284522, 284531])]
+Run Simplified for benchmarks/suite1/mercedes/C210_FVF.cnf
+Run Not Simplified for benchmarks/suite1/mercedes/C210_FVF.cnf
+Obtained result: [Simplified: ([4222, 185, 428, 3777, 990829, 990827]), Not Simplified: ([20627, 584, 898, 19729, 3294674, 3294757])]
+Run Simplified for benchmarks/suite1/mercedes/C203_FS.cnf
+Run Not Simplified for benchmarks/suite1/mercedes/C203_FS.cnf
+Obtained result: [Simplified: ([139925, 219, 530, 139344, 1550338, 1550336]), Not Simplified: ([-1, 1257, 1749, -1, -1, -1])]
+Run Simplified for benchmarks/suite1/mercedes/C211_FS.cnf
+Run Not Simplified for benchmarks/suite1/mercedes/C211_FS.cnf
+Obtained result: [Simplified: ([91, 18, 74, 10, 7945, 7945]), Not Simplified: ([518, 171, 347, 171, 65018, 65067])]
+Run Simplified for benchmarks/suite1/mercedes/C211_FW.cnf
+Run Not Simplified for benchmarks/suite1/mercedes/C211_FW.cnf
+Obtained result: [Simplified: ([-1, 142, 384, -1, -1, -1]), Not Simplified: ([-1, 458, 811, -1, -1, -1])]
+Run Simplified for benchmarks/suite1/mercedes/C203_FW.cnf
+Run Not Simplified for benchmarks/suite1/mercedes/C203_FW.cnf
+Obtained result: [Simplified: ([21879, 275, 539, 21292, 5693156, 5693154]), Not Simplified: ([-1, 1684, 2347, -1, -1, -1])]
+Run Simplified for benchmarks/suite1/mercedes/C163_FW.cnf
+Run Not Simplified for benchmarks/suite1/mercedes/C163_FW.cnf
+Obtained result: [Simplified: ([3598, 279, 484, 3073, 546900, 546898]), Not Simplified: ([15188, 2714, 3058, 12130, 2421078, 2421079])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c20_d01.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c20_d01.txt
+Obtained result: [Simplified: ([328, 148, 235, 67, 29697, 29695]), Not Simplified: ([824, 343, 550, 274, 91274, 91275])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c30_d01.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c30_d01.txt
+Obtained result: [Simplified: ([508, 253, 396, 59, 20364, 20362]), Not Simplified: ([541, 349, 462, 79, 19046, 19055])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_d001/auto4_s2_c40_d01.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_d001/auto4_s2_c40_d01.txt
+Obtained result: [Simplified: ([135, 91, 122, 3, 8296, 8294]), Not Simplified: ([208, 148, 196, 12, 9442, 9440])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c30_d01.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c30_d01.txt
+Obtained result: [Simplified: ([190, 77, 142, 28, 17400, 17399]), Not Simplified: ([540, 303, 409, 131, 33692, 33704])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c50_d01.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c50_d01.txt
+Obtained result: [Simplified: ([550, 225, 352, 170, 61722, 61720]), Not Simplified: ([1368, 466, 646, 722, 84373, 84371])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c40_d01.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c40_d01.txt
+Obtained result: [Simplified: ([579, 196, 307, 243, 62534, 62532]), Not Simplified: ([806, 402, 558, 248, 97493, 97491])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_d001/auto6_s2_c40_d01.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_d001/auto6_s2_c40_d01.txt
+Obtained result: [Simplified: ([450, 218, 347, 79, 50212, 50210]), Not Simplified: ([1274, 536, 705, 569, 84962, 84960])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_d001/auto6_s2_c50_d01.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_d001/auto6_s2_c50_d01.txt
+Obtained result: [Simplified: ([683, 237, 369, 288, 71313, 71311]), Not Simplified: ([1167, 487, 661, 506, 82397, 82395])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c50_d01.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c50_d01.txt
+Obtained result: [Simplified: ([444, 221, 352, 64, 24664, 24662]), Not Simplified: ([740, 368, 537, 203, 47212, 47211])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c40_d01.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c40_d01.txt
+Obtained result: [Simplified: ([976, 445, 641, 294, 116752, 116750]), Not Simplified: ([1533, 761, 1030, 503, 104257, 104255])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c10_d01.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c10_d01.txt
+Obtained result: [Simplified: ([237, 93, 157, 59, 39460, 39458]), Not Simplified: ([349, 190, 266, 83, 39569, 39569])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_d001/auto5_s2_c60_d01.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_d001/auto5_s2_c60_d01.txt
+Obtained result: [Simplified: ([1731, 546, 706, 986, 355412, 355417]), Not Simplified: ([2341, 809, 1006, 1335, 172014, 172023])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c10_d01.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c10_d01.txt
+Obtained result: [Simplified: ([243, 107, 179, 41, 23310, 23308]), Not Simplified: ([301, 161, 253, 48, 26299, 26298])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_d001/auto4_s2_c60_d01.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_d001/auto4_s2_c60_d01.txt
+Obtained result: [Simplified: ([147, 97, 131, 4, 8838, 8836]), Not Simplified: ([204, 138, 189, 15, 9742, 9740])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c60_d01.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c60_d01.txt
+Obtained result: [Simplified: ([4914, 896, 1173, 3683, 742289, 742328]), Not Simplified: ([10158, 1171, 1526, 8632, 734692, 734690])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_d001/auto6_s2_c60_d01.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_d001/auto6_s2_c60_d01.txt
+Obtained result: [Simplified: ([606, 303, 456, 112, 40852, 40850]), Not Simplified: ([2828, 644, 881, 1947, 200199, 200197])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c05_d05.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c05_d05.txt
+Obtained result: [Simplified: ([113, 80, 101, 5, 7513, 7511]), Not Simplified: ([143, 113, 140, 3, 7944, 7942])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c15_d15.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c15_d15.txt
+Obtained result: [Simplified: ([1639, 208, 310, 1274, 35414, 35438]), Not Simplified: ([1514, 493, 685, 829, 155103, 155157])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c25_d25.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c25_d25.txt
+Obtained result: [Simplified: ([13718, 1814, 2533, 10837, 715460, 715508]), Not Simplified: ([20004, 2402, 3328, 16676, 715326, 715324])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c05_d05.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c05_d05.txt
+Obtained result: [Simplified: ([869, 348, 533, 261, 46867, 46875]), Not Simplified: ([1220, 573, 781, 439, 119666, 119666])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c15_d15.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c15_d15.txt
+Obtained result: [Simplified: ([239, 96, 145, 6, 8481, 8479]), Not Simplified: ([287, 181, 268, 19, 12667, 12671])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c25_d25.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c25_d25.txt
+Obtained result: [Simplified: ([-1, 46007, 60176, -1, -1, -1]), Not Simplified: ([-1, 134167, 159028, -1, -1, -1])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c25_d25.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c25_d25.txt
+Obtained result: [Simplified: ([-1, 4856, 6450, -1, -1, -1]), Not Simplified: ([-1, 14295, 16873, -1, -1, -1])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c05_d05.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c05_d05.txt
+Obtained result: [Simplified: ([996, 367, 595, 10, 8208, 8206]), Not Simplified: ([312, 223, 307, 5, 8294, 8296])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c15_d15.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c15_d15.txt
+Obtained result: [Simplified: ([2321, 853, 1277, 741, 71621, 71619]), Not Simplified: ([2509, 1244, 1519, 990, 141735, 141735])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c05_d05.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c05_d05.txt
+Obtained result: [Simplified: ([741, 326, 448, 223, 104860, 104858]), Not Simplified: ([931, 348, 480, 451, 134609, 134610])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c15_d15.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c15_d15.txt
+Obtained result: [Simplified: ([247, 166, 215, 7, 13250, 13954]), Not Simplified: ([357, 272, 348, 9, 12599, 13303])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c25_d25.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c25_d25.txt
+Obtained result: [Simplified: ([188469, 2518, 3373, 184910, 7621514, 7621512]), Not Simplified: ([-1, 5060, 6058, -1, -1, -1])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c15_d15.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c15_d15.txt
+Obtained result: [Simplified: ([10600, 1938, 2619, 7406, 308530, 308528]), Not Simplified: ([35597, 2568, 3385, 32212, 674477, 674475])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c25_d25.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c25_d25.txt
+Obtained result: [Simplified: ([1172, 453, 682, 28, 17756, 17754]), Not Simplified: ([758, 466, 667, 91, 22693, 22695])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c15_d15.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c15_d15.txt
+Obtained result: [Simplified: ([-1, 30049, 37744, -1, -1, -1]), Not Simplified: ([-1, 171381, 184544, -1, -1, -1])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c05_d05.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c05_d05.txt
+Obtained result: [Simplified: ([1543, 647, 937, 268, 55841, 55839]), Not Simplified: ([1710, 940, 1220, 490, 89403, 89402])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c15_d15.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c15_d15.txt
+Obtained result: [Simplified: ([2843, 847, 1455, 685, 80381, 80379]), Not Simplified: ([5390, 2289, 3082, 2308, 158138, 158148])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c05_d05.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c05_d05.txt
+Obtained result: [Simplified: ([4092, 1298, 2153, 1563, 102799, 102881]), Not Simplified: ([4834, 1866, 2725, 2109, 173856, 173854])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c25_d25.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c25_d25.txt
+Obtained result: [Simplified: ([6011, 1016, 1574, 4160, 183211, 183209]), Not Simplified: ([4610, 1663, 2435, 2175, 214628, 214628])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c05_d05.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c05_d05.txt
+Obtained result: [Simplified: ([1854, 449, 671, 1107, 78354, 78352]), Not Simplified: ([3211, 680, 956, 2255, 220201, 220200])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c25_d25.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c25_d25.txt
+Obtained result: [Simplified: ([502, 165, 230, 234, 12364, 13151]), Not Simplified: ([721, 232, 302, 419, 12555, 13410])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c10_d10.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c10_d10.txt
+Obtained result: [Simplified: ([7002, 826, 1211, 5636, 228005, 228003]), Not Simplified: ([8321, 1244, 1726, 6595, 311816, 311817])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c20_d20.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c20_d20.txt
+Obtained result: [Simplified: ([-1, 2048, 2674, -1, -1, -1]), Not Simplified: ([-1, 2906, 3650, -1, -1, -1])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c10_d10.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c10_d10.txt
+Obtained result: [Simplified: ([7394, 3038, 4288, 2312, 128432, 128430]), Not Simplified: ([11891, 4160, 5684, 6207, 401552, 401551])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c20_d20.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c20_d20.txt
+Obtained result: [Simplified: ([453, 201, 263, 38, 11688, 11686]), Not Simplified: ([350, 235, 328, 22, 14759, 14761])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c20_d20.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c20_d20.txt
+Obtained result: [Simplified: ([4290, 957, 1361, 2681, 140526, 140524]), Not Simplified: ([13136, 1324, 1827, 11309, 304467, 304467])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c10_d10.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c10_d10.txt
+Obtained result: [Simplified: ([754, 304, 496, 147, 46009, 46007]), Not Simplified: ([2111, 904, 1343, 768, 158151, 158153])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c20_d20.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c20_d20.txt
+Obtained result: [Simplified: ([229, 147, 193, 8, 12334, 12781]), Not Simplified: ([265, 192, 253, 12, 12145, 12592])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c20_d20.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c20_d20.txt
+Obtained result: [Simplified: ([-1, 5788, 7468, -1, -1, -1]), Not Simplified: ([-1, 9720, 11795, -1, -1, -1])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c10_d10.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c10_d10.txt
+Obtained result: [Simplified: ([450, 160, 259, 140, 59186, 59190]), Not Simplified: ([953, 355, 513, 440, 122720, 122745])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c20_d20.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c20_d20.txt
+Obtained result: [Simplified: ([-1, 46800, 60267, -1, -1, -1]), Not Simplified: ([-1, 193867, 207842, -1, -1, -1])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c10_d10.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c10_d10.txt
+Obtained result: [Simplified: ([356, 139, 244, 3, 6241, 6239]), Not Simplified: ([339, 170, 304, 35, 8770, 8774])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c10_d10.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c10_d10.txt
+Obtained result: [Simplified: ([1165, 476, 612, 447, 54178, 54176]), Not Simplified: ([1566, 870, 1094, 472, 128074, 128128])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c20_d20.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c20_d20.txt
+Obtained result: [Simplified: ([7850, 1667, 2456, 4537, 368482, 368480]), Not Simplified: ([15508, 2547, 3614, 11894, 561934, 561932])]
+Run Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c10_d10.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c10_d10.txt
+Obtained result: [Simplified: ([452, 198, 246, 177, 16140, 17141]), Not Simplified: ([884, 306, 400, 484, 14974, 15977])]
+Run Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d30.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d30.txt
+Obtained result: [Simplified: ([-1, 15666, 21301, -1, -1, -1]), Not Simplified: ([-1, 179836, 198523, -1, -1, -1])]
+Run Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d50.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d50.txt
+Obtained result: [Simplified: ([1219, 632, 809, 159, 13935, 13933]), Not Simplified: ([1952, 1059, 1712, 240, 20125, 20157])]
+Run Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d40.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d40.txt
+Obtained result: [Simplified: ([151868, 3286, 4002, 147523, 1927722, 1927720]), Not Simplified: ([-1, 10818, 11913, -1, -1, -1])]
+Run Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d30.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d30.txt
+Obtained result: [Simplified: ([7718, 840, 1321, 6260, 476025, 476023]), Not Simplified: ([-1, 10313, 11531, -1, -1, -1])]
+Run Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d20.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d20.txt
+Obtained result: [Simplified: ([-1, 47312, 56943, -1, -1, -1]), Not Simplified: ([-1, 200403, 217205, -1, -1, -1])]
+Run Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d20.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d20.txt
+Obtained result: [Simplified: ([3334, 1482, 2095, 686, 44317, 44315]), Not Simplified: ([5394, 2814, 3643, 1751, 159258, 159256])]
+Run Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d50.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d50.txt
+Obtained result: [Simplified: ([-1, 31483, 39540, -1, -1, -1]), Not Simplified: ([-1, 168896, 179695, -1, -1, -1])]
+Run Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d40.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d40.txt
+Obtained result: [Simplified: ([161781, 1186, 1727, 159934, 1478910, 1478908]), Not Simplified: ([-1, 9674, 10927, -1, -1, -1])]
+Run Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto4_s1_c01_d20.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto4_s1_c01_d20.txt
+Obtained result: [Simplified: ([716, 329, 449, 162, 13335, 14434]), Not Simplified: ([703, 358, 436, 267, 13816, 14987])]
+Run Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d30.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d30.txt
+Obtained result: [Simplified: ([205, 76, 141, 25, 11349, 11347]), Not Simplified: ([823, 452, 702, 121, 17883, 17916])]
+Run Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d50.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d50.txt
+Obtained result: [Simplified: ([-1, 12128, 14037, -1, -1, -1]), Not Simplified: ([-1, 37332, 40400, -1, -1, -1])]
+Run Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto3_s1_c01_d20.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto3_s1_c01_d20.txt
+Obtained result: [Simplified: ([1217, 572, 820, 260, 39666, 39664]), Not Simplified: ([2386, 1029, 1417, 969, 85189, 85245])]
+Run Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d40.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d40.txt
+Obtained result: [Simplified: ([-1, 14463, 16444, -1, -1, -1]), Not Simplified: ([-1, 42712, 45812, -1, -1, -1])]
+Run Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d20.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d20.txt
+Obtained result: [Simplified: ([530, 253, 399, 47, 18628, 18626]), Not Simplified: ([1873, 577, 756, 1117, 31872, 31900])]
+Run Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d50.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d50.txt
+Obtained result: [Simplified: ([4505, 1293, 2009, 2349, 440138, 440136]), Not Simplified: ([-1, 16205, 17821, -1, -1, -1])]
+Run Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d40.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d40.txt
+Obtained result: [Simplified: ([-1, 32984, 41945, -1, -1, -1]), Not Simplified: ([-1, 204591, 222502, -1, -1, -1])]
+Run Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d10.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d10.txt
+Obtained result: [Simplified: ([808, 448, 581, 20, 11977, 11975]), Not Simplified: ([750, 516, 651, 99, 12883, 12918])]
+Run Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d60.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d60.txt
+Obtained result: [Simplified: ([11483, 2907, 3915, 7067, 1908971, 1908969]), Not Simplified: ([-1, 22585, 25049, -1, -1, -1])]
+Run Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d60.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d60.txt
+Obtained result: [Simplified: ([-1, 19721, 22009, -1, -1, -1]), Not Simplified: ([-1, 68845, 74608, -1, -1, -1])]
+Run Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto3_s1_c01_d10.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto3_s1_c01_d10.txt
+Obtained result: [Simplified: ([1282, 651, 926, 33, 13662, 13660]), Not Simplified: ([1203, 646, 1011, 192, 17816, 17948])]
+Run Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d60.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d60.txt
+Obtained result: [Simplified: ([-1, 16924, 23167, -1, -1, -1]), Not Simplified: ([-1, 172397, 183437, -1, -1, -1])]
+Run Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d10.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d10.txt
+Obtained result: [Simplified: ([871, 433, 634, 113, 18249, 18247]), Not Simplified: ([1642, 1093, 1402, 240, 27313, 27394])]
+Run Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d10.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d10.txt
+Obtained result: [Simplified: ([2560, 1231, 1829, 356, 31517, 31515]), Not Simplified: ([5169, 3138, 4403, 766, 41378, 41448])]
+Run Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d10.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d10.txt
+Obtained result: [Simplified: ([383, 173, 309, 39, 17559, 17557]), Not Simplified: ([1363, 770, 1228, 135, 27695, 27721])]
+Run Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d60.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d60.txt
+Obtained result: [Simplified: ([-1, 1384, 1754, -1, -1, -1]), Not Simplified: ([-1, 5612, 6375, -1, -1, -1])]
+Run Simplified for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v02.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v02.txt
+Obtained result: [Simplified: ([130, 58, 111, 5, 8908, 8906]), Not Simplified: ([360, 201, 333, 27, 13613, 13684])]
+Run Simplified for benchmarks/suite1/automotive/auto_c001_d001/auto3_s0_c01_d01_v09.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_c001_d001/auto3_s0_c01_d01_v09.txt
+Obtained result: [Simplified: ([97, 44, 79, 10, 10968, 10966]), Not Simplified: ([209, 127, 192, 17, 16007, 16079])]
+Run Simplified for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v01.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v01.txt
+Obtained result: [Simplified: ([105, 42, 88, 5, 8085, 8083]), Not Simplified: ([218, 120, 207, 11, 10796, 10807])]
+Run Simplified for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v00.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v00.txt
+Obtained result: [Simplified: ([219, 93, 180, 21, 14363, 14361]), Not Simplified: ([389, 217, 360, 29, 16663, 16676])]
+Run Simplified for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v04.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v04.txt
+Obtained result: [Simplified: ([103, 48, 89, 2, 8261, 8259]), Not Simplified: ([233, 125, 224, 9, 11092, 11105])]
+Run Simplified for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v05.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v05.txt
+Obtained result: [Simplified: ([129, 61, 109, 5, 9730, 9728]), Not Simplified: ([395, 231, 365, 30, 16255, 16312])]
+Run Simplified for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v07.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v07.txt
+Obtained result: [Simplified: ([68, 33, 60, 2, 6861, 6859]), Not Simplified: ([212, 121, 207, 5, 8902, 8953])]
+Run Simplified for benchmarks/suite1/automotive/auto_c001_d001/auto2_s0_c01_d01_v03.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_c001_d001/auto2_s0_c01_d01_v03.txt
+Obtained result: [Simplified: ([36, 19, 31, 1, 4616, 4614]), Not Simplified: ([56, 31, 55, 1, 4822, 4824])]
+Run Simplified for benchmarks/suite1/automotive/auto_c001_d001/auto2_s0_c01_d01_v02.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_c001_d001/auto2_s0_c01_d01_v02.txt
+Obtained result: [Simplified: ([42, 22, 37, 1, 5108, 5106]), Not Simplified: ([61, 36, 60, 1, 5264, 5268])]
+Run Simplified for benchmarks/suite1/automotive/auto_c001_d001/auto0_s0_c01_d01_v08.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_c001_d001/auto0_s0_c01_d01_v08.txt
+Obtained result: [Simplified: ([94, 42, 76, 11, 9897, 9895]), Not Simplified: ([191, 109, 177, 14, 15263, 15274])]
+Run Simplified for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v06.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v06.txt
+Obtained result: [Simplified: ([220, 89, 189, 11, 13051, 13049]), Not Simplified: ([415, 229, 368, 47, 20295, 20308])]
+Run Simplified for benchmarks/suite1/automotive/auto_c001_d001/auto6_s0_c01_d01_v09.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_c001_d001/auto6_s0_c01_d01_v09.txt
+Obtained result: [Simplified: ([101, 51, 85, 9, 11052, 11050]), Not Simplified: ([242, 141, 217, 25, 19135, 19178])]
+Run Simplified for benchmarks/suite1/automotive/auto_c001_d001/auto6_s0_c01_d01_v02.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_c001_d001/auto6_s0_c01_d01_v02.txt
+Obtained result: [Simplified: ([94, 45, 78, 8, 9949, 9947]), Not Simplified: ([204, 126, 195, 9, 13629, 13634])]
+Run Simplified for benchmarks/suite1/automotive/auto_c001_d001/auto5_s0_c01_d01_v02.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_c001_d001/auto5_s0_c01_d01_v02.txt
+Obtained result: [Simplified: ([73, 34, 63, 4, 8249, 8247]), Not Simplified: ([174, 96, 165, 9, 10339, 10360])]
+Run Simplified for benchmarks/suite1/automotive/auto_c001_d001/auto6_s0_c01_d01_v05.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_c001_d001/auto6_s0_c01_d01_v05.txt
+Obtained result: [Simplified: ([-1, -1, -1, -2, -1, -1]), Not Simplified: ([276, 195, 266, 10, 13719, 13726])]
+Run Simplified for benchmarks/suite1/automotive/auto_c001_d001/auto0_s0_c01_d01_v05.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_c001_d001/auto0_s0_c01_d01_v05.txt
+Obtained result: [Simplified: ([89, 48, 77, 5, 7653, 7651]), Not Simplified: ([244, 154, 233, 11, 12823, 12836])]
+Run Simplified for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v08.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v08.txt
+Obtained result: [Simplified: ([117, 65, 101, 4, 9352, 9350]), Not Simplified: ([250, 156, 239, 11, 12028, 12041])]
+Run Simplified for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v09.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v09.txt
+Obtained result: [Simplified: ([80, 42, 70, 2, 6893, 6891]), Not Simplified: ([170, 99, 160, 10, 8948, 8963])]
+Run Simplified for benchmarks/suite1/automotive/auto_c001_d001/auto2_s0_c01_d01_v08.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_c001_d001/auto2_s0_c01_d01_v08.txt
+Obtained result: [Simplified: ([38, 19, 34, 0, 4654, 4652]), Not Simplified: ([54, 31, 53, 1, 4810, 4814])]
+Run Simplified for benchmarks/suite1/automotive/auto_c001_d001/auto0_s0_c01_d01_v02.txt
+Run Not Simplified for benchmarks/suite1/automotive/auto_c001_d001/auto0_s0_c01_d01_v02.txt
+Obtained result: [Simplified: ([69, 31, 60, 3, 7581, 7579]), Not Simplified: ([191, 111, 185, 6, 9357, 9368])]

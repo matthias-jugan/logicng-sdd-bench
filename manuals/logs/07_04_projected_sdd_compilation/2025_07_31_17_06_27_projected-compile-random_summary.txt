@@ -1,0 +1,12 @@
+=== Setup ===
+Time: 2025-07-31T17:06:27.18655
+Experiment: projected-compile-random
+
+Input source: benchmarks
+Files: 153
+Filters: [File[path=benchmarks/suite1]]
+
+Arguments: []
+Timeout: 300000ms
+Heap Size: 32768MB
+======

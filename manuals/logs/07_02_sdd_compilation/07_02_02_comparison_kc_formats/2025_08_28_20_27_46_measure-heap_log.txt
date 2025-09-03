@@ -1,0 +1,460 @@
+Warmup
+Run SDD for benchmarks/suite1/other/qg6-09.cnf
+Run DNNF for benchmarks/suite1/other/qg6-09.cnf
+Obtained result: [SDD: ([703226304]), DNNF: ([631056200])]
+Run SDD for benchmarks/suite1/other/uf250-026.cnf
+Run DNNF for benchmarks/suite1/other/uf250-026.cnf
+Obtained result: [SDD: ([76644640]), DNNF: ([93238488])]
+Run SDD for benchmarks/suite1/other/qg1-07.cnf
+Run DNNF for benchmarks/suite1/other/qg1-07.cnf
+Obtained result: [SDD: ([744747216]), DNNF: ([1042546312])]
+Run SDD for benchmarks/suite1/other/4blocksb.cnf
+Run DNNF for benchmarks/suite1/other/4blocksb.cnf
+Obtained result: [SDD: ([94283144]), DNNF: ([81875840])]
+Run SDD for benchmarks/suite1/other/2bitcomp_5.cnf
+Run DNNF for benchmarks/suite1/other/2bitcomp_5.cnf
+Obtained result: [SDD: ([338380520]), DNNF: ([204061336])]
+Run SDD for benchmarks/suite1/other/log-1.cnf
+Run DNNF for benchmarks/suite1/other/log-1.cnf
+Obtained result: [SDD: ([69558752]), DNNF: ([23052808])]
+Run SDD for benchmarks/suite1/other/log-3.cnf
+Run DNNF for benchmarks/suite1/other/log-3.cnf
+Obtained result: [SDD: ([831149096]), DNNF: ([923869184])]
+Run SDD for benchmarks/suite1/other/log-2.cnf
+Run DNNF for benchmarks/suite1/other/log-2.cnf
+Obtained result: [SDD: ([2673171632]), DNNF: ([2077956160])]
+Run SDD for benchmarks/suite1/other/prob004-log-a.cnf
+Run DNNF for benchmarks/suite1/other/prob004-log-a.cnf
+Obtained result: [SDD: ([1844981504]), DNNF: ([1751699456])]
+Run SDD for benchmarks/suite1/other/qg7-09.cnf
+Run DNNF for benchmarks/suite1/other/qg7-09.cnf
+Obtained result: [SDD: ([463329144]), DNNF: ([373994840])]
+Run SDD for benchmarks/suite1/other/ra.cnf
+Run DNNF for benchmarks/suite1/other/ra.cnf
+Obtained result: [SDD: ([994502816]), DNNF: ([550521392])]
+Run SDD for benchmarks/suite1/other/huge.cnf
+Run DNNF for benchmarks/suite1/other/huge.cnf
+Obtained result: [SDD: ([27556808]), DNNF: ([15867920])]
+Run SDD for benchmarks/suite1/other/bw_large.a.cnf
+Run DNNF for benchmarks/suite1/other/bw_large.a.cnf
+Obtained result: [SDD: ([21360816]), DNNF: ([8519928])]
+Run SDD for benchmarks/suite1/other/qg2-07.cnf
+Run DNNF for benchmarks/suite1/other/qg2-07.cnf
+Obtained result: [SDD: ([757044136]), DNNF: ([1604453304])]
+Run SDD for benchmarks/suite1/other/bw_large.b.cnf
+Run DNNF for benchmarks/suite1/other/bw_large.b.cnf
+Obtained result: [SDD: ([61600688]), DNNF: ([63011536])]
+Run SDD for benchmarks/suite1/other/ssa7552-038.cnf
+Run DNNF for benchmarks/suite1/other/ssa7552-038.cnf
+Obtained result: [SDD: ([113252752]), DNNF: ([215716424])]
+Run SDD for benchmarks/suite1/other/tire-2.cnf
+Run DNNF for benchmarks/suite1/other/tire-2.cnf
+Obtained result: [SDD: ([17848216]), DNNF: ([36816856])]
+Run SDD for benchmarks/suite1/other/tire-3.cnf
+Run DNNF for benchmarks/suite1/other/tire-3.cnf
+Obtained result: [SDD: ([59015280]), DNNF: ([26771560])]
+Run SDD for benchmarks/suite1/other/tire-4.cnf
+Run DNNF for benchmarks/suite1/other/tire-4.cnf
+Obtained result: [SDD: ([120815880]), DNNF: ([492488304])]
+Run SDD for benchmarks/suite1/other/qg3-08.cnf
+Run DNNF for benchmarks/suite1/other/qg3-08.cnf
+Obtained result: [SDD: ([254446728]), DNNF: ([349848832])]
+Run SDD for benchmarks/suite1/other/ais10.cnf
+Run DNNF for benchmarks/suite1/other/ais10.cnf
+Obtained result: [SDD: ([629884960]), DNNF: ([816740160])]
+Run SDD for benchmarks/suite1/other/cnt06.shuffled.cnf
+Run DNNF for benchmarks/suite1/other/cnt06.shuffled.cnf
+Obtained result: [SDD: ([34129224]), DNNF: ([12668008])]
+Run SDD for benchmarks/suite1/mercedes/D1119_M20.cnf
+Run DNNF for benchmarks/suite1/mercedes/D1119_M20.cnf
+Obtained result: [SDD: ([25125904]), DNNF: ([26484704])]
+Run SDD for benchmarks/suite1/mercedes/C638_FVK.cnf
+Run DNNF for benchmarks/suite1/mercedes/C638_FVK.cnf
+Obtained result: [SDD: ([114334584]), DNNF: ([86271640])]
+Run SDD for benchmarks/suite1/mercedes/D1119_M23.cnf
+Run DNNF for benchmarks/suite1/mercedes/D1119_M23.cnf
+Obtained result: [SDD: ([93709600]), DNNF: ([16117064])]
+Run SDD for benchmarks/suite1/mercedes/C220_FV.cnf
+Run DNNF for benchmarks/suite1/mercedes/C220_FV.cnf
+Obtained result: [SDD: ([22808625152]), DNNF: ([11104687480])]
+Run SDD for benchmarks/suite1/mercedes/C140_FC.cnf
+Run DNNF for benchmarks/suite1/mercedes/C140_FC.cnf
+Obtained result: [SDD: ([4460964248]), DNNF: ([1416560664])]
+Run SDD for benchmarks/suite1/mercedes/C220_FW.cnf
+Run DNNF for benchmarks/suite1/mercedes/C220_FW.cnf
+Obtained result: [SDD: ([32277387304]), DNNF: ([11903434752])]
+Run SDD for benchmarks/suite1/mercedes/C208_FA.cnf
+Run DNNF for benchmarks/suite1/mercedes/C208_FA.cnf
+Obtained result: [SDD: ([5467071560]), DNNF: ([3590324224])]
+Run SDD for benchmarks/suite1/mercedes/C230_FR.cnf
+Run DNNF for benchmarks/suite1/mercedes/C230_FR.cnf
+Obtained result: [SDD: ([6340152024]), DNNF: ([1641064032])]
+Run SDD for benchmarks/suite1/mercedes/C208_FC.cnf
+Run DNNF for benchmarks/suite1/mercedes/C208_FC.cnf
+Obtained result: [SDD: ([3909091328]), DNNF: ([3853732640])]
+Run SDD for benchmarks/suite1/mercedes/C140_FW.cnf
+Run DNNF for benchmarks/suite1/mercedes/C140_FW.cnf
+Obtained result: [SDD: ([1387558720]), DNNF: ([1436543464])]
+Run SDD for benchmarks/suite1/mercedes/C140_FV.cnf
+Run DNNF for benchmarks/suite1/mercedes/C140_FV.cnf
+Obtained result: [SDD: ([1374018144]), DNNF: ([821736056])]
+Run SDD for benchmarks/suite1/mercedes/C168_FW.cnf
+Run DNNF for benchmarks/suite1/mercedes/C168_FW.cnf
+Obtained result: [SDD: ([16248733696]), DNNF: ([6149621376])]
+Run SDD for benchmarks/suite1/mercedes/C202_FS.cnf
+Run DNNF for benchmarks/suite1/mercedes/C202_FS.cnf
+Obtained result: [SDD: ([19067305984]), DNNF: ([9393355176])]
+Run SDD for benchmarks/suite1/mercedes/C210_FS.cnf
+Run DNNF for benchmarks/suite1/mercedes/C210_FS.cnf
+Obtained result: [SDD: ([12435846784]), DNNF: ([10385096704])]
+Run SDD for benchmarks/suite1/mercedes/C638_FKA.cnf
+Run DNNF for benchmarks/suite1/mercedes/C638_FKA.cnf
+Obtained result: [SDD: ([558377248]), DNNF: ([461564928])]
+Run SDD for benchmarks/suite1/mercedes/C170_FR.cnf
+Run DNNF for benchmarks/suite1/mercedes/C170_FR.cnf
+Obtained result: [SDD: ([13044285440]), DNNF: ([6819938304])]
+Run SDD for benchmarks/suite1/mercedes/C203_FCL.cnf
+Run DNNF for benchmarks/suite1/mercedes/C203_FCL.cnf
+Obtained result: [SDD: ([1282483528]), DNNF: ([1472504280])]
+Run SDD for benchmarks/suite1/mercedes/C638_FKB.cnf
+Run DNNF for benchmarks/suite1/mercedes/C638_FKB.cnf
+Obtained result: [SDD: ([10036741968]), DNNF: ([346805000])]
+Run SDD for benchmarks/suite1/mercedes/C129_FR.cnf
+Run DNNF for benchmarks/suite1/mercedes/C129_FR.cnf
+Obtained result: [SDD: ([4159013472]), DNNF: ([1129777984])]
+Run SDD for benchmarks/suite1/mercedes/C210_FW.cnf
+Run DNNF for benchmarks/suite1/mercedes/C210_FW.cnf
+Obtained result: [SDD: ([14923333632]), DNNF: ([5517270288])]
+Run SDD for benchmarks/suite1/mercedes/C202_FW.cnf
+Run DNNF for benchmarks/suite1/mercedes/C202_FW.cnf
+Obtained result: [SDD: ([8070687616]), DNNF: ([1818159352])]
+Run SDD for benchmarks/suite1/mercedes/C215_FC.cnf
+Run DNNF for benchmarks/suite1/mercedes/C215_FC.cnf
+Obtained result: [SDD: ([13442547360]), DNNF: ([1559438752])]
+Run SDD for benchmarks/suite1/mercedes/C169_FW.cnf
+Run DNNF for benchmarks/suite1/mercedes/C169_FW.cnf
+Obtained result: [SDD: ([53528904]), DNNF: ([13446288])]
+Run SDD for benchmarks/suite1/mercedes/C169_FV.cnf
+Run DNNF for benchmarks/suite1/mercedes/C169_FV.cnf
+Obtained result: [SDD: ([20478360]), DNNF: ([8772408])]
+Run SDD for benchmarks/suite1/mercedes/C209_FC.cnf
+Run DNNF for benchmarks/suite1/mercedes/C209_FC.cnf
+Obtained result: [SDD: ([490945416]), DNNF: ([389694808])]
+Run SDD for benchmarks/suite1/mercedes/C250_FW.cnf
+Run DNNF for benchmarks/suite1/mercedes/C250_FW.cnf
+Obtained result: [SDD: ([36541128]), DNNF: ([19622296])]
+Run SDD for benchmarks/suite1/mercedes/C209_FA.cnf
+Run DNNF for benchmarks/suite1/mercedes/C209_FA.cnf
+Obtained result: [SDD: ([223691536]), DNNF: ([351591648])]
+Run SDD for benchmarks/suite1/mercedes/C250_FV.cnf
+Run DNNF for benchmarks/suite1/mercedes/C250_FV.cnf
+Obtained result: [SDD: ([56832240]), DNNF: ([29541424])]
+Run SDD for benchmarks/suite1/mercedes/C171_FR.cnf
+Run DNNF for benchmarks/suite1/mercedes/C171_FR.cnf
+Obtained result: [SDD: ([525040608]), DNNF: ([146905056])]
+Run SDD for benchmarks/suite1/mercedes/C210_FVF.cnf
+Run DNNF for benchmarks/suite1/mercedes/C210_FVF.cnf
+Obtained result: [SDD: ([721671920]), DNNF: ([476631328])]
+Run SDD for benchmarks/suite1/mercedes/C203_FS.cnf
+Run DNNF for benchmarks/suite1/mercedes/C203_FS.cnf
+Obtained result: [SDD: ([3753254848]), DNNF: ([1910075432])]
+Run SDD for benchmarks/suite1/mercedes/C211_FS.cnf
+Run DNNF for benchmarks/suite1/mercedes/C211_FS.cnf
+Obtained result: [SDD: ([237821560]), DNNF: ([28791632])]
+Run SDD for benchmarks/suite1/mercedes/C211_FW.cnf
+Run DNNF for benchmarks/suite1/mercedes/C211_FW.cnf
+Obtained result: [SDD: ([13228834816]), DNNF: ([429847664])]
+Run SDD for benchmarks/suite1/mercedes/C203_FW.cnf
+Run DNNF for benchmarks/suite1/mercedes/C203_FW.cnf
+Obtained result: [SDD: ([4014623168]), DNNF: ([2852054272])]
+Run SDD for benchmarks/suite1/mercedes/C163_FW.cnf
+Run DNNF for benchmarks/suite1/mercedes/C163_FW.cnf
+Obtained result: [SDD: ([570414400]), DNNF: ([455545896])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c20_d01.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c20_d01.txt
+Obtained result: [SDD: ([139217144]), DNNF: ([297350272])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c30_d01.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c30_d01.txt
+Obtained result: [SDD: ([130607880]), DNNF: ([244390920])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_d001/auto4_s2_c40_d01.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_d001/auto4_s2_c40_d01.txt
+Obtained result: [SDD: ([68205584]), DNNF: ([37088680])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c30_d01.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c30_d01.txt
+Obtained result: [SDD: ([234949632]), DNNF: ([75757456])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c50_d01.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c50_d01.txt
+Obtained result: [SDD: ([193366904]), DNNF: ([175700640])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c40_d01.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c40_d01.txt
+Obtained result: [SDD: ([393090784]), DNNF: ([369510960])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_d001/auto6_s2_c40_d01.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_d001/auto6_s2_c40_d01.txt
+Obtained result: [SDD: ([139390864]), DNNF: ([160935992])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_d001/auto6_s2_c50_d01.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_d001/auto6_s2_c50_d01.txt
+Obtained result: [SDD: ([432906528]), DNNF: ([212946056])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c50_d01.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c50_d01.txt
+Obtained result: [SDD: ([241392192]), DNNF: ([147267712])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c40_d01.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c40_d01.txt
+Obtained result: [SDD: ([441083664]), DNNF: ([543399376])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c10_d01.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c10_d01.txt
+Obtained result: [SDD: ([161718944]), DNNF: ([287142712])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_d001/auto5_s2_c60_d01.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_d001/auto5_s2_c60_d01.txt
+Obtained result: [SDD: ([506510000]), DNNF: ([431173032])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c10_d01.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c10_d01.txt
+Obtained result: [SDD: ([121490640]), DNNF: ([316457664])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_d001/auto4_s2_c60_d01.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_d001/auto4_s2_c60_d01.txt
+Obtained result: [SDD: ([57767672]), DNNF: ([126038800])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c60_d01.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c60_d01.txt
+Obtained result: [SDD: ([886077392]), DNNF: ([681314320])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_d001/auto6_s2_c60_d01.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_d001/auto6_s2_c60_d01.txt
+Obtained result: [SDD: ([368346624]), DNNF: ([318739568])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c05_d05.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c05_d05.txt
+Obtained result: [SDD: ([65989240]), DNNF: ([29331368])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c15_d15.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c15_d15.txt
+Obtained result: [SDD: ([267422120]), DNNF: ([366609088])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c25_d25.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c25_d25.txt
+Obtained result: [SDD: ([2872394928]), DNNF: ([3255044096])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c05_d05.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c05_d05.txt
+Obtained result: [SDD: ([519860608]), DNNF: ([200236104])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c15_d15.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c15_d15.txt
+Obtained result: [SDD: ([71775904]), DNNF: ([233970880])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c25_d25.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c25_d25.txt
+Obtained result: [SDD: ([8536671728]), DNNF: ([5656399968])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c25_d25.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c25_d25.txt
+Obtained result: [SDD: ([14780353776]), DNNF: ([3396527864])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c05_d05.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c05_d05.txt
+Obtained result: [SDD: ([54964096]), DNNF: ([170221368])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c15_d15.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c15_d15.txt
+Obtained result: [SDD: ([410689976]), DNNF: ([311235448])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c05_d05.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c05_d05.txt
+Obtained result: [SDD: ([219572520]), DNNF: ([157765720])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c15_d15.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c15_d15.txt
+Obtained result: [SDD: ([67275440]), DNNF: ([89268176])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c25_d25.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c25_d25.txt
+Obtained result: [SDD: ([5255454272]), DNNF: ([2752894560])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c15_d15.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c15_d15.txt
+Obtained result: [SDD: ([839499896]), DNNF: ([1069871104])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c25_d25.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c25_d25.txt
+Obtained result: [SDD: ([183893736]), DNNF: ([185207120])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c15_d15.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c15_d15.txt
+Obtained result: [SDD: ([10362449952]), DNNF: ([5662782288])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c05_d05.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c05_d05.txt
+Obtained result: [SDD: ([241398472]), DNNF: ([152478920])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c15_d15.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c15_d15.txt
+Obtained result: [SDD: ([571164968]), DNNF: ([509185128])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c05_d05.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c05_d05.txt
+Obtained result: [SDD: ([633266728]), DNNF: ([510000224])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c25_d25.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c25_d25.txt
+Obtained result: [SDD: ([587941448]), DNNF: ([771649088])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c05_d05.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c05_d05.txt
+Obtained result: [SDD: ([330454088]), DNNF: ([313395080])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c25_d25.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c25_d25.txt
+Obtained result: [SDD: ([480164168]), DNNF: ([200476872])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c10_d10.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c10_d10.txt
+Obtained result: [SDD: ([715543360]), DNNF: ([875371096])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c20_d20.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c20_d20.txt
+Obtained result: [SDD: ([17059181616]), DNNF: ([3054179784])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c10_d10.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c10_d10.txt
+Obtained result: [SDD: ([1525451296]), DNNF: ([1592377048])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c20_d20.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c20_d20.txt
+Obtained result: [SDD: ([137349864]), DNNF: ([151796096])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c20_d20.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c20_d20.txt
+Obtained result: [SDD: ([645935264]), DNNF: ([575707016])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c10_d10.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c10_d10.txt
+Obtained result: [SDD: ([382305000]), DNNF: ([636720656])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c20_d20.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c20_d20.txt
+Obtained result: [SDD: ([194918000]), DNNF: ([92870632])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c20_d20.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c20_d20.txt
+Obtained result: [SDD: ([13824247672]), DNNF: ([4357175512])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c10_d10.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c10_d10.txt
+Obtained result: [SDD: ([240290896]), DNNF: ([167481624])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c20_d20.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c20_d20.txt
+Obtained result: [SDD: ([5350242048]), DNNF: ([5653921792])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c10_d10.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c10_d10.txt
+Obtained result: [SDD: ([188492384]), DNNF: ([119430624])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c10_d10.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c10_d10.txt
+Obtained result: [SDD: ([396852928]), DNNF: ([188783456])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c20_d20.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c20_d20.txt
+Obtained result: [SDD: ([1406238056]), DNNF: ([1502613376])]
+Run SDD for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c10_d10.txt
+Run DNNF for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c10_d10.txt
+Obtained result: [SDD: ([258332480]), DNNF: ([63170488])]
+Run SDD for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d30.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d30.txt
+Obtained result: [SDD: ([17391548256]), DNNF: ([6311294632])]
+Run SDD for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d50.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d50.txt
+Obtained result: [SDD: ([266835640]), DNNF: ([127944168])]
+Run SDD for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d40.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d40.txt
+Obtained result: [SDD: ([1699916816]), DNNF: ([726538864])]
+Run SDD for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d30.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d30.txt
+Obtained result: [SDD: ([718066264]), DNNF: ([457335920])]
+Run SDD for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d20.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d20.txt
+Obtained result: [SDD: ([22026540376]), DNNF: ([6599198968])]
+Run SDD for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d20.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d20.txt
+Obtained result: [SDD: ([617543992]), DNNF: ([374784488])]
+Run SDD for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d50.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d50.txt
+Obtained result: [SDD: ([18031216296]), DNNF: ([7822812096])]
+Run SDD for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d40.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d40.txt
+Obtained result: [SDD: ([1214737664]), DNNF: ([826009424])]
+Run SDD for benchmarks/suite1/automotive/auto_c001_dn/auto4_s1_c01_d20.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto4_s1_c01_d20.txt
+Obtained result: [SDD: ([292454752]), DNNF: ([56808960])]
+Run SDD for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d30.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d30.txt
+Obtained result: [SDD: ([134559688]), DNNF: ([106568440])]
+Run SDD for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d50.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d50.txt
+Obtained result: [SDD: ([27111857256]), DNNF: ([4309561600])]
+Run SDD for benchmarks/suite1/automotive/auto_c001_dn/auto3_s1_c01_d20.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto3_s1_c01_d20.txt
+Obtained result: [SDD: ([331105480]), DNNF: ([251712992])]
+Run SDD for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d40.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d40.txt
+Obtained result: [SDD: ([2603197640]), DNNF: ([5871580288])]
+Run SDD for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d20.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d20.txt
+Obtained result: [SDD: ([207896040]), DNNF: ([284367720])]
+Run SDD for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d50.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d50.txt
+Obtained result: [SDD: ([479761888]), DNNF: ([364903920])]
+Run SDD for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d40.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d40.txt
+Obtained result: [SDD: ([6901189640]), DNNF: ([6752028344])]
+Run SDD for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d10.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d10.txt
+Obtained result: [SDD: ([80311016]), DNNF: ([502973672])]
+Run SDD for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d60.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d60.txt
+Obtained result: [SDD: ([1743425176]), DNNF: ([846981584])]
+Run SDD for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d60.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d60.txt
+Obtained result: [SDD: ([8264411240]), DNNF: ([6870269952])]
+Run SDD for benchmarks/suite1/automotive/auto_c001_dn/auto3_s1_c01_d10.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto3_s1_c01_d10.txt
+Obtained result: [SDD: ([352164064]), DNNF: ([68046784])]
+Run SDD for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d60.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d60.txt
+Obtained result: [SDD: ([18426505144]), DNNF: ([9201053920])]
+Run SDD for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d10.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d10.txt
+Obtained result: [SDD: ([199292976]), DNNF: ([141234464])]
+Run SDD for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d10.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d10.txt
+Obtained result: [SDD: ([712149304]), DNNF: ([613195160])]
+Run SDD for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d10.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d10.txt
+Obtained result: [SDD: ([185467264]), DNNF: ([361196048])]
+Run SDD for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d60.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d60.txt
+Obtained result: [SDD: ([1643127424]), DNNF: ([889114808])]
+Run SDD for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v02.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v02.txt
+Obtained result: [SDD: ([116230360]), DNNF: ([80906824])]
+Run SDD for benchmarks/suite1/automotive/auto_c001_d001/auto3_s0_c01_d01_v09.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_d001/auto3_s0_c01_d01_v09.txt
+Obtained result: [SDD: ([61053864]), DNNF: ([46317848])]
+Run SDD for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v01.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v01.txt
+Obtained result: [SDD: ([71660800]), DNNF: ([42907304])]
+Run SDD for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v00.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v00.txt
+Obtained result: [SDD: ([80819272]), DNNF: ([62913608])]
+Run SDD for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v04.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v04.txt
+Obtained result: [SDD: ([68948000]), DNNF: ([73498280])]
+Run SDD for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v05.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v05.txt
+Obtained result: [SDD: ([71085440]), DNNF: ([138278448])]
+Run SDD for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v07.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v07.txt
+Obtained result: [SDD: ([53245568]), DNNF: ([30458840])]
+Run SDD for benchmarks/suite1/automotive/auto_c001_d001/auto2_s0_c01_d01_v03.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_d001/auto2_s0_c01_d01_v03.txt
+Obtained result: [SDD: ([28656312]), DNNF: ([21955832])]
+Run SDD for benchmarks/suite1/automotive/auto_c001_d001/auto2_s0_c01_d01_v02.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_d001/auto2_s0_c01_d01_v02.txt
+Obtained result: [SDD: ([27329688]), DNNF: ([22665224])]
+Run SDD for benchmarks/suite1/automotive/auto_c001_d001/auto0_s0_c01_d01_v08.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_d001/auto0_s0_c01_d01_v08.txt
+Obtained result: [SDD: ([137615560]), DNNF: ([33178432])]
+Run SDD for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v06.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v06.txt
+Obtained result: [SDD: ([244626640]), DNNF: ([58443976])]
+Run SDD for benchmarks/suite1/automotive/auto_c001_d001/auto6_s0_c01_d01_v09.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_d001/auto6_s0_c01_d01_v09.txt
+Obtained result: [SDD: ([65937328]), DNNF: ([48200736])]
+Run SDD for benchmarks/suite1/automotive/auto_c001_d001/auto6_s0_c01_d01_v02.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_d001/auto6_s0_c01_d01_v02.txt
+Obtained result: [SDD: ([65319128]), DNNF: ([41537112])]
+Run SDD for benchmarks/suite1/automotive/auto_c001_d001/auto5_s0_c01_d01_v02.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_d001/auto5_s0_c01_d01_v02.txt
+Obtained result: [SDD: ([64132976]), DNNF: ([29948992])]
+Run SDD for benchmarks/suite1/automotive/auto_c001_d001/auto6_s0_c01_d01_v05.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_d001/auto6_s0_c01_d01_v05.txt
+Obtained result: [SDD: ([69847504]), DNNF: ([95387400])]
+Run SDD for benchmarks/suite1/automotive/auto_c001_d001/auto0_s0_c01_d01_v05.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_d001/auto0_s0_c01_d01_v05.txt
+Obtained result: [SDD: ([132837744]), DNNF: ([32251072])]
+Run SDD for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v08.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v08.txt
+Obtained result: [SDD: ([52391120]), DNNF: ([88329520])]
+Run SDD for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v09.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v09.txt
+Obtained result: [SDD: ([82215992]), DNNF: ([34464992])]
+Run SDD for benchmarks/suite1/automotive/auto_c001_d001/auto2_s0_c01_d01_v08.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_d001/auto2_s0_c01_d01_v08.txt
+Obtained result: [SDD: ([47148624]), DNNF: ([24254824])]
+Run SDD for benchmarks/suite1/automotive/auto_c001_d001/auto0_s0_c01_d01_v02.txt
+Run DNNF for benchmarks/suite1/automotive/auto_c001_d001/auto0_s0_c01_d01_v02.txt
+Obtained result: [SDD: ([89841392]), DNNF: ([31193168])]

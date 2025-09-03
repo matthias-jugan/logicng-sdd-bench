@@ -1,4 +1,4 @@
-package com.booleworks.logicng_sdd_bench.experiments;
+package com.booleworks.logicng_sdd_bench.experiments.compilation;
 
 import com.booleworks.logicng.formulas.Formula;
 import com.booleworks.logicng.formulas.FormulaFactory;
@@ -8,6 +8,7 @@ import com.booleworks.logicng.knowledgecompilation.sdd.compilers.SddCompiler;
 import com.booleworks.logicng.knowledgecompilation.sdd.compilers.SddCompilerConfig;
 import com.booleworks.logicng_sdd_bench.Logger;
 import com.booleworks.logicng_sdd_bench.Util;
+import com.booleworks.logicng_sdd_bench.experiments.Experiment;
 import com.booleworks.logicng_sdd_bench.trackers.CompilationTracker;
 
 import java.util.function.Supplier;
@@ -28,7 +29,7 @@ public class CompileSddExperiment implements Experiment<Formula, CompilationTrac
                                       final Supplier<ComputationHandler> handler) {
         final CompilationTracker tracker = new CompilationTracker(handler.get());
         tracker.setFormulaVariableCount(input.variables(f).size());
-        final var c = config.get().originalFormula(input).build();
+        final var c = config.get().build();
         final var result = SddCompiler.compile(input.cnf(f), c, f, tracker);
         if (result.isSuccess()) {
             tracker.done();

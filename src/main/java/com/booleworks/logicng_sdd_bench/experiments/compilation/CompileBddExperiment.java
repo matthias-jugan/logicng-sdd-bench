@@ -1,4 +1,4 @@
-package com.booleworks.logicng_sdd_bench.experiments;
+package com.booleworks.logicng_sdd_bench.experiments.compilation;
 
 import com.booleworks.logicng.formulas.FType;
 import com.booleworks.logicng.formulas.Formula;
@@ -13,6 +13,7 @@ import com.booleworks.logicng.knowledgecompilation.bdds.orderings.ForceOrdering;
 import com.booleworks.logicng.predicates.satisfiability.SatPredicate;
 import com.booleworks.logicng_sdd_bench.Logger;
 import com.booleworks.logicng_sdd_bench.Util;
+import com.booleworks.logicng_sdd_bench.experiments.Experiment;
 import com.booleworks.logicng_sdd_bench.trackers.CompilationTracker;
 
 import java.util.List;

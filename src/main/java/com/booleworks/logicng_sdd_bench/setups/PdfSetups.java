@@ -11,10 +11,10 @@ import com.booleworks.logicng_sdd_bench.Logger;
 import com.booleworks.logicng_sdd_bench.Pdf;
 import com.booleworks.logicng_sdd_bench.PdfExport;
 import com.booleworks.logicng_sdd_bench.Util;
-import com.booleworks.logicng_sdd_bench.experiments.CompileSddExperiment;
 import com.booleworks.logicng_sdd_bench.experiments.ExperimentEntry;
 import com.booleworks.logicng_sdd_bench.experiments.ExperimentGroup;
-import com.booleworks.logicng_sdd_bench.experiments.PcSddExperiment;
+import com.booleworks.logicng_sdd_bench.experiments.compilation.CompileSddExperiment;
+import com.booleworks.logicng_sdd_bench.experiments.compilation.PcSddExperiment;
 import com.booleworks.logicng_sdd_bench.experiments.problems.ProblemFunction;
 import com.booleworks.logicng_sdd_bench.experiments.problems.ProjectionProblem;
 
@@ -26,8 +26,7 @@ import java.util.stream.Collectors;
 
 public class PdfSetups {
     public static void compileCnfEncoding(final List<InputFile> inputs, final List<String> arguments,
-                                          final Logger logger,
-                                          final Supplier<ComputationHandler> handler) {
+                                          final Logger logger, final Supplier<ComputationHandler> handler) {
         final ProblemFunction<Formula> pureEncoding = (input, f) -> {
             final var formula = input instanceof Input.Pdf
                                 ? PdfExport.applyRestrictions(((Input.Pdf) input).pdf(), arguments, f)

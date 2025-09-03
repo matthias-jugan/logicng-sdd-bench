@@ -1,4 +1,4 @@
-package com.booleworks.logicng_sdd_bench.experiments;
+package com.booleworks.logicng_sdd_bench.experiments.compilation;
 
 import com.booleworks.logicng.formulas.FormulaFactory;
 import com.booleworks.logicng.handlers.ComputationHandler;
@@ -8,6 +8,7 @@ import com.booleworks.logicng.knowledgecompilation.sdd.compilers.SddCompiler;
 import com.booleworks.logicng.knowledgecompilation.sdd.compilers.SddCompilerConfig;
 import com.booleworks.logicng_sdd_bench.Logger;
 import com.booleworks.logicng_sdd_bench.Util;
+import com.booleworks.logicng_sdd_bench.experiments.Experiment;
 import com.booleworks.logicng_sdd_bench.experiments.problems.ProjectionProblem;
 import com.booleworks.logicng_sdd_bench.trackers.CompilationTracker;
 import com.booleworks.logicng_sdd_bench.trackers.SimpleCounter;

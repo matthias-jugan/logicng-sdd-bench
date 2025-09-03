@@ -20,9 +20,9 @@ import java.util.function.Supplier;
 import java.util.stream.Collectors;
 
 public class ExperimentGroup<E extends ExperimentResult> {
+    public static InputFile DIRTY_HACK_CURRENT_FILE = null;
     final static FormulaFactoryConfig CONFIG = FormulaFactoryConfig.builder().name("BENCH").build();
     List<ExperimentEntry<?, ? extends E>> experiments;
-
 
     public ExperimentGroup(final List<ExperimentEntry<?, ? extends E>> experiments) {
         this.experiments = experiments;
@@ -40,6 +40,7 @@ public class ExperimentGroup<E extends ExperimentResult> {
                                                                          final ValidationFunction<E> validationFunction) {
         final LinkedHashMap<InputFile, MergeResult<E>> results = new LinkedHashMap<>();
         for (final InputFile inputFile : inputFiles) {
+            DIRTY_HACK_CURRENT_FILE = inputFile;
             final List<Pair<String, E>> innerResults = new ArrayList<>();
             if (inputFile == inputFiles.getFirst()) {
                 logger.event("Warmup");

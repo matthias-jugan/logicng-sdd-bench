@@ -1,0 +1,11 @@
+-f
+suite1/automotive/auto_c001_d001/auto0_s0_c01_d01_v08.txt
+suite1/automotive/auto_cn_d001/auto0_s2_c40_d01.txt
+suite1/automotive/auto_c001_dn/auto1_s1_c01_d10.txt
+suite1/automotive/auto_cn_dn/auto1_s2_c05_d05.txt
+suite1/automotive/auto_cn_d001/auto1_s2_c60_d01.txt
+suite1/automotive/auto_c001_dn/auto5_s1_c01_d40.txt
+suite1/automotive/auto_cn_dn/auto5_s2_c25_d25.txt
+suite1/automotive/auto_cn_dn/auto6_s2_c15_d15.txt
+suite1/mercedes/C171_FR.cnf
+suite1/mercedes/C203_FW.cnf

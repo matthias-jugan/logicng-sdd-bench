@@ -8,7 +8,6 @@ import com.booleworks.logicng.knowledgecompilation.sdd.compilers.SddCompiler;
 import com.booleworks.logicng.knowledgecompilation.sdd.compilers.SddCompilerConfig;
 import com.booleworks.logicng.knowledgecompilation.sdd.datastructures.Sdd;
 import com.booleworks.logicng.knowledgecompilation.sdd.datastructures.SddCompilationResult;
-import com.booleworks.logicng.knowledgecompilation.sdd.datastructures.vtree.DecisionVTreeGenerator;
 import com.booleworks.logicng.knowledgecompilation.sdd.functions.SddModelCountFunction;
 import com.booleworks.logicng_sdd_bench.Logger;
 import com.booleworks.logicng_sdd_bench.Util;
@@ -32,10 +31,7 @@ public class PmcPcSddExperiment implements Experiment<ProjectionProblem, ModelCo
                 .stream()
                 .filter(v -> !input.quantifiedVariables().contains(v)).collect(Collectors.toSet());
         projectedVariables.addAll(input.projectedVariables());
-        final var config = SddCompilerConfig.builder()
-                .variables(input.projectedVariables())
-                .prioritizationStrategy(DecisionVTreeGenerator.PrioritizationStrategy.NONE)
-                .build();
+        final var config = SddCompilerConfig.builder().variables(input.projectedVariables()).build();
         final var compiledResult = SddCompiler.compile(cnf, config, f, handler.get());
         tracker.end("Compilation");
         if (!compiledResult.isSuccess()) {

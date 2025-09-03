@@ -5,7 +5,6 @@ import com.booleworks.logicng.formulas.FormulaFactory;
 import com.booleworks.logicng.handlers.ComputationHandler;
 import com.booleworks.logicng.handlers.LngResult;
 import com.booleworks.logicng.knowledgecompilation.sdd.compilers.SddCompilerConfig;
-import com.booleworks.logicng.knowledgecompilation.sdd.datastructures.vtree.DecisionVTreeGenerator;
 import com.booleworks.logicng.transformations.PureExpansionTransformation;
 import com.booleworks.logicng.transformations.cnf.CnfConfig;
 import com.booleworks.logicng.transformations.cnf.CnfEncoder;
@@ -17,8 +16,7 @@ import java.util.function.Supplier;
 public class Util {
     public final static Supplier<SddCompilerConfig.Builder> DEFAULT_COMPILER_CONFIG = () -> SddCompilerConfig.builder()
             .compiler(SddCompilerConfig.Compiler.TOP_DOWN)
-            .inputSimplification(true)
-            .prioritizationStrategy(DecisionVTreeGenerator.PrioritizationStrategy.NONE);
+            .preprocessing(true);
 
     public static Formula encodeAsPureCnf(final FormulaFactory f, final Formula formula) {
         final PureExpansionTransformation expander = new PureExpansionTransformation(f);
@@ -40,4 +38,7 @@ public class Util {
         return backboneSimplified.getResult().transform(new CnfSubsumption(f), handler);
     }
 
+    public static long getHeapSize() {
+        return Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory();
+    }
 }

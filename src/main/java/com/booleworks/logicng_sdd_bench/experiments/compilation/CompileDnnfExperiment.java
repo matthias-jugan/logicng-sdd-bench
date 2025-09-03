@@ -1,4 +1,4 @@
-package com.booleworks.logicng_sdd_bench.experiments;
+package com.booleworks.logicng_sdd_bench.experiments.compilation;
 
 import com.booleworks.logicng.formulas.FType;
 import com.booleworks.logicng.formulas.Formula;
@@ -8,6 +8,7 @@ import com.booleworks.logicng.handlers.LngResult;
 import com.booleworks.logicng.knowledgecompilation.dnnf.DnnfCompiler;
 import com.booleworks.logicng.knowledgecompilation.dnnf.datastructures.Dnnf;
 import com.booleworks.logicng_sdd_bench.Logger;
+import com.booleworks.logicng_sdd_bench.experiments.Experiment;
 import com.booleworks.logicng_sdd_bench.trackers.CompilationTracker;
 
 import java.util.HashSet;

@@ -1,9 +1,8 @@
 package com.booleworks.logicng_sdd_bench.experiments.enumeration;
 
-import com.booleworks.logicng.formulas.Formula;
 import com.booleworks.logicng.formulas.FormulaFactory;
+import com.booleworks.logicng.formulas.Variable;
 import com.booleworks.logicng.handlers.ComputationHandler;
-import com.booleworks.logicng.handlers.NumberOfModelsHandler;
 import com.booleworks.logicng.knowledgecompilation.sdd.compilers.SddCompiler;
 import com.booleworks.logicng.knowledgecompilation.sdd.compilers.SddCompilerConfig;
 import com.booleworks.logicng.knowledgecompilation.sdd.datastructures.Sdd;
@@ -15,15 +14,16 @@ import com.booleworks.logicng_sdd_bench.experiments.Experiment;
 import com.booleworks.logicng_sdd_bench.experiments.problems.ProjectionProblem;
 import com.booleworks.logicng_sdd_bench.experiments.results.ModelEnumerationResult;
 import com.booleworks.logicng_sdd_bench.trackers.HandlerGroup;
-import com.booleworks.logicng_sdd_bench.trackers.SegmentedTimeTracker;
 
 import java.util.List;
+import java.util.Set;
 import java.util.function.Supplier;
 
 public class EnumerationSddExperiment implements Experiment<ProjectionProblem, ModelEnumerationResult> {
     final Supplier<SddCompilerConfig.Builder> config;
     final int limit;
     boolean withAddVars = false;
+    boolean encodePure = true;
 
     public EnumerationSddExperiment(final int limit, final Supplier<SddCompilerConfig.Builder> config) {
         this.config = config;
@@ -39,46 +39,39 @@ public class EnumerationSddExperiment implements Experiment<ProjectionProblem, M
         this.withAddVars = withAddVars;
     }
 
+    public EnumerationSddExperiment withPureEncoding(final boolean pureEncoding) {
+        this.encodePure = pureEncoding;
+        return this;
+    }
+
     @Override
     public ModelEnumerationResult execute(final ProjectionProblem input, final FormulaFactory f, final Logger logger,
                                           final Supplier<ComputationHandler> handler) {
         final int numberVars = input.projectedVariables().size();
-        final int additionalVars = 0;
-        final SegmentedTimeTracker tracker = new SegmentedTimeTracker();
-        final ComputationHandler h = handler.get();
-        final Formula cnf = Util.encodeAsPureCnf(f, input.formula());
-        tracker.start();
+        final Set<Variable> additionalVars = withAddVars ? input.quantifiedVariables() : Set.of();
+        final var h = handler.get();
+        final var countTracker = new ModelEnumerationResult(true, limit, numberVars, additionalVars.size());
+        final var handlers = new HandlerGroup(List.of(countTracker, h));
+        final var cnf = encodePure ? Util.encodeAsPureCnf(f, input.formula()) : input.formula().cnf(f);
         final var c = config.get().build();
         final var compiled = SddCompiler.compile(cnf, c, f, h);
         if (!compiled.isSuccess()) {
-            tracker.timeout();
-            return new ModelEnumerationResult(limit, -1, null, tracker, numberVars, additionalVars);
+            return countTracker;
         }
+        countTracker.addCount(0);
         final Sdd sdd = compiled.getResult().getSdd();
         final SddNode node = compiled.getResult().getNode();
-        tracker.end("Compilation");
 
-        final ComputationHandler meHandler;
-        if (limit > 0) {
-            final var modelLimitHandler = new NumberOfModelsHandler(limit);
-            meHandler = new HandlerGroup(List.of(h, modelLimitHandler));
-        } else {
-            meHandler = h;
-        }
         var meFuncB = SddModelEnumerationFunction.builder(input.projectedVariables(), sdd);
         if (withAddVars) {
-            meFuncB = meFuncB.additionalVariables(input.quantifiedVariables());
+            meFuncB = meFuncB.additionalVariables(additionalVars);
         }
         final var meFunc = meFuncB.build();
 
-        final var models = node.execute(meFunc, meHandler);
+        final var models = node.execute(meFunc, handlers);
         if (models.isSuccess() || models.isPartial()) {
-            tracker.end("Enumeration");
-        } else {
-            tracker.timeout();
-            return new ModelEnumerationResult(limit, -1, null, tracker, numberVars, additionalVars);
+            countTracker.addCount(models.getPartialResult().size());
         }
-        return new ModelEnumerationResult(limit, models.getPartialResult().size(),
-                null, tracker, numberVars, additionalVars);
+        return countTracker;
     }
 }

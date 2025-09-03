@@ -2,19 +2,18 @@ package com.booleworks.logicng_sdd_bench.setups;
 
 import com.booleworks.logicng.handlers.ComputationHandler;
 import com.booleworks.logicng.knowledgecompilation.sdd.compilers.SddCompilerConfig;
-import com.booleworks.logicng.knowledgecompilation.sdd.datastructures.vtree.DecisionVTreeGenerator;
 import com.booleworks.logicng_sdd_bench.InputFile;
 import com.booleworks.logicng_sdd_bench.Logger;
-import com.booleworks.logicng_sdd_bench.experiments.CompileBddExperiment;
-import com.booleworks.logicng_sdd_bench.experiments.CompileDnnfExperiment;
-import com.booleworks.logicng_sdd_bench.experiments.CompileSddBUExperiment;
-import com.booleworks.logicng_sdd_bench.experiments.CompileSddExperiment;
 import com.booleworks.logicng_sdd_bench.experiments.ExperimentEntry;
 import com.booleworks.logicng_sdd_bench.experiments.ExperimentGroup;
-import com.booleworks.logicng_sdd_bench.experiments.PcSddExperiment;
 import com.booleworks.logicng_sdd_bench.experiments.SddCompProgressExperiment;
+import com.booleworks.logicng_sdd_bench.experiments.compilation.CompileBddExperiment;
+import com.booleworks.logicng_sdd_bench.experiments.compilation.CompileDnnfExperiment;
+import com.booleworks.logicng_sdd_bench.experiments.compilation.CompileDnnfMeasureHeap;
+import com.booleworks.logicng_sdd_bench.experiments.compilation.CompileSddBUExperiment;
+import com.booleworks.logicng_sdd_bench.experiments.compilation.CompileSddExperiment;
+import com.booleworks.logicng_sdd_bench.experiments.compilation.CompileSddMeasureHeap;
 import com.booleworks.logicng_sdd_bench.experiments.problems.ProblemFunction;
-import com.booleworks.logicng_sdd_bench.experiments.problems.ProjectionProblem;
 import com.booleworks.logicng_sdd_bench.experiments.results.ExperimentResult;
 import com.booleworks.logicng_sdd_bench.trackers.CompilationTracker;
 
@@ -45,6 +44,14 @@ public class CompilationSetups {
                 new ExperimentEntry<>("SDD (BU)", new CompileSddBUExperiment(), ProblemFunction::id),
                 new ExperimentEntry<>("BDD (BU)", new CompileBddExperiment(), ProblemFunction::id),
                 new ExperimentEntry<>("DNNF", new CompileDnnfExperiment(), ProblemFunction::id)
+        )).runExperiments(inputs, logger, handler);
+    }
+
+    public static void measureHeap(final List<InputFile> inputs, final List<String> arguments, final Logger logger,
+                                   final Supplier<ComputationHandler> handler) {
+        final var results = new ExperimentGroup<>(List.of(
+                new ExperimentEntry<>("SDD", new CompileSddMeasureHeap(), ProblemFunction::id),
+                new ExperimentEntry<>("DNNF", new CompileDnnfMeasureHeap(), ProblemFunction::id)
         )).runExperiments(inputs, logger, handler);
     }
 
@@ -121,52 +128,15 @@ public class CompilationSetups {
         logger.summary("======");
     }
 
-    public static void projectedCompileStrategies(final List<InputFile> inputs, final List<String> arguments,
-                                                  final Logger logger,
-                                                  final Supplier<ComputationHandler> handler) {
-        final var results = new ExperimentGroup<>(List.of(
-                new ExperimentEntry<>("None",
-                        new PcSddExperiment(
-                                () -> SddCompilerConfig.builder()
-                                        .prioritizationStrategy(DecisionVTreeGenerator.PrioritizationStrategy.NONE)),
-                        ProjectionProblem.quantifyRandom(0.5, 1)),
-                new ExperimentEntry<>("Down",
-                        new PcSddExperiment(
-                                () -> SddCompilerConfig.builder()
-                                        .prioritizationStrategy(
-                                                DecisionVTreeGenerator.PrioritizationStrategy.VAR_DOWN)),
-                        ProjectionProblem.quantifyRandom(0.5, 1)),
-                new ExperimentEntry<>("Up",
-                        new PcSddExperiment(
-                                () -> SddCompilerConfig.builder()
-                                        .prioritizationStrategy(DecisionVTreeGenerator.PrioritizationStrategy.VAR_UP)),
-                        ProjectionProblem.quantifyRandom(0.5, 1))
-        )).runExperiments(inputs, logger, handler);
-    }
-
     public static void compileSimplification(final List<InputFile> inputs, final List<String> arguments,
                                              final Logger logger, final Supplier<ComputationHandler> handler) {
         new ExperimentGroup<>(List.of(
                 new ExperimentEntry<>("Simplified",
-                        new CompileSddExperiment(() -> SddCompilerConfig.builder().inputSimplification(true)),
+                        new CompileSddExperiment(() -> SddCompilerConfig.builder().preprocessing(true)),
                         ProblemFunction::id),
                 new ExperimentEntry<>("Not Simplified",
-                        new CompileSddExperiment(() -> SddCompilerConfig.builder().inputSimplification(false)),
+                        new CompileSddExperiment(() -> SddCompilerConfig.builder().preprocessing(false)),
                         ProblemFunction::id)
-        )).runExperiments(inputs, logger, handler);
-    }
-
-    public static void priorityStrategiesPbc(final List<InputFile> inputs, final List<String> arguments,
-                                             final Logger logger, final Supplier<ComputationHandler> handler) {
-        final Supplier<SddCompilerConfig.Builder> stratNone = () -> SddCompilerConfig
-                .builder()
-                .prioritizationStrategy(DecisionVTreeGenerator.PrioritizationStrategy.NONE);
-        final Supplier<SddCompilerConfig.Builder> stratPbc = () -> SddCompilerConfig
-                .builder()
-                .prioritizationStrategy(DecisionVTreeGenerator.PrioritizationStrategy.PBC_DOWN);
-        final var results = new ExperimentGroup<>(List.of(
-                new ExperimentEntry<>("None", new CompileSddExperiment(stratNone), ProblemFunction::id),
-                new ExperimentEntry<>("Pbc Down", new CompileSddExperiment(stratPbc), ProblemFunction::id)
         )).runExperiments(inputs, logger, handler);
     }
 }

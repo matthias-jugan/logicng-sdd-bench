@@ -19,22 +19,20 @@ public class Setups {
             new Pair<>("compile-all", CompilationSetups::compileAll),
             new Pair<>("compile-sd", CompilationSetups::compileSd),
             new Pair<>("compile-s", CompilationSetups::compileS),
+            new Pair<>("measure-heap", CompilationSetups::measureHeap),
             new Pair<>("compilation-progress", CompilationSetups::compilationProgress),
             new Pair<>("model-counting", ModelCountingSetups::modelCounting),
             new Pair<>("projected-model-counting", ModelCountingSetups::projectedModelCounting),
             new Pair<>("minimize", MinimizationSetups::minimize),
-            new Pair<>("minimize2", MinimizationSetups::minimize2),
-            new Pair<>("compile-cnf", PdfSetups::compileCnfEncoding),
-            new Pair<>("size-per-vtree", OtherSetups::sizePerVTree),
-            new Pair<>("shannon", OtherSetups::shannon),
+            new Pair<>("minimize-dt", MinimizationSetups::minimizeDT),
+            new Pair<>("min-pmc", MinimizationSetups::minPMC),
+            new Pair<>("compile-projected-encoding", ProjectedCompilationSetups::compileProjectedEncoding),
             new Pair<>("pdf-codes", PdfExport::pdfStats),
             new Pair<>("projected-model-enumeration-real", ModelEnumerationSetups::projectedModelEnumerationReal),
             new Pair<>("input-simplification", CompilationSetups::compileSimplification),
             new Pair<>("projected-compile-real", ProjectedCompilationSetups::projectedCompileReal),
             new Pair<>("projected-compile-random", ProjectedCompilationSetups::projectedCompileRandom),
-            new Pair<>("prioritization-strategies-real", ProjectedCompilationSetups::priorityStrategiesReal),
-            new Pair<>("prioritization-strategies-random", ProjectedCompilationSetups::priorityStrategiesRandom),
-            new Pair<>("prioritization-strategies-pbc", CompilationSetups::priorityStrategiesPbc)
+            new Pair<>("recompile", MinimizationSetups::recompile)
     );
 
 }

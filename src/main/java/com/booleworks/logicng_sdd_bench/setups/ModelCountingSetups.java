@@ -8,7 +8,7 @@ import com.booleworks.logicng_sdd_bench.experiments.CountModelsDnnfExperiment;
 import com.booleworks.logicng_sdd_bench.experiments.CountModelsSddExperiment;
 import com.booleworks.logicng_sdd_bench.experiments.ExperimentEntry;
 import com.booleworks.logicng_sdd_bench.experiments.ExperimentGroup;
-import com.booleworks.logicng_sdd_bench.experiments.PmcPcSddExperiment;
+import com.booleworks.logicng_sdd_bench.experiments.PmcNaiveSddExperiment;
 import com.booleworks.logicng_sdd_bench.experiments.problems.ProblemFunction;
 import com.booleworks.logicng_sdd_bench.experiments.results.ModelCountingResult;
 
@@ -54,7 +54,7 @@ public class ModelCountingSetups {
                                               final Logger logger,
                                               final Supplier<ComputationHandler> handler) {
         final var results = new ExperimentGroup<>(List.of(
-                new ExperimentEntry<>("SDD Proj Comp", new PmcPcSddExperiment(),
+                new ExperimentEntry<>("SDD Proj Comp", new PmcNaiveSddExperiment(),
                         ProjectedCompilationSetups.exportedPdfToProjectionProblem)
         )).runExperiments(inputs, logger, handler);
     }

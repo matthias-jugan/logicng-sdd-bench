@@ -15,13 +15,23 @@ import com.booleworks.logicng_sdd_bench.trackers.BenchmarkEvent;
 import com.booleworks.logicng_sdd_bench.trackers.SddSizeTracker;
 import com.booleworks.logicng_sdd_bench.trackers.TrackerGroup;
 
+import java.io.File;
 import java.io.IOException;
-import java.io.StringWriter;
+import java.nio.file.Path;
 import java.util.List;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
 
 public class MinimizeSddExperiment implements Experiment<MinimizationProblem, MinimizeSddExperiment.Result> {
+    final String exportPath;
+
+    public MinimizeSddExperiment(final String exportPath) {
+        this.exportPath = exportPath;
+    }
+
+    public MinimizeSddExperiment() {
+        this.exportPath = null;
+    }
 
     @Override
     public Result execute(final MinimizationProblem input, final FormulaFactory f, final Logger logger,
@@ -30,51 +40,48 @@ public class MinimizeSddExperiment implements Experiment<MinimizationProblem, Mi
         final var sddSizeTracker = new SddSizeTracker();
         final var tracker = new TrackerGroup(List.of(sddSizeTracker), handlerInstance);
         final var compConfig = SddCompilerConfig.builder().build();
-        final var compilationResult = SddCompiler.compile(input.formula().cnf(f), compConfig, f, handlerInstance);
-        if (!compilationResult.isSuccess()) {
-            return new Result(-1, -1, -1, List.of(), null);
-        }
-        final var compilation = compilationResult.getResult();
+        final var compilation = SddCompiler.compile(input.formula().cnf(f), compConfig, f);
         if (compilation.getSdd().getVTreeStack().isEmpty()) {
             sddSizeTracker.getAllSizes().add(new Pair<>(1L, 0L));
-            return new Result(0, 1, 1, sddSizeTracker.getAllSizes(), null);
+            return new Result(0, 1, 1, sddSizeTracker.getAllSizes());
         }
         compilation.getSdd().pin(compilation.getNode());
         final int startSize = compilation.getSdd().getActiveSize();
         sddSizeTracker.getAllSizes().add(new Pair<>((long) startSize, 0L));
         tracker.shouldResume(BenchmarkEvent.START_EXPERIMENT);
-        final var config = new SddMinimizationConfig.Builder(compilation.getSdd())
-                .withAlgorithm(input.alg())
-                .withTotalTimeout(input.timeout())
-                .withOperationTimeout(input.opTimeout())
-                .withNodeLimit(input.nodeLimit())
-                .withUserHandler(tracker)
-                .build();
+        final var config = new SddMinimizationConfig(compilation.getSdd())
+                .totalTimeout(input.timeout())
+                .operationTimeout(input.opTimeout())
+                .nodeLimit(input.nodeLimit())
+                .userHandler(tracker);
         final var minimizedResult = SddMinimization.minimize(config);
         if (minimizedResult.isPartial() || minimizedResult.isSuccess()) {
             tracker.shouldResume(BenchmarkEvent.COMPLETED_EXPERIMENT);
             final int finalSize = compilation.getSdd().getActiveSize();
             sddSizeTracker.getAllSizes().add(new Pair<>((long) finalSize, sddSizeTracker.getCurrentTime()));
-            final StringWriter sw = new StringWriter();
-            try {
-                SddWriter.writeVTree(sw, compilation.getSdd());
-                sw.flush();
-                sw.close();
-            } catch (final IOException e) {
-                throw new RuntimeException(e);
+            if (exportPath != null) {
+                final File file = Path.of(exportPath,
+                                String.format("%s_%s.sdd", ExperimentGroup.DIRTY_HACK_CURRENT_FILE.name(),
+                                        input.alg()))
+                        .toFile();
+                try {
+                    SddWriter.writeSdd(file, minimizedResult.getPartialResult().map(compilation.getNode()),
+                            compilation.getSdd());
+                } catch (final IOException e) {
+                    throw new RuntimeException(e);
+                }
             }
-            return new Result(sddSizeTracker.getTime(), startSize, finalSize, sddSizeTracker.getAllSizes(),
-                    sw.toString());
+            return new Result(sddSizeTracker.getTime(), startSize, finalSize, sddSizeTracker.getAllSizes());
         } else {
             tracker.shouldResume(BenchmarkEvent.ABORTED_EXPERIMENT);
             final int finalSize = compilation.getSdd().getActiveSize();
             sddSizeTracker.getAllSizes().add(new Pair<>((long) finalSize, sddSizeTracker.getCurrentTime()));
-            return new Result(-1, startSize, -1, sddSizeTracker.getAllSizes(), null);
+            return new Result(-1, startSize, -1, sddSizeTracker.getAllSizes());
         }
     }
 
     public record Result(
-            long time, int startSize, int finalSize, List<Pair<Long, Long>> allSizes, String vtreeExport
+            long time, int startSize, int finalSize, List<Pair<Long, Long>> allSizes
     ) implements ExperimentResult {
         @Override
         public List<String> getResult() {

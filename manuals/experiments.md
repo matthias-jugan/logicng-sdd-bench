@@ -67,7 +67,10 @@ random projection problems.
 
 _Related Code_:
 
-- TODO
+- `ProjectionSetups.projectReal`
+- `ProjectionSetups.projectRandom`
+- `PcSddExperiment`
+- `ExElimSddExperiment`
 
 _Setup_:
 
@@ -146,8 +149,8 @@ _Description_: Runs projected compilation and normal projection on real and rand
 
 _Related Code_:
 
-- `ProjectedCompilationSetups.projectedCompileReal`
-- `ProjectedCompilationSetups.projectedCompileRandom`
+- `ProjectionSetups.projectedCompileReal`
+- `ProjectionSetups.projectedCompileRandom`
 - `PcSddExperiment`
 - `ExElimSddExperiment`
 

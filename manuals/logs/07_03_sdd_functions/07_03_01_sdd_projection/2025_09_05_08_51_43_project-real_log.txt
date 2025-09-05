@@ -1,0 +1,153 @@
+Warmup
+Run Project for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c20_d01.txt
+Obtained result: [Project: ([426, <Compilation, 414>, <Quantification, 12>, 29697, 29697, 12835, 40163, 507, 489])]
+Run Project for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c30_d01.txt
+Obtained result: [Project: ([223, <Compilation, 217>, <Quantification, 6>, 20364, 20364, 14876, 32130, 508, 487])]
+Run Project for benchmarks/suite1/automotive/auto_cn_d001/auto4_s2_c40_d01.txt
+Obtained result: [Project: ([126, <Compilation, 125>, <Quantification, 1>, 8296, 8296, 2427, 8967, 450, 440])]
+Run Project for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c30_d01.txt
+Obtained result: [Project: ([180, <Compilation, 176>, <Quantification, 4>, 17400, 17400, 11856, 25810, 509, 491])]
+Run Project for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c50_d01.txt
+Obtained result: [Project: ([576, <Compilation, 542>, <Quantification, 34>, 61722, 61722, 23320, 82802, 528, 491])]
+Run Project for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c40_d01.txt
+Obtained result: [Project: ([601, <Compilation, 566>, <Quantification, 35>, 62534, 62534, 53350, 113733, 523, 490])]
+Run Project for benchmarks/suite1/automotive/auto_cn_d001/auto6_s2_c40_d01.txt
+Obtained result: [Project: ([453, <Compilation, 433>, <Quantification, 20>, 50212, 50212, 30024, 75317, 596, 565])]
+Run Project for benchmarks/suite1/automotive/auto_cn_d001/auto6_s2_c50_d01.txt
+Obtained result: [Project: ([773, <Compilation, 711>, <Quantification, 62>, 71313, 71313, 15507, 82644, 604, 569])]
+Run Project for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c50_d01.txt
+Obtained result: [Project: ([447, <Compilation, 436>, <Quantification, 11>, 24664, 24664, 9845, 31720, 528, 487])]
+Run Project for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c40_d01.txt
+Obtained result: [Project: ([1110, <Compilation, 1039>, <Quantification, 71>, 116752, 116752, 57611, 171770, 541, 506])]
+Run Project for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c10_d01.txt
+Obtained result: [Project: ([242, <Compilation, 219>, <Quantification, 23>, 39460, 39460, 19094, 52693, 497, 491])]
+Run Project for benchmarks/suite1/automotive/auto_cn_d001/auto5_s2_c60_d01.txt
+Obtained result: [Project: ([2318, <Compilation, 2006>, <Quantification, 312>, 355412, 355412, 43895, 397346, 517, 471])]
+Run Project for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c10_d01.txt
+Obtained result: [Project: ([264, <Compilation, 244>, <Quantification, 20>, 23310, 23310, 10799, 31947, 493, 487])]
+Run Project for benchmarks/suite1/automotive/auto_cn_d001/auto4_s2_c60_d01.txt
+Obtained result: [Project: ([153, <Compilation, 152>, <Quantification, 1>, 8838, 8838, 2468, 9576, 453, 438])]
+Run Project for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c60_d01.txt
+Obtained result: [Project: ([6102, <Compilation, 5737>, <Quantification, 365>, 742289, 742289, 143656, 884083, 549, 498])]
+Run Project for benchmarks/suite1/automotive/auto_cn_d001/auto6_s2_c60_d01.txt
+Obtained result: [Project: ([620, <Compilation, 606>, <Quantification, 14>, 40852, 40852, 8725, 46247, 609, 564])]
+Run Project for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c05_d05.txt
+Obtained result: [Project: ([100, <Compilation, 100>, <Quantification, 0>, 7513, 7513, 2417, 8110, 430, 428])]
+Run Project for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c15_d15.txt
+Obtained result: [Project: ([1844, <Compilation, 1832>, <Quantification, 12>, 35414, 35414, 24953, 57681, 489, 475])]
+Run Project for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c25_d25.txt
+Obtained result: [Project: ([18747, <Compilation, 17939>, <Quantification, 808>, 715460, 715460, 130018, 839518, 610, 583])]
+Run Project for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c05_d05.txt
+Obtained result: [Project: ([919, <Compilation, 885>, <Quantification, 34>, 46867, 46867, 19384, 60786, 572, 565])]
+Run Project for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c15_d15.txt
+Obtained result: [Project: ([259, <Compilation, 258>, <Quantification, 1>, 8481, 8481, 3392, 10097, 331, 323])]
+Run Project for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c25_d25.txt
+Obtained result: [Project: ([-1, -1, -1, -1, -1, 552, 507])]
+Run Project for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c25_d25.txt
+Obtained result: [Project: ([-1, -1, -1, -1, -1, 528, 492])]
+Run Project for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c05_d05.txt
+Obtained result: [Project: ([560, <Compilation, 550>, <Quantification, 10>, 8208, 8208, 3319, 8743, 322, 319])]
+Run Project for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c15_d15.txt
+Obtained result: [Project: ([1854, <Compilation, 1744>, <Quantification, 110>, 71621, 71621, 56049, 120764, 573, 563])]
+Run Project for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c05_d05.txt
+Obtained result: [Project: ([905, <Compilation, 834>, <Quantification, 71>, 104860, 104860, 44700, 147414, 479, 472])]
+Run Project for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c15_d15.txt
+Obtained result: [Project: ([276, <Compilation, 273>, <Quantification, 3>, 13250, 13250, 2740, 14254, 444, 439])]
+Run Project for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c25_d25.txt
+Obtained result: [Project: ([228558, <Compilation, 225160>, <Quantification, 3398>, 7621514, 7621514, 256051, 7875734, 499, 475])]
+Run Project for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c15_d15.txt
+Obtained result: [Project: ([10295, <Compilation, 10017>, <Quantification, 278>, 308530, 308530, 268330, 561820, 602, 583])]
+Run Project for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c25_d25.txt
+Obtained result: [Project: ([450, <Compilation, 447>, <Quantification, 3>, 17756, 17756, 4993, 20657, 335, 323])]
+Run Project for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c15_d15.txt
+Obtained result: [Project: ([-1, -1, -1, -1, -1, 534, 507])]
+Run Project for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c05_d05.txt
+Obtained result: [Project: ([519, <Compilation, 464>, <Quantification, 55>, 55841, 55841, 27393, 76176, 497, 490])]
+Run Project for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c15_d15.txt
+Obtained result: [Project: ([1711, <Compilation, 1680>, <Quantification, 31>, 80381, 80381, 71722, 148149, 511, 492])]
+Run Project for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c05_d05.txt
+Obtained result: [Project: ([3817, <Compilation, 3763>, <Quantification, 54>, 102799, 102799, 38595, 138494, 516, 506])]
+Run Project for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c25_d25.txt
+Obtained result: [Project: ([5924, <Compilation, 5545>, <Quantification, 379>, 183211, 183211, 64235, 241778, 583, 569])]
+Run Project for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c05_d05.txt
+Obtained result: [Project: ([2238, <Compilation, 2134>, <Quantification, 104>, 78354, 78354, 37123, 105322, 589, 581])]
+Run Project for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c25_d25.txt
+Obtained result: [Project: ([564, <Compilation, 562>, <Quantification, 2>, 12364, 12364, 2702, 13223, 444, 438])]
+Run Project for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c10_d10.txt
+Obtained result: [Project: ([10019, <Compilation, 9779>, <Quantification, 240>, 228005, 228005, 163498, 381969, 595, 580])]
+Run Project for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c20_d20.txt
+Obtained result: [Project: ([-1, -1, -1, -1, -1, 495, 473])]
+Run Project for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c10_d10.txt
+Obtained result: [Project: ([7676, <Compilation, 7631>, <Quantification, 45>, 128432, 128432, 73114, 198884, 523, 505])]
+Run Project for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c20_d20.txt
+Obtained result: [Project: ([295, <Compilation, 293>, <Quantification, 2>, 11688, 11688, 4518, 14386, 328, 320])]
+Run Project for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c20_d20.txt
+Obtained result: [Project: ([5945, <Compilation, 5635>, <Quantification, 310>, 140526, 140526, 42083, 173031, 582, 567])]
+Run Project for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c10_d10.txt
+Obtained result: [Project: ([873, <Compilation, 850>, <Quantification, 23>, 46009, 46009, 28043, 71602, 505, 490])]
+Run Project for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c20_d20.txt
+Obtained result: [Project: ([238, <Compilation, 236>, <Quantification, 2>, 12334, 12334, 2859, 13260, 446, 440])]
+Run Project for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c20_d20.txt
+Obtained result: [Project: ([-1, -1, -1, -1, -1, 608, 583])]
+Run Project for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c10_d10.txt
+Obtained result: [Project: ([561, <Compilation, 520>, <Quantification, 41>, 59186, 59186, 33409, 90173, 482, 471])]
+Run Project for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c20_d20.txt
+Obtained result: [Project: ([-1, -1, -1, -1, -1, 545, 507])]
+Run Project for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c10_d10.txt
+Obtained result: [Project: ([178, <Compilation, 177>, <Quantification, 1>, 6241, 6241, 2447, 7008, 321, 315])]
+Run Project for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c10_d10.txt
+Obtained result: [Project: ([1139, <Compilation, 1099>, <Quantification, 40>, 54178, 54178, 36167, 84809, 574, 565])]
+Run Project for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c20_d20.txt
+Obtained result: [Project: ([10218, <Compilation, 9867>, <Quantification, 351>, 368482, 368482, 94138, 459597, 521, 492])]
+Run Project for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c10_d10.txt
+Obtained result: [Project: ([433, <Compilation, 431>, <Quantification, 2>, 16140, 16140, 2774, 17186, 445, 438])]
+Run Project for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d30.txt
+Obtained result: [Project: ([-1, -1, -1, -1, -1, 536, 506])]
+Run Project for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d50.txt
+Obtained result: [Project: ([695, <Compilation, 670>, <Quantification, 25>, 13935, 13935, 6524, 18102, 481, 472])]
+Run Project for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d40.txt
+Obtained result: [Project: ([154903, <Compilation, 154529>, <Quantification, 374>, 1927722, 1927722, 9212, 1935299, 485, 473])]
+Run Project for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d30.txt
+Obtained result: [Project: ([7270, <Compilation, 7118>, <Quantification, 152>, 476025, 476025, 64179, 538423, 513, 491])]
+Run Project for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d20.txt
+Obtained result: [Project: ([-1, -1, -1, -1, -1, 524, 504])]
+Run Project for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d20.txt
+Obtained result: [Project: ([1665, <Compilation, 1655>, <Quantification, 10>, 44317, 44317, 28723, 69887, 591, 582])]
+Run Project for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d50.txt
+Obtained result: [Project: ([-1, -1, -1, -1, -1, 524, 505])]
+Run Project for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d40.txt
+Obtained result: [Project: ([44927, <Compilation, 44629>, <Quantification, 298>, 1478910, 1478910, 10278, 1487546, 517, 490])]
+Run Project for benchmarks/suite1/automotive/auto_c001_dn/auto4_s1_c01_d20.txt
+Obtained result: [Project: ([367, <Compilation, 365>, <Quantification, 2>, 13335, 13335, 2340, 13981, 442, 439])]
+Run Project for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d30.txt
+Obtained result: [Project: ([251, <Compilation, 249>, <Quantification, 2>, 11349, 11349, 4984, 13958, 480, 472])]
+Run Project for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d50.txt
+Obtained result: [Project: ([-1, -1, -1, -1, -1, 612, 585])]
+Run Project for benchmarks/suite1/automotive/auto_c001_dn/auto3_s1_c01_d20.txt
+Obtained result: [Project: ([965, <Compilation, 956>, <Quantification, 9>, 39666, 39666, 23857, 60821, 571, 566])]
+Run Project for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d40.txt
+Obtained result: [Project: ([-1, -1, -1, -1, -1, 602, 581])]
+Run Project for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d20.txt
+Obtained result: [Project: ([291, <Compilation, 284>, <Quantification, 7>, 18628, 18628, 9981, 26589, 476, 471])]
+Run Project for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d50.txt
+Obtained result: [Project: ([4439, <Compilation, 4345>, <Quantification, 94>, 440138, 440138, 31912, 470541, 517, 493])]
+Run Project for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d40.txt
+Obtained result: [Project: ([-1, -1, -1, -1, -1, 545, 505])]
+Run Project for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d10.txt
+Obtained result: [Project: ([118, <Compilation, 116>, <Quantification, 2>, 11977, 11977, 4741, 14858, 472, 470])]
+Run Project for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d60.txt
+Obtained result: [Project: ([8881, <Compilation, 8488>, <Quantification, 393>, 1908971, 1908971, 10775, 1918326, 524, 492])]
+Run Project for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d60.txt
+Obtained result: [Project: ([-1, -1, -1, -1, -1, 612, 584])]
+Run Project for benchmarks/suite1/automotive/auto_c001_dn/auto3_s1_c01_d10.txt
+Obtained result: [Project: ([207, <Compilation, 204>, <Quantification, 3>, 13662, 13662, 6262, 17417, 562, 560])]
+Run Project for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d60.txt
+Obtained result: [Project: ([-1, -1, -1, -1, -1, 527, 504])]
+Run Project for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d10.txt
+Obtained result: [Project: ([472, <Compilation, 469>, <Quantification, 3>, 18249, 18249, 8125, 23577, 584, 579])]
+Run Project for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d10.txt
+Obtained result: [Project: ([2113, <Compilation, 2107>, <Quantification, 6>, 31517, 31517, 11546, 40064, 515, 505])]
+Run Project for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d10.txt
+Obtained result: [Project: ([445, <Compilation, 441>, <Quantification, 4>, 17559, 17559, 5637, 21064, 499, 490])]
+Run Project for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d60.txt
+Obtained result: [Project: ([134894, <Compilation, 134560>, <Quantification, 334>, 1846714, 1846714, 7409, 1852473, 482, 472])]

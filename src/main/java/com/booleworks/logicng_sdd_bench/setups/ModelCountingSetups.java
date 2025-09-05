@@ -52,7 +52,7 @@ public class ModelCountingSetups {
                                               final Supplier<ComputationHandler> handler) {
         final var results = new ExperimentGroup<>(List.of(
                 new ExperimentEntry<>("SDD Proj Comp", new PmcNaiveSddExperiment(),
-                        ProjectedCompilationSetups.exportedPdfToProjectionProblem)
+                        ProjectionSetups.exportedPdfToProjectionProblem)
         )).runExperiments(inputs, logger, handler, COMPARE_MC);
     }
 }

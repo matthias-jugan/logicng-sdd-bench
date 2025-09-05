@@ -1,0 +1,613 @@
+Warmup
+Run Compile + Eliminate (20%) for benchmarks/suite1/other/qg6-09.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/other/qg6-09.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/other/qg6-09.cnf
+Obtained result: [Compile + Eliminate (20%): ([711, <Compilation, 710>, <Quantification, 1>, 3524, 3524, 2828, 4644, 729, 584]), Compile + Eliminate (50%): ([715, <Compilation, 713>, <Quantification, 2>, 3524, 3524, 1733, 4343, 729, 365]), Compile + Eliminate (80%): ([712, <Compilation, 710>, <Quantification, 2>, 3524, 3524, 674, 3884, 729, 146])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/other/uf250-026.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/other/uf250-026.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/other/uf250-026.cnf
+Obtained result: [Compile + Eliminate (20%): ([3876, <Compilation, 3876>, <Quantification, 0>, 1057, 1057, 842, 1254, 250, 200]), Compile + Eliminate (50%): ([3933, <Compilation, 3932>, <Quantification, 1>, 1057, 1057, 491, 1243, 250, 125]), Compile + Eliminate (80%): ([3882, <Compilation, 3882>, <Quantification, 0>, 1057, 1057, 181, 1135, 250, 50])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/other/qg1-07.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/other/qg1-07.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/other/qg1-07.cnf
+Obtained result: [Compile + Eliminate (20%): ([738, <Compilation, 737>, <Quantification, 1>, 2585, 2585, 2003, 3886, 343, 275]), Compile + Eliminate (50%): ([680, <Compilation, 678>, <Quantification, 2>, 2585, 2585, 1218, 3401, 343, 172]), Compile + Eliminate (80%): ([723, <Compilation, 722>, <Quantification, 1>, 2585, 2585, 394, 2833, 343, 69])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/other/4blocksb.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/other/4blocksb.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/other/4blocksb.cnf
+Obtained result: [Compile + Eliminate (20%): ([53, <Compilation, 52>, <Quantification, 1>, 1721, 1721, 1367, 2086, 410, 328]), Compile + Eliminate (50%): ([72, <Compilation, 71>, <Quantification, 1>, 1721, 1721, 855, 2044, 410, 205]), Compile + Eliminate (80%): ([57, <Compilation, 57>, <Quantification, 0>, 1721, 1721, 329, 1866, 410, 82])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/other/2bitcomp_5.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/other/2bitcomp_5.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/other/2bitcomp_5.cnf
+Obtained result: [Compile + Eliminate (20%): ([949, <Compilation, 521>, <Quantification, 428>, 525848, 525848, 138589, 664103, 95, 76]), Compile + Eliminate (50%): ([702, <Compilation, 457>, <Quantification, 245>, 525848, 525848, 17285, 543009, 95, 48]), Compile + Eliminate (80%): ([539, <Compilation, 408>, <Quantification, 131>, 525848, 525848, 457, 526264, 95, 19])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/other/log-1.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/other/log-1.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/other/log-1.cnf
+Obtained result: [Compile + Eliminate (20%): ([77, <Compilation, 75>, <Quantification, 2>, 5957, 5957, 4835, 8400, 939, 752]), Compile + Eliminate (50%): ([86, <Compilation, 85>, <Quantification, 1>, 5957, 5957, 2929, 7666, 939, 470]), Compile + Eliminate (80%): ([73, <Compilation, 72>, <Quantification, 1>, 5957, 5957, 917, 6489, 939, 188])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/other/log-3.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/other/log-3.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/other/log-3.cnf
+Obtained result: [Compile + Eliminate (20%): ([2069, <Compilation, 2034>, <Quantification, 35>, 93539, 93539, 67128, 156968, 1413, 1131]), Compile + Eliminate (50%): ([1998, <Compilation, 1955>, <Quantification, 43>, 93539, 93539, 22159, 113887, 1413, 707]), Compile + Eliminate (80%): ([2027, <Compilation, 1998>, <Quantification, 29>, 93539, 93539, 6053, 98993, 1413, 283])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/other/log-2.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/other/log-2.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/other/log-2.cnf
+Obtained result: [Compile + Eliminate (20%): ([6139, <Compilation, 6005>, <Quantification, 134>, 321129, 321129, 189687, 507481, 1337, 1070]), Compile + Eliminate (50%): ([6035, <Compilation, 5888>, <Quantification, 147>, 321129, 321129, 87137, 406619, 1337, 669]), Compile + Eliminate (80%): ([6024, <Compilation, 5941>, <Quantification, 83>, 321129, 321129, 8444, 329007, 1337, 268])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/other/prob004-log-a.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/other/prob004-log-a.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/other/prob004-log-a.cnf
+Obtained result: [Compile + Eliminate (20%): ([6100, <Compilation, 5383>, <Quantification, 717>, 1658766, 1658766, 1213574, 2867744, 1790, 1432]), Compile + Eliminate (50%): ([6211, <Compilation, 5399>, <Quantification, 812>, 1658766, 1658766, 316232, 1972828, 1790, 895]), Compile + Eliminate (80%): ([6109, <Compilation, 5385>, <Quantification, 724>, 1658766, 1658766, 29835, 1687837, 1790, 358])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/other/qg7-09.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/other/qg7-09.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/other/qg7-09.cnf
+Obtained result: [Compile + Eliminate (20%): ([724, <Compilation, 723>, <Quantification, 1>, 3596, 3596, 2854, 4745, 729, 584]), Compile + Eliminate (50%): ([660, <Compilation, 659>, <Quantification, 1>, 3596, 3596, 1764, 4462, 729, 365]), Compile + Eliminate (80%): ([729, <Compilation, 729>, <Quantification, 0>, 3596, 3596, 675, 3961, 729, 146])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/other/ra.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/other/ra.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/other/ra.cnf
+Obtained result: [Compile + Eliminate (20%): ([7686, <Compilation, 7188>, <Quantification, 498>, 269541, 269541, 97052, 359369, 1236, 989]), Compile + Eliminate (50%): ([7662, <Compilation, 7132>, <Quantification, 530>, 269541, 269541, 40837, 308014, 1236, 618]), Compile + Eliminate (80%): ([7546, <Compilation, 7141>, <Quantification, 405>, 269541, 269541, 7944, 276837, 1236, 248])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/other/huge.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/other/huge.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/other/huge.cnf
+Obtained result: [Compile + Eliminate (20%): ([10, <Compilation, 10>, <Quantification, 0>, 1826, 1826, 1463, 2158, 459, 368]), Compile + Eliminate (50%): ([11, <Compilation, 11>, <Quantification, 0>, 1826, 1826, 911, 2138, 459, 230]), Compile + Eliminate (80%): ([11, <Compilation, 10>, <Quantification, 1>, 1826, 1826, 360, 1981, 459, 92])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/other/bw_large.a.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/other/bw_large.a.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/other/bw_large.a.cnf
+Obtained result: [Compile + Eliminate (20%): ([11, <Compilation, 11>, <Quantification, 0>, 1826, 1826, 1463, 2158, 459, 368]), Compile + Eliminate (50%): ([9, <Compilation, 8>, <Quantification, 1>, 1826, 1826, 911, 2138, 459, 230]), Compile + Eliminate (80%): ([10, <Compilation, 10>, <Quantification, 0>, 1826, 1826, 360, 1981, 459, 92])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/other/qg2-07.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/other/qg2-07.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/other/qg2-07.cnf
+Obtained result: [Compile + Eliminate (20%): ([997, <Compilation, 996>, <Quantification, 1>, 3397, 3397, 2774, 5467, 343, 275]), Compile + Eliminate (50%): ([940, <Compilation, 939>, <Quantification, 1>, 3397, 3397, 1684, 4679, 343, 172]), Compile + Eliminate (80%): ([1052, <Compilation, 1051>, <Quantification, 1>, 3397, 3397, 586, 3839, 343, 69])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/other/bw_large.b.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/other/bw_large.b.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/other/bw_large.b.cnf
+Obtained result: [Compile + Eliminate (20%): ([56, <Compilation, 56>, <Quantification, 0>, 4354, 4354, 3484, 5160, 1087, 870]), Compile + Eliminate (50%): ([42, <Compilation, 41>, <Quantification, 1>, 4354, 4354, 2176, 5140, 1087, 544]), Compile + Eliminate (80%): ([36, <Compilation, 35>, <Quantification, 1>, 4354, 4354, 870, 4742, 1087, 218])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/other/ssa7552-038.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/other/ssa7552-038.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/other/ssa7552-038.cnf
+Obtained result: [Compile + Eliminate (20%): ([503, <Compilation, 491>, <Quantification, 12>, 23109, 23109, 17828, 36225, 1501, 1201]), Compile + Eliminate (50%): ([525, <Compilation, 517>, <Quantification, 8>, 23109, 23109, 9267, 30359, 1501, 751]), Compile + Eliminate (80%): ([483, <Compilation, 475>, <Quantification, 8>, 23109, 23109, 3166, 25617, 1501, 301])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/other/tire-2.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/other/tire-2.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/other/tire-2.cnf
+Obtained result: [Compile + Eliminate (20%): ([24, <Compilation, 23>, <Quantification, 1>, 3959, 3959, 3024, 5593, 550, 440]), Compile + Eliminate (50%): ([32, <Compilation, 30>, <Quantification, 2>, 3959, 3959, 1790, 5041, 550, 275]), Compile + Eliminate (80%): ([33, <Compilation, 32>, <Quantification, 1>, 3959, 3959, 527, 4252, 550, 110])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/other/tire-3.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/other/tire-3.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/other/tire-3.cnf
+Obtained result: [Compile + Eliminate (20%): ([51, <Compilation, 45>, <Quantification, 6>, 10112, 10112, 6641, 14994, 577, 462]), Compile + Eliminate (50%): ([51, <Compilation, 43>, <Quantification, 8>, 10112, 10112, 3759, 13154, 577, 289]), Compile + Eliminate (80%): ([47, <Compilation, 39>, <Quantification, 8>, 10112, 10112, 1049, 10909, 577, 116])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/other/tire-4.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/other/tire-4.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/other/tire-4.cnf
+Obtained result: [Compile + Eliminate (20%): ([67, <Compilation, 64>, <Quantification, 3>, 8781, 8781, 7352, 14045, 812, 650]), Compile + Eliminate (50%): ([62, <Compilation, 58>, <Quantification, 4>, 8781, 8781, 3865, 11642, 812, 406]), Compile + Eliminate (80%): ([62, <Compilation, 58>, <Quantification, 4>, 8781, 8781, 1232, 9667, 812, 163])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/other/qg3-08.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/other/qg3-08.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/other/qg3-08.cnf
+Obtained result: [Compile + Eliminate (20%): ([780, <Compilation, 779>, <Quantification, 1>, 5985, 5985, 4627, 9440, 512, 410]), Compile + Eliminate (50%): ([771, <Compilation, 770>, <Quantification, 1>, 5985, 5985, 2815, 8160, 512, 256]), Compile + Eliminate (80%): ([745, <Compilation, 743>, <Quantification, 2>, 5985, 5985, 1146, 6905, 512, 103])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/other/ais10.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/other/ais10.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/other/ais10.cnf
+Obtained result: [Compile + Eliminate (20%): ([5326, <Compilation, 5317>, <Quantification, 9>, 34118, 34118, 24268, 58002, 181, 145]), Compile + Eliminate (50%): ([5445, <Compilation, 5436>, <Quantification, 9>, 34118, 34118, 11283, 45203, 181, 91]), Compile + Eliminate (80%): ([5211, <Compilation, 5200>, <Quantification, 11>, 34118, 34118, 1502, 35544, 181, 37])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/other/cnt06.shuffled.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/other/cnt06.shuffled.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/other/cnt06.shuffled.cnf
+Obtained result: [Compile + Eliminate (20%): ([20, <Compilation, 20>, <Quantification, 0>, 3037, 3037, 2430, 3588, 762, 610]), Compile + Eliminate (50%): ([21, <Compilation, 20>, <Quantification, 1>, 3037, 3037, 1515, 3595, 762, 381]), Compile + Eliminate (80%): ([20, <Compilation, 20>, <Quantification, 0>, 3037, 3037, 603, 3307, 762, 153])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/mercedes/D1119_M20.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/mercedes/D1119_M20.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/mercedes/D1119_M20.cnf
+Obtained result: [Compile + Eliminate (20%): ([20, <Compilation, 19>, <Quantification, 1>, 6040, 6040, 4748, 7352, 1392, 1114]), Compile + Eliminate (50%): ([20, <Compilation, 19>, <Quantification, 1>, 6040, 6040, 2841, 7100, 1392, 696]), Compile + Eliminate (80%): ([19, <Compilation, 18>, <Quantification, 1>, 6040, 6040, 1108, 6543, 1392, 279])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/mercedes/C638_FVK.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/mercedes/C638_FVK.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/mercedes/C638_FVK.cnf
+Obtained result: [Compile + Eliminate (20%): ([784, <Compilation, 779>, <Quantification, 5>, 13182, 13182, 8872, 18231, 1727, 1382]), Compile + Eliminate (50%): ([779, <Compilation, 775>, <Quantification, 4>, 13182, 13182, 4058, 15256, 1727, 864]), Compile + Eliminate (80%): ([776, <Compilation, 773>, <Quantification, 3>, 13182, 13182, 1296, 13793, 1727, 346])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/mercedes/D1119_M23.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/mercedes/D1119_M23.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/mercedes/D1119_M23.cnf
+Obtained result: [Compile + Eliminate (20%): ([27, <Compilation, 24>, <Quantification, 3>, 6347, 6347, 4806, 7641, 1405, 1124]), Compile + Eliminate (50%): ([27, <Compilation, 23>, <Quantification, 4>, 6347, 6347, 2791, 7401, 1405, 703]), Compile + Eliminate (80%): ([23, <Compilation, 22>, <Quantification, 1>, 6347, 6347, 1113, 6861, 1405, 281])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/mercedes/C220_FV.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/mercedes/C220_FV.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/mercedes/C220_FV.cnf
+Obtained result: [Compile + Eliminate (20%): ([-1, -1, -1, -1, -1, 1782, 1426]), Compile + Eliminate (50%): ([-1, -1, -1, -1, -1, 1782, 891]), Compile + Eliminate (80%): ([-1, -1, -1, -1, -1, 1782, 357])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/mercedes/C140_FC.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/mercedes/C140_FC.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/mercedes/C140_FC.cnf
+Obtained result: [Compile + Eliminate (20%): ([42717, <Compilation, 36207>, <Quantification, 6510>, 5146608, 5146608, 1475543, 6617711, 1691, 1353]), Compile + Eliminate (50%): ([39053, <Compilation, 34482>, <Quantification, 4571>, 5146608, 5146608, 68235, 5212767, 1691, 846]), Compile + Eliminate (80%): ([37020, <Compilation, 34123>, <Quantification, 2897>, 5146608, 5146608, 7233, 5153174, 1691, 339])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/mercedes/C220_FW.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/mercedes/C220_FW.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/mercedes/C220_FW.cnf
+Obtained result: [Compile + Eliminate (20%): ([-1, -1, -1, -1, -1, 1775, 1420]), Compile + Eliminate (50%): ([-1, -1, -1, -1, -1, 1775, 888]), Compile + Eliminate (80%): ([-1, -1, -1, -1, -1, 1775, 355])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/mercedes/C208_FA.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/mercedes/C208_FA.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/mercedes/C208_FA.cnf
+Obtained result: [Compile + Eliminate (20%): ([109145, <Compilation, 103499>, <Quantification, 5646>, 5275433, 5275433, 359703, 5630409, 1803, 1443]), Compile + Eliminate (50%): ([104263, <Compilation, 101449>, <Quantification, 2814>, 5275433, 5275433, 36551, 5309790, 1803, 902]), Compile + Eliminate (80%): ([102700, <Compilation, 101060>, <Quantification, 1640>, 5275433, 5275433, 2330, 5277070, 1803, 361])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/mercedes/C230_FR.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/mercedes/C230_FR.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/mercedes/C230_FR.cnf
+Obtained result: [Compile + Eliminate (20%): ([132806, <Compilation, 127418>, <Quantification, 5388>, 2185177, 2185177, 1297636, 3478147, 1775, 1420]), Compile + Eliminate (50%): ([129165, <Compilation, 127598>, <Quantification, 1567>, 2185177, 2185177, 68715, 2251593, 1775, 888]), Compile + Eliminate (80%): ([128833, <Compilation, 128186>, <Quantification, 647>, 2185177, 2185177, 2970, 2187399, 1775, 355])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/mercedes/C208_FC.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/mercedes/C208_FC.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/mercedes/C208_FC.cnf
+Obtained result: [Compile + Eliminate (20%): ([51135, <Compilation, 45195>, <Quantification, 5940>, 4182579, 4182579, 957258, 5133803, 1800, 1440]), Compile + Eliminate (50%): ([49188, <Compilation, 44832>, <Quantification, 4356>, 4182579, 4182579, 109523, 4289903, 1800, 900]), Compile + Eliminate (80%): ([46185, <Compilation, 44859>, <Quantification, 1326>, 4182579, 4182579, 2764, 4184677, 1800, 360])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/mercedes/C140_FW.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/mercedes/C140_FW.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/mercedes/C140_FW.cnf
+Obtained result: [Compile + Eliminate (20%): ([27356, <Compilation, 26020>, <Quantification, 1336>, 1371807, 1371807, 598243, 1965135, 1701, 1361]), Compile + Eliminate (50%): ([26905, <Compilation, 26156>, <Quantification, 749>, 1371807, 1371807, 25366, 1395029, 1701, 851]), Compile + Eliminate (80%): ([26612, <Compilation, 26226>, <Quantification, 386>, 1371807, 1371807, 1630, 1372778, 1701, 341])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/mercedes/C140_FV.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/mercedes/C140_FV.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/mercedes/C140_FV.cnf
+Obtained result: [Compile + Eliminate (20%): ([18588, <Compilation, 15877>, <Quantification, 2711>, 1408982, 1408982, 310870, 1715125, 1705, 1364]), Compile + Eliminate (50%): ([16850, <Compilation, 15818>, <Quantification, 1032>, 1408982, 1408982, 62597, 1469486, 1705, 853]), Compile + Eliminate (80%): ([16205, <Compilation, 15791>, <Quantification, 413>, 1408982, 1408982, 2917, 1411197, 1705, 341])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/mercedes/C168_FW.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/mercedes/C168_FW.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/mercedes/C168_FW.cnf
+Obtained result: [Compile + Eliminate (20%): ([-1, -1, -1, -1, -1, 1804, 1444]), Compile + Eliminate (50%): ([-1, -1, -1, -1, -1, 1804, 902]), Compile + Eliminate (80%): ([-1, -1, -1, -1, -1, 1804, 361])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/mercedes/C202_FS.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/mercedes/C202_FS.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/mercedes/C202_FS.cnf
+Obtained result: [Compile + Eliminate (20%): ([-1, -1, -1, -1, -1, 1822, 1458]), Compile + Eliminate (50%): ([-1, -1, -1, -1, -1, 1822, 911]), Compile + Eliminate (80%): ([-1, -1, -1, -1, -1, 1822, 365])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/mercedes/C210_FS.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/mercedes/C210_FS.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/mercedes/C210_FS.cnf
+Obtained result: [Compile + Eliminate (20%): ([-1, -1, -1, -1, -1, 1870, 1496]), Compile + Eliminate (50%): ([-1, -1, -1, -1, -1, 1870, 935]), Compile + Eliminate (80%): ([-1, -1, -1, -1, -1, 1870, 374])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/mercedes/C638_FKA.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/mercedes/C638_FKA.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/mercedes/C638_FKA.cnf
+Obtained result: [Compile + Eliminate (20%): ([2836, <Compilation, 2746>, <Quantification, 90>, 76939, 76939, 22046, 94775, 1753, 1403]), Compile + Eliminate (50%): ([2877, <Compilation, 2836>, <Quantification, 41>, 76939, 76939, 9219, 84073, 1753, 877]), Compile + Eliminate (80%): ([2824, <Compilation, 2799>, <Quantification, 25>, 76939, 76939, 1567, 77797, 1753, 351])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/mercedes/C170_FR.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/mercedes/C170_FR.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/mercedes/C170_FR.cnf
+Obtained result: [Compile + Eliminate (20%): ([-1, -1, -1, -1, -1, 1765, 1412]), Compile + Eliminate (50%): ([-1, -1, -1, -1, -1, 1765, 883]), Compile + Eliminate (80%): ([-1, -1, -1, -1, -1, 1765, 353])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/mercedes/C203_FCL.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/mercedes/C203_FCL.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/mercedes/C203_FCL.cnf
+Obtained result: [Compile + Eliminate (20%): ([19153, <Compilation, 17566>, <Quantification, 1587>, 1200602, 1200602, 362874, 1558925, 1819, 1456]), Compile + Eliminate (50%): ([18027, <Compilation, 16828>, <Quantification, 1199>, 1200602, 1200602, 130600, 1328921, 1819, 910]), Compile + Eliminate (80%): ([17540, <Compilation, 17159>, <Quantification, 381>, 1200602, 1200602, 1788, 1201654, 1819, 364])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/mercedes/C638_FKB.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/mercedes/C638_FKB.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/mercedes/C638_FKB.cnf
+Obtained result: [Compile + Eliminate (20%): ([-1, -1, -1, -1, -1, 1750, 1400]), Compile + Eliminate (50%): ([-1, -1, -1, -1, -1, 1750, 875]), Compile + Eliminate (80%): ([-1, -1, -1, -1, -1, 1750, 350])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/mercedes/C129_FR.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/mercedes/C129_FR.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/mercedes/C129_FR.cnf
+Obtained result: [Compile + Eliminate (20%): ([31962, <Compilation, 24356>, <Quantification, 7606>, 5958783, 5958783, 2656112, 8609467, 1739, 1392]), Compile + Eliminate (50%): ([27770, <Compilation, 23747>, <Quantification, 4023>, 5958783, 5958783, 133689, 6090314, 1739, 870]), Compile + Eliminate (80%): ([25904, <Compilation, 24241>, <Quantification, 1663>, 5958783, 5958783, 3200, 5961241, 1739, 348])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/mercedes/C210_FW.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/mercedes/C210_FW.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/mercedes/C210_FW.cnf
+Obtained result: [Compile + Eliminate (20%): ([-1, -1, -1, -1, -1, 1891, 1513]), Compile + Eliminate (50%): ([-1, -1, -1, -1, -1, 1891, 946]), Compile + Eliminate (80%): ([-1, -1, -1, -1, -1, 1891, 379])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/mercedes/C202_FW.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/mercedes/C202_FW.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/mercedes/C202_FW.cnf
+Obtained result: [Compile + Eliminate (20%): ([-1, -1, -1, -1, -1, 1820, 1456]), Compile + Eliminate (50%): ([-1, -1, -1, -1, -1, 1820, 910]), Compile + Eliminate (80%): ([-1, -1, -1, -1, -1, 1820, 364])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/mercedes/C215_FC.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/mercedes/C215_FC.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/mercedes/C215_FC.cnf
+Obtained result: [Compile + Eliminate (20%): ([-1, -1, -1, -1, -1, 1735, 1388]), Compile + Eliminate (50%): ([-1, -1, -1, -1, -1, 1735, 868]), Compile + Eliminate (80%): ([-1, -1, -1, -1, -1, 1735, 347])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/mercedes/C169_FW.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/mercedes/C169_FW.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/mercedes/C169_FW.cnf
+Obtained result: [Compile + Eliminate (20%): ([23, <Compilation, 15>, <Quantification, 8>, 5622, 5622, 4472, 6644, 1402, 1122]), Compile + Eliminate (50%): ([19, <Compilation, 13>, <Quantification, 6>, 5622, 5622, 2751, 6637, 1402, 701]), Compile + Eliminate (80%): ([14, <Compilation, 12>, <Quantification, 2>, 5622, 5622, 1086, 6105, 1402, 281])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/mercedes/C169_FV.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/mercedes/C169_FV.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/mercedes/C169_FV.cnf
+Obtained result: [Compile + Eliminate (20%): ([14, <Compilation, 12>, <Quantification, 2>, 5622, 5622, 4472, 6644, 1402, 1122]), Compile + Eliminate (50%): ([13, <Compilation, 11>, <Quantification, 2>, 5622, 5622, 2751, 6637, 1402, 701]), Compile + Eliminate (80%): ([13, <Compilation, 11>, <Quantification, 2>, 5622, 5622, 1086, 6105, 1402, 281])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/mercedes/C209_FC.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/mercedes/C209_FC.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/mercedes/C209_FC.cnf
+Obtained result: [Compile + Eliminate (20%): ([3346, <Compilation, 2613>, <Quantification, 733>, 582939, 582939, 75771, 654206, 1834, 1468]), Compile + Eliminate (50%): ([3141, <Compilation, 2666>, <Quantification, 475>, 582939, 582939, 22585, 603292, 1834, 917]), Compile + Eliminate (80%): ([2922, <Compilation, 2684>, <Quantification, 238>, 582939, 582939, 1686, 583907, 1834, 367])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/mercedes/C250_FW.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/mercedes/C250_FW.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/mercedes/C250_FW.cnf
+Obtained result: [Compile + Eliminate (20%): ([31, <Compilation, 30>, <Quantification, 1>, 5945, 5945, 4723, 7105, 1442, 1154]), Compile + Eliminate (50%): ([30, <Compilation, 29>, <Quantification, 1>, 5945, 5945, 2868, 7055, 1442, 721]), Compile + Eliminate (80%): ([31, <Compilation, 30>, <Quantification, 1>, 5945, 5945, 1095, 6445, 1442, 289])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/mercedes/C209_FA.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/mercedes/C209_FA.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/mercedes/C209_FA.cnf
+Obtained result: [Compile + Eliminate (20%): ([1310, <Compilation, 1017>, <Quantification, 293>, 151556, 151556, 62053, 209272, 1785, 1428]), Compile + Eliminate (50%): ([1174, <Compilation, 1002>, <Quantification, 172>, 151556, 151556, 8652, 158108, 1785, 893]), Compile + Eliminate (80%): ([983, <Compilation, 926>, <Quantification, 57>, 151556, 151556, 1470, 152365, 1785, 357])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/mercedes/C250_FV.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/mercedes/C250_FV.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/mercedes/C250_FV.cnf
+Obtained result: [Compile + Eliminate (20%): ([29, <Compilation, 28>, <Quantification, 1>, 5945, 5945, 4723, 7105, 1442, 1154]), Compile + Eliminate (50%): ([29, <Compilation, 28>, <Quantification, 1>, 5945, 5945, 2868, 7055, 1442, 721]), Compile + Eliminate (80%): ([35, <Compilation, 34>, <Quantification, 1>, 5945, 5945, 1095, 6445, 1442, 289])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/mercedes/C171_FR.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/mercedes/C171_FR.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/mercedes/C171_FR.cnf
+Obtained result: [Compile + Eliminate (20%): ([1233, <Compilation, 996>, <Quantification, 237>, 223940, 223940, 95074, 314524, 1743, 1395]), Compile + Eliminate (50%): ([1171, <Compilation, 973>, <Quantification, 198>, 223940, 223940, 19850, 241571, 1743, 872]), Compile + Eliminate (80%): ([961, <Compilation, 901>, <Quantification, 60>, 223940, 223940, 1324, 224585, 1743, 349])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/mercedes/C210_FVF.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/mercedes/C210_FVF.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/mercedes/C210_FVF.cnf
+Obtained result: [Compile + Eliminate (20%): ([4415, <Compilation, 3624>, <Quantification, 791>, 990829, 990829, 169983, 1156345, 1835, 1468]), Compile + Eliminate (50%): ([3977, <Compilation, 3588>, <Quantification, 389>, 990829, 990829, 8391, 996965, 1835, 918]), Compile + Eliminate (80%): ([3850, <Compilation, 3579>, <Quantification, 271>, 990829, 990829, 1470, 991582, 1835, 367])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/mercedes/C203_FS.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/mercedes/C203_FS.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/mercedes/C203_FS.cnf
+Obtained result: [Compile + Eliminate (20%): ([142502, <Compilation, 140960>, <Quantification, 1542>, 1550338, 1550338, 392832, 1938252, 1838, 1471]), Compile + Eliminate (50%): ([142253, <Compilation, 141239>, <Quantification, 1014>, 1550338, 1550338, 76730, 1624785, 1838, 919]), Compile + Eliminate (80%): ([141219, <Compilation, 140722>, <Quantification, 497>, 1550338, 1550338, 4908, 1554495, 1838, 368])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/mercedes/C211_FS.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/mercedes/C211_FS.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/mercedes/C211_FS.cnf
+Obtained result: [Compile + Eliminate (20%): ([87, <Compilation, 85>, <Quantification, 2>, 7945, 7945, 6186, 10267, 1602, 1282]), Compile + Eliminate (50%): ([98, <Compilation, 96>, <Quantification, 2>, 7945, 7945, 3323, 9421, 1602, 801]), Compile + Eliminate (80%): ([82, <Compilation, 81>, <Quantification, 1>, 7945, 7945, 1320, 8605, 1602, 321])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/mercedes/C211_FW.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/mercedes/C211_FW.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/mercedes/C211_FW.cnf
+Obtained result: [Compile + Eliminate (20%): ([165709, <Compilation, 157714>, <Quantification, 7995>, 10495293, 10495293, 1279756, 11770875, 1634, 1308]), Compile + Eliminate (50%): ([165393, <Compilation, 160154>, <Quantification, 5239>, 10495293, 10495293, 132325, 10625641, 1634, 817]), Compile + Eliminate (80%): ([168218, <Compilation, 165421>, <Quantification, 2797>, 10495293, 10495293, 2048, 10496688, 1634, 327])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/mercedes/C203_FW.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/mercedes/C203_FW.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/mercedes/C203_FW.cnf
+Obtained result: [Compile + Eliminate (20%): ([42050, <Compilation, 24133>, <Quantification, 17917>, 5693156, 5693156, 3254467, 8942905, 1885, 1508]), Compile + Eliminate (50%): ([28047, <Compilation, 24804>, <Quantification, 3243>, 5693156, 5693156, 94745, 5785623, 1885, 943]), Compile + Eliminate (80%): ([26300, <Compilation, 24487>, <Quantification, 1813>, 5693156, 5693156, 3331, 5695710, 1885, 377])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/mercedes/C163_FW.cnf
+Run Compile + Eliminate (50%) for benchmarks/suite1/mercedes/C163_FW.cnf
+Run Compile + Eliminate (80%) for benchmarks/suite1/mercedes/C163_FW.cnf
+Obtained result: [Compile + Eliminate (20%): ([9121, <Compilation, 8173>, <Quantification, 948>, 546900, 546900, 416621, 959102, 1791, 1433]), Compile + Eliminate (50%): ([8232, <Compilation, 7615>, <Quantification, 617>, 546900, 546900, 15257, 560107, 1791, 896]), Compile + Eliminate (80%): ([7987, <Compilation, 7601>, <Quantification, 386>, 546900, 546900, 1830, 548061, 1791, 359])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c20_d01.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c20_d01.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c20_d01.txt
+Obtained result: [Compile + Eliminate (20%): ([777, <Compilation, 762>, <Quantification, 15>, 29697, 29697, 9931, 38416, 507, 406]), Compile + Eliminate (50%): ([749, <Compilation, 734>, <Quantification, 15>, 29697, 29697, 4376, 33458, 507, 254]), Compile + Eliminate (80%): ([721, <Compilation, 712>, <Quantification, 9>, 29697, 29697, 691, 30193, 507, 102])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c30_d01.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c30_d01.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c30_d01.txt
+Obtained result: [Compile + Eliminate (20%): ([470, <Compilation, 458>, <Quantification, 12>, 20364, 20364, 12389, 31460, 508, 407]), Compile + Eliminate (50%): ([501, <Compilation, 487>, <Quantification, 14>, 20364, 20364, 4799, 24564, 508, 254]), Compile + Eliminate (80%): ([438, <Compilation, 430>, <Quantification, 8>, 20364, 20364, 973, 21124, 508, 102])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_d001/auto4_s2_c40_d01.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_d001/auto4_s2_c40_d01.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_d001/auto4_s2_c40_d01.txt
+Obtained result: [Compile + Eliminate (20%): ([288, <Compilation, 284>, <Quantification, 4>, 8296, 8296, 2039, 9307, 450, 360]), Compile + Eliminate (50%): ([290, <Compilation, 287>, <Quantification, 3>, 8296, 8296, 1117, 8938, 450, 225]), Compile + Eliminate (80%): ([282, <Compilation, 279>, <Quantification, 3>, 8296, 8296, 304, 8455, 450, 90])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c30_d01.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c30_d01.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c30_d01.txt
+Obtained result: [Compile + Eliminate (20%): ([423, <Compilation, 408>, <Quantification, 15>, 17400, 17400, 7483, 23641, 509, 408]), Compile + Eliminate (50%): ([399, <Compilation, 387>, <Quantification, 12>, 17400, 17400, 4637, 21420, 509, 255]), Compile + Eliminate (80%): ([427, <Compilation, 419>, <Quantification, 8>, 17400, 17400, 917, 18111, 509, 102])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c50_d01.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c50_d01.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c50_d01.txt
+Obtained result: [Compile + Eliminate (20%): ([1246, <Compilation, 1152>, <Quantification, 94>, 61722, 61722, 42473, 102802, 528, 423]), Compile + Eliminate (50%): ([1249, <Compilation, 1188>, <Quantification, 61>, 61722, 61722, 8397, 69497, 528, 264]), Compile + Eliminate (80%): ([1185, <Compilation, 1161>, <Quantification, 24>, 61722, 61722, 806, 62315, 528, 106])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c40_d01.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c40_d01.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c40_d01.txt
+Obtained result: [Compile + Eliminate (20%): ([1164, <Compilation, 1122>, <Quantification, 42>, 62534, 62534, 35241, 96575, 523, 419]), Compile + Eliminate (50%): ([1204, <Compilation, 1152>, <Quantification, 52>, 62534, 62534, 20534, 82439, 523, 262]), Compile + Eliminate (80%): ([1188, <Compilation, 1159>, <Quantification, 29>, 62534, 62534, 1198, 63523, 523, 105])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_d001/auto6_s2_c40_d01.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_d001/auto6_s2_c40_d01.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_d001/auto6_s2_c40_d01.txt
+Obtained result: [Compile + Eliminate (20%): ([1010, <Compilation, 982>, <Quantification, 28>, 50212, 50212, 23404, 72223, 596, 477]), Compile + Eliminate (50%): ([884, <Compilation, 854>, <Quantification, 30>, 50212, 50212, 9075, 58603, 596, 298]), Compile + Eliminate (80%): ([906, <Compilation, 885>, <Quantification, 21>, 50212, 50212, 1442, 51417, 596, 120])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_d001/auto6_s2_c50_d01.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_d001/auto6_s2_c50_d01.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_d001/auto6_s2_c50_d01.txt
+Obtained result: [Compile + Eliminate (20%): ([1556, <Compilation, 1482>, <Quantification, 74>, 71313, 71313, 45460, 115217, 604, 484]), Compile + Eliminate (50%): ([1526, <Compilation, 1442>, <Quantification, 84>, 71313, 71313, 7233, 77848, 604, 302]), Compile + Eliminate (80%): ([1507, <Compilation, 1473>, <Quantification, 34>, 71313, 71313, 855, 71934, 604, 121])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c50_d01.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c50_d01.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c50_d01.txt
+Obtained result: [Compile + Eliminate (20%): ([963, <Compilation, 942>, <Quantification, 21>, 24664, 24664, 9493, 32896, 528, 423]), Compile + Eliminate (50%): ([921, <Compilation, 901>, <Quantification, 20>, 24664, 24664, 4206, 28232, 528, 264]), Compile + Eliminate (80%): ([962, <Compilation, 946>, <Quantification, 16>, 24664, 24664, 1082, 25513, 528, 106])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c40_d01.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c40_d01.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c40_d01.txt
+Obtained result: [Compile + Eliminate (20%): ([2305, <Compilation, 2213>, <Quantification, 92>, 116752, 116752, 58400, 173769, 541, 433]), Compile + Eliminate (50%): ([2290, <Compilation, 2173>, <Quantification, 117>, 116752, 116752, 12507, 128615, 541, 271]), Compile + Eliminate (80%): ([2171, <Compilation, 2111>, <Quantification, 60>, 116752, 116752, 1059, 117608, 541, 109])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c10_d01.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c10_d01.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c10_d01.txt
+Obtained result: [Compile + Eliminate (20%): ([544, <Compilation, 476>, <Quantification, 68>, 39460, 39460, 29281, 67352, 497, 398]), Compile + Eliminate (50%): ([559, <Compilation, 512>, <Quantification, 47>, 39460, 39460, 8271, 47155, 497, 249]), Compile + Eliminate (80%): ([528, <Compilation, 512>, <Quantification, 16>, 39460, 39460, 699, 39964, 497, 100])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_d001/auto5_s2_c60_d01.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_d001/auto5_s2_c60_d01.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_d001/auto5_s2_c60_d01.txt
+Obtained result: [Compile + Eliminate (20%): ([4146, <Compilation, 3752>, <Quantification, 394>, 355412, 355412, 69567, 423657, 517, 414]), Compile + Eliminate (50%): ([4127, <Compilation, 3776>, <Quantification, 351>, 355412, 355412, 19298, 374097, 517, 259]), Compile + Eliminate (80%): ([3934, <Compilation, 3795>, <Quantification, 139>, 355412, 355412, 1565, 356776, 517, 104])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c10_d01.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c10_d01.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c10_d01.txt
+Obtained result: [Compile + Eliminate (20%): ([500, <Compilation, 482>, <Quantification, 18>, 23310, 23310, 14808, 36744, 493, 395]), Compile + Eliminate (50%): ([566, <Compilation, 545>, <Quantification, 21>, 23310, 23310, 7692, 30394, 493, 247]), Compile + Eliminate (80%): ([540, <Compilation, 531>, <Quantification, 9>, 23310, 23310, 943, 24049, 493, 99])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_d001/auto4_s2_c60_d01.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_d001/auto4_s2_c60_d01.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_d001/auto4_s2_c60_d01.txt
+Obtained result: [Compile + Eliminate (20%): ([362, <Compilation, 357>, <Quantification, 5>, 8838, 8838, 2479, 10250, 453, 363]), Compile + Eliminate (50%): ([343, <Compilation, 339>, <Quantification, 4>, 8838, 8838, 1301, 9646, 453, 227]), Compile + Eliminate (80%): ([353, <Compilation, 349>, <Quantification, 4>, 8838, 8838, 445, 9116, 453, 91])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c60_d01.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c60_d01.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c60_d01.txt
+Obtained result: [Compile + Eliminate (20%): ([12833, <Compilation, 10985>, <Quantification, 1848>, 742289, 742289, 313422, 1054491, 549, 440]), Compile + Eliminate (50%): ([6982, <Compilation, 6494>, <Quantification, 488>, 742289, 742289, 26370, 768070, 549, 275]), Compile + Eliminate (80%): ([5298, <Compilation, 5118>, <Quantification, 180>, 742289, 742289, 2174, 744253, 549, 110])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_d001/auto6_s2_c60_d01.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_d001/auto6_s2_c60_d01.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_d001/auto6_s2_c60_d01.txt
+Obtained result: [Compile + Eliminate (20%): ([682, <Compilation, 670>, <Quantification, 12>, 40852, 40852, 16750, 56015, 609, 488]), Compile + Eliminate (50%): ([699, <Compilation, 683>, <Quantification, 16>, 40852, 40852, 5799, 45910, 609, 305]), Compile + Eliminate (80%): ([657, <Compilation, 649>, <Quantification, 8>, 40852, 40852, 722, 41325, 609, 122])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c05_d05.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c05_d05.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c05_d05.txt
+Obtained result: [Compile + Eliminate (20%): ([112, <Compilation, 110>, <Quantification, 2>, 7513, 7513, 1852, 8360, 430, 344]), Compile + Eliminate (50%): ([122, <Compilation, 121>, <Quantification, 1>, 7513, 7513, 1057, 8101, 430, 215]), Compile + Eliminate (80%): ([120, <Compilation, 118>, <Quantification, 2>, 7513, 7513, 354, 7720, 430, 86])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c15_d15.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c15_d15.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c15_d15.txt
+Obtained result: [Compile + Eliminate (20%): ([1727, <Compilation, 1713>, <Quantification, 14>, 35414, 35414, 18588, 52827, 489, 392]), Compile + Eliminate (50%): ([1698, <Compilation, 1687>, <Quantification, 11>, 35414, 35414, 7364, 42235, 489, 245]), Compile + Eliminate (80%): ([1706, <Compilation, 1694>, <Quantification, 12>, 35414, 35414, 1304, 36531, 489, 98])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c25_d25.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c25_d25.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c25_d25.txt
+Obtained result: [Compile + Eliminate (20%): ([14597, <Compilation, 14226>, <Quantification, 371>, 715460, 715460, 318379, 1032283, 610, 488]), Compile + Eliminate (50%): ([16769, <Compilation, 14022>, <Quantification, 2747>, 715460, 715460, 170172, 884919, 610, 305]), Compile + Eliminate (80%): ([14458, <Compilation, 14202>, <Quantification, 256>, 715460, 715460, 7634, 722852, 610, 122])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c05_d05.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c05_d05.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c05_d05.txt
+Obtained result: [Compile + Eliminate (20%): ([960, <Compilation, 930>, <Quantification, 30>, 46867, 46867, 20340, 65873, 572, 458]), Compile + Eliminate (50%): ([959, <Compilation, 940>, <Quantification, 19>, 46867, 46867, 7274, 53462, 572, 286]), Compile + Eliminate (80%): ([957, <Compilation, 944>, <Quantification, 13>, 46867, 46867, 987, 47627, 572, 115])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c15_d15.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c15_d15.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c15_d15.txt
+Obtained result: [Compile + Eliminate (20%): ([291, <Compilation, 289>, <Quantification, 2>, 8481, 8481, 2687, 10439, 331, 265]), Compile + Eliminate (50%): ([295, <Compilation, 293>, <Quantification, 2>, 8481, 8481, 1580, 9682, 331, 166]), Compile + Eliminate (80%): ([293, <Compilation, 291>, <Quantification, 2>, 8481, 8481, 405, 8757, 331, 67])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c25_d25.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c25_d25.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c25_d25.txt
+Obtained result: [Compile + Eliminate (20%): ([-1, -1, -1, -1, -1, 552, 442]), Compile + Eliminate (50%): ([-1, -1, -1, -1, -1, 552, 276]), Compile + Eliminate (80%): ([-1, -1, -1, -1, -1, 552, 111])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c25_d25.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c25_d25.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c25_d25.txt
+Obtained result: [Compile + Eliminate (20%): ([-1, -1, -1, -1, -1, 528, 423]), Compile + Eliminate (50%): ([-1, -1, -1, -1, -1, 528, 264]), Compile + Eliminate (80%): ([-1, -1, -1, -1, -1, 528, 106])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c05_d05.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c05_d05.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c05_d05.txt
+Obtained result: [Compile + Eliminate (20%): ([1150, <Compilation, 1131>, <Quantification, 19>, 8208, 8208, 2575, 9961, 322, 258]), Compile + Eliminate (50%): ([225, <Compilation, 221>, <Quantification, 4>, 8208, 8208, 1341, 9150, 322, 161]), Compile + Eliminate (80%): ([149, <Compilation, 148>, <Quantification, 1>, 8208, 8208, 336, 8425, 322, 65])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c15_d15.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c15_d15.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c15_d15.txt
+Obtained result: [Compile + Eliminate (20%): ([1343, <Compilation, 1312>, <Quantification, 31>, 71621, 71621, 44846, 114901, 573, 459]), Compile + Eliminate (50%): ([1324, <Compilation, 1306>, <Quantification, 18>, 71621, 71621, 12963, 83885, 573, 287]), Compile + Eliminate (80%): ([1336, <Compilation, 1317>, <Quantification, 19>, 71621, 71621, 2030, 73420, 573, 115])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c05_d05.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c05_d05.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c05_d05.txt
+Obtained result: [Compile + Eliminate (20%): ([579, <Compilation, 537>, <Quantification, 42>, 104860, 104860, 24257, 127273, 479, 384]), Compile + Eliminate (50%): ([578, <Compilation, 535>, <Quantification, 43>, 104860, 104860, 5447, 109717, 479, 240]), Compile + Eliminate (80%): ([545, <Compilation, 516>, <Quantification, 29>, 104860, 104860, 1211, 105881, 479, 96])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c15_d15.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c15_d15.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c15_d15.txt
+Obtained result: [Compile + Eliminate (20%): ([205, <Compilation, 203>, <Quantification, 2>, 13250, 13250, 2242, 14445, 444, 356]), Compile + Eliminate (50%): ([214, <Compilation, 211>, <Quantification, 3>, 13250, 13250, 1170, 13923, 444, 222]), Compile + Eliminate (80%): ([215, <Compilation, 213>, <Quantification, 2>, 13250, 13250, 390, 13478, 444, 89])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c25_d25.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c25_d25.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c25_d25.txt
+Obtained result: [Compile + Eliminate (20%): ([168062, <Compilation, 165790>, <Quantification, 2272>, 7621514, 7621514, 209466, 7829668, 499, 400]), Compile + Eliminate (50%): ([165450, <Compilation, 163236>, <Quantification, 2214>, 7621514, 7621514, 22437, 7643332, 499, 250]), Compile + Eliminate (80%): ([168621, <Compilation, 166904>, <Quantification, 1717>, 7621514, 7621514, 1165, 7622490, 499, 100])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c15_d15.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c15_d15.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c15_d15.txt
+Obtained result: [Compile + Eliminate (20%): ([8879, <Compilation, 8615>, <Quantification, 264>, 308530, 308530, 124524, 431642, 602, 482]), Compile + Eliminate (50%): ([8863, <Compilation, 8679>, <Quantification, 184>, 308530, 308530, 33208, 341034, 602, 301]), Compile + Eliminate (80%): ([8529, <Compilation, 8309>, <Quantification, 220>, 308530, 308530, 11274, 319551, 602, 121])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c25_d25.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c25_d25.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c25_d25.txt
+Obtained result: [Compile + Eliminate (20%): ([601, <Compilation, 598>, <Quantification, 3>, 17756, 17756, 4547, 21461, 335, 268]), Compile + Eliminate (50%): ([520, <Compilation, 517>, <Quantification, 3>, 17756, 17756, 2052, 19425, 335, 168]), Compile + Eliminate (80%): ([443, <Compilation, 440>, <Quantification, 3>, 17756, 17756, 602, 18229, 335, 67])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c15_d15.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c15_d15.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c15_d15.txt
+Obtained result: [Compile + Eliminate (20%): ([-1, -1, -1, -1, -1, 534, 428]), Compile + Eliminate (50%): ([-1, -1, -1, -1, -1, 534, 267]), Compile + Eliminate (80%): ([-1, -1, -1, -1, -1, 534, 107])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c05_d05.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c05_d05.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c05_d05.txt
+Obtained result: [Compile + Eliminate (20%): ([981, <Compilation, 821>, <Quantification, 160>, 55841, 55841, 34788, 89275, 497, 398]), Compile + Eliminate (50%): ([861, <Compilation, 807>, <Quantification, 54>, 55841, 55841, 5727, 61003, 497, 249]), Compile + Eliminate (80%): ([511, <Compilation, 493>, <Quantification, 18>, 55841, 55841, 1042, 56684, 497, 100])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c15_d15.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c15_d15.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c15_d15.txt
+Obtained result: [Compile + Eliminate (20%): ([1647, <Compilation, 1580>, <Quantification, 67>, 80381, 80381, 34579, 113682, 511, 409]), Compile + Eliminate (50%): ([1569, <Compilation, 1542>, <Quantification, 27>, 80381, 80381, 5638, 85387, 511, 256]), Compile + Eliminate (80%): ([1597, <Compilation, 1578>, <Quantification, 19>, 80381, 80381, 634, 80813, 511, 103])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c05_d05.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c05_d05.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c05_d05.txt
+Obtained result: [Compile + Eliminate (20%): ([3373, <Compilation, 3314>, <Quantification, 59>, 102799, 102799, 28465, 129922, 516, 413]), Compile + Eliminate (50%): ([3358, <Compilation, 3311>, <Quantification, 47>, 102799, 102799, 9851, 112066, 516, 258]), Compile + Eliminate (80%): ([3288, <Compilation, 3254>, <Quantification, 34>, 102799, 102799, 1852, 104443, 516, 104])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c25_d25.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c25_d25.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c25_d25.txt
+Obtained result: [Compile + Eliminate (20%): ([4629, <Compilation, 4368>, <Quantification, 261>, 183211, 183211, 150565, 332262, 583, 467]), Compile + Eliminate (50%): ([4484, <Compilation, 4349>, <Quantification, 135>, 183211, 183211, 13096, 195638, 583, 292]), Compile + Eliminate (80%): ([4467, <Compilation, 4430>, <Quantification, 37>, 183211, 183211, 986, 183997, 583, 117])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c05_d05.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c05_d05.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c05_d05.txt
+Obtained result: [Compile + Eliminate (20%): ([1964, <Compilation, 1930>, <Quantification, 34>, 78354, 78354, 46352, 123315, 589, 472]), Compile + Eliminate (50%): ([2009, <Compilation, 1913>, <Quantification, 96>, 78354, 78354, 30233, 107838, 589, 295]), Compile + Eliminate (80%): ([1902, <Compilation, 1865>, <Quantification, 37>, 78354, 78354, 3014, 81141, 589, 118])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c25_d25.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c25_d25.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c25_d25.txt
+Obtained result: [Compile + Eliminate (20%): ([505, <Compilation, 502>, <Quantification, 3>, 12364, 12364, 2345, 13641, 444, 356]), Compile + Eliminate (50%): ([519, <Compilation, 515>, <Quantification, 4>, 12364, 12364, 1360, 13208, 444, 222]), Compile + Eliminate (80%): ([509, <Compilation, 505>, <Quantification, 4>, 12364, 12364, 403, 12607, 444, 89])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c10_d10.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c10_d10.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c10_d10.txt
+Obtained result: [Compile + Eliminate (20%): ([7333, <Compilation, 7201>, <Quantification, 132>, 228005, 228005, 49377, 275697, 595, 476]), Compile + Eliminate (50%): ([7271, <Compilation, 7218>, <Quantification, 53>, 228005, 228005, 14042, 241332, 595, 298]), Compile + Eliminate (80%): ([7121, <Compilation, 7083>, <Quantification, 38>, 228005, 228005, 1087, 228858, 595, 119])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c20_d20.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c20_d20.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c20_d20.txt
+Obtained result: [Compile + Eliminate (20%): ([-1, -1, -1, -1, -1, 495, 396]), Compile + Eliminate (50%): ([-1, -1, -1, -1, -1, 495, 248]), Compile + Eliminate (80%): ([-1, -1, -1, -1, -1, 495, 99])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c10_d10.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c10_d10.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c10_d10.txt
+Obtained result: [Compile + Eliminate (20%): ([7321, <Compilation, 7196>, <Quantification, 125>, 128432, 128432, 51904, 178877, 523, 419]), Compile + Eliminate (50%): ([7165, <Compilation, 7124>, <Quantification, 41>, 128432, 128432, 12039, 139808, 523, 262]), Compile + Eliminate (80%): ([7145, <Compilation, 7115>, <Quantification, 30>, 128432, 128432, 2249, 130482, 523, 105])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c20_d20.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c20_d20.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c20_d20.txt
+Obtained result: [Compile + Eliminate (20%): ([503, <Compilation, 499>, <Quantification, 4>, 11688, 11688, 3882, 14669, 328, 263]), Compile + Eliminate (50%): ([327, <Compilation, 325>, <Quantification, 2>, 11688, 11688, 1980, 13318, 328, 164]), Compile + Eliminate (80%): ([320, <Compilation, 317>, <Quantification, 3>, 11688, 11688, 322, 11889, 328, 66])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c20_d20.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c20_d20.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c20_d20.txt
+Obtained result: [Compile + Eliminate (20%): ([4682, <Compilation, 4594>, <Quantification, 88>, 140526, 140526, 57158, 195645, 582, 466]), Compile + Eliminate (50%): ([4720, <Compilation, 4620>, <Quantification, 100>, 140526, 140526, 17150, 157011, 582, 291]), Compile + Eliminate (80%): ([4463, <Compilation, 4406>, <Quantification, 57>, 140526, 140526, 2559, 142866, 582, 117])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c10_d10.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c10_d10.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c10_d10.txt
+Obtained result: [Compile + Eliminate (20%): ([849, <Compilation, 825>, <Quantification, 24>, 46009, 46009, 12413, 57213, 505, 404]), Compile + Eliminate (50%): ([832, <Compilation, 811>, <Quantification, 21>, 46009, 46009, 6185, 51587, 505, 253]), Compile + Eliminate (80%): ([818, <Compilation, 807>, <Quantification, 11>, 46009, 46009, 1358, 47172, 505, 101])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c20_d20.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c20_d20.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c20_d20.txt
+Obtained result: [Compile + Eliminate (20%): ([240, <Compilation, 237>, <Quantification, 3>, 12334, 12334, 2869, 14166, 446, 357]), Compile + Eliminate (50%): ([244, <Compilation, 241>, <Quantification, 3>, 12334, 12334, 1365, 13190, 446, 223]), Compile + Eliminate (80%): ([243, <Compilation, 240>, <Quantification, 3>, 12334, 12334, 397, 12564, 446, 90])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c20_d20.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c20_d20.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c20_d20.txt
+Obtained result: [Compile + Eliminate (20%): ([-1, -1, -1, -1, -1, 608, 487]), Compile + Eliminate (50%): ([-1, -1, -1, -1, -1, 608, 304]), Compile + Eliminate (80%): ([-1, -1, -1, -1, -1, 608, 122])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c10_d10.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c10_d10.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c10_d10.txt
+Obtained result: [Compile + Eliminate (20%): ([958, <Compilation, 889>, <Quantification, 69>, 59186, 59186, 17149, 75162, 482, 386]), Compile + Eliminate (50%): ([660, <Compilation, 591>, <Quantification, 69>, 59186, 59186, 10211, 68814, 482, 241]), Compile + Eliminate (80%): ([893, <Compilation, 817>, <Quantification, 76>, 59186, 59186, 1473, 60444, 482, 97])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c20_d20.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c20_d20.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c20_d20.txt
+Obtained result: [Compile + Eliminate (20%): ([-1, -1, -1, -1, -1, 545, 436]), Compile + Eliminate (50%): ([-1, -1, -1, -1, -1, 545, 273]), Compile + Eliminate (80%): ([-1, -1, -1, -1, -1, 545, 109])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c10_d10.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c10_d10.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c10_d10.txt
+Obtained result: [Compile + Eliminate (20%): ([451, <Compilation, 435>, <Quantification, 16>, 6241, 6241, 2074, 7454, 321, 257]), Compile + Eliminate (50%): ([328, <Compilation, 321>, <Quantification, 7>, 6241, 6241, 1104, 6978, 321, 161]), Compile + Eliminate (80%): ([336, <Compilation, 334>, <Quantification, 2>, 6241, 6241, 302, 6414, 321, 65])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c10_d10.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c10_d10.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c10_d10.txt
+Obtained result: [Compile + Eliminate (20%): ([1376, <Compilation, 1308>, <Quantification, 68>, 54178, 54178, 31472, 84244, 574, 460]), Compile + Eliminate (50%): ([1081, <Compilation, 1019>, <Quantification, 62>, 54178, 54178, 10692, 64195, 574, 287]), Compile + Eliminate (80%): ([1051, <Compilation, 1028>, <Quantification, 23>, 54178, 54178, 1885, 55839, 574, 115])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c20_d20.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c20_d20.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c20_d20.txt
+Obtained result: [Compile + Eliminate (20%): ([8088, <Compilation, 7906>, <Quantification, 182>, 368482, 368482, 153674, 520223, 521, 417]), Compile + Eliminate (50%): ([8125, <Compilation, 7934>, <Quantification, 191>, 368482, 368482, 34009, 401857, 521, 261]), Compile + Eliminate (80%): ([7996, <Compilation, 7915>, <Quantification, 81>, 368482, 368482, 1276, 369543, 521, 105])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c10_d10.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c10_d10.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c10_d10.txt
+Obtained result: [Compile + Eliminate (20%): ([452, <Compilation, 449>, <Quantification, 3>, 16140, 16140, 2532, 17662, 445, 356]), Compile + Eliminate (50%): ([453, <Compilation, 449>, <Quantification, 4>, 16140, 16140, 1219, 16876, 445, 223]), Compile + Eliminate (80%): ([456, <Compilation, 454>, <Quantification, 2>, 16140, 16140, 376, 16371, 445, 89])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d30.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d30.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d30.txt
+Obtained result: [Compile + Eliminate (20%): ([-1, -1, -1, -1, -1, 536, 429]), Compile + Eliminate (50%): ([-1, -1, -1, -1, -1, 536, 268]), Compile + Eliminate (80%): ([-1, -1, -1, -1, -1, 536, 108])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d50.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d50.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d50.txt
+Obtained result: [Compile + Eliminate (20%): ([960, <Compilation, 932>, <Quantification, 28>, 13935, 13935, 6057, 18860, 481, 385]), Compile + Eliminate (50%): ([633, <Compilation, 619>, <Quantification, 14>, 13935, 13935, 2440, 15799, 481, 241]), Compile + Eliminate (80%): ([631, <Compilation, 607>, <Quantification, 24>, 13935, 13935, 571, 14317, 481, 97])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d40.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d40.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d40.txt
+Obtained result: [Compile + Eliminate (20%): ([126864, <Compilation, 126460>, <Quantification, 404>, 1927722, 1927722, 7003, 1933717, 485, 388]), Compile + Eliminate (50%): ([125520, <Compilation, 125130>, <Quantification, 390>, 1927722, 1927722, 1966, 1929137, 485, 243]), Compile + Eliminate (80%): ([126642, <Compilation, 126252>, <Quantification, 390>, 1927722, 1927722, 524, 1928047, 485, 97])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d30.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d30.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d30.txt
+Obtained result: [Compile + Eliminate (20%): ([6555, <Compilation, 6416>, <Quantification, 139>, 476025, 476025, 29812, 504720, 513, 411]), Compile + Eliminate (50%): ([6394, <Compilation, 6257>, <Quantification, 137>, 476025, 476025, 7641, 483086, 513, 257]), Compile + Eliminate (80%): ([6229, <Compilation, 6115>, <Quantification, 114>, 476025, 476025, 775, 476587, 513, 103])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d20.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d20.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d20.txt
+Obtained result: [Compile + Eliminate (20%): ([-1, -1, -1, -1, -1, 524, 420]), Compile + Eliminate (50%): ([-1, -1, -1, -1, -1, 524, 262]), Compile + Eliminate (80%): ([-1, -1, -1, -1, -1, 524, 105])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d20.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d20.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d20.txt
+Obtained result: [Compile + Eliminate (20%): ([1948, <Compilation, 1877>, <Quantification, 71>, 44317, 44317, 20356, 63159, 591, 473]), Compile + Eliminate (50%): ([1490, <Compilation, 1467>, <Quantification, 23>, 44317, 44317, 5481, 49076, 591, 296]), Compile + Eliminate (80%): ([1465, <Compilation, 1458>, <Quantification, 7>, 44317, 44317, 1047, 45114, 591, 119])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d50.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d50.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d50.txt
+Obtained result: [Compile + Eliminate (20%): ([-1, -1, -1, -1, -1, 524, 420]), Compile + Eliminate (50%): ([-1, -1, -1, -1, -1, 524, 262]), Compile + Eliminate (80%): ([-1, -1, -1, -1, -1, 524, 105])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d40.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d40.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d40.txt
+Obtained result: [Compile + Eliminate (20%): ([35838, <Compilation, 35469>, <Quantification, 369>, 1478910, 1478910, 7352, 1485233, 517, 414]), Compile + Eliminate (50%): ([36080, <Compilation, 35751>, <Quantification, 329>, 1478910, 1478910, 3918, 1482305, 517, 259]), Compile + Eliminate (80%): ([36053, <Compilation, 35768>, <Quantification, 285>, 1478910, 1478910, 593, 1479314, 517, 104])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_c001_dn/auto4_s1_c01_d20.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_c001_dn/auto4_s1_c01_d20.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_c001_dn/auto4_s1_c01_d20.txt
+Obtained result: [Compile + Eliminate (20%): ([579, <Compilation, 577>, <Quantification, 2>, 13335, 13335, 1873, 14289, 442, 354]), Compile + Eliminate (50%): ([447, <Compilation, 445>, <Quantification, 2>, 13335, 13335, 958, 13806, 442, 221]), Compile + Eliminate (80%): ([372, <Compilation, 369>, <Quantification, 3>, 13335, 13335, 314, 13486, 442, 89])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d30.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d30.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d30.txt
+Obtained result: [Compile + Eliminate (20%): ([245, <Compilation, 242>, <Quantification, 3>, 11349, 11349, 4944, 15132, 480, 384]), Compile + Eliminate (50%): ([242, <Compilation, 239>, <Quantification, 3>, 11349, 11349, 1868, 12640, 480, 240]), Compile + Eliminate (80%): ([242, <Compilation, 239>, <Quantification, 3>, 11349, 11349, 539, 11707, 480, 96])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d50.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d50.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d50.txt
+Obtained result: [Compile + Eliminate (20%): ([-1, -1, -1, -1, -1, 612, 490]), Compile + Eliminate (50%): ([-1, -1, -1, -1, -1, 612, 306]), Compile + Eliminate (80%): ([-1, -1, -1, -1, -1, 612, 123])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_c001_dn/auto3_s1_c01_d20.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_c001_dn/auto3_s1_c01_d20.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_c001_dn/auto3_s1_c01_d20.txt
+Obtained result: [Compile + Eliminate (20%): ([2069, <Compilation, 1998>, <Quantification, 71>, 39666, 39666, 16148, 54518, 571, 457]), Compile + Eliminate (50%): ([1397, <Compilation, 1343>, <Quantification, 54>, 39666, 39666, 4204, 43185, 571, 286]), Compile + Eliminate (80%): ([1154, <Compilation, 1139>, <Quantification, 15>, 39666, 39666, 1927, 41372, 571, 115])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d40.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d40.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d40.txt
+Obtained result: [Compile + Eliminate (20%): ([-1, -1, -1, -1, -1, 602, 482]), Compile + Eliminate (50%): ([-1, -1, -1, -1, -1, 602, 301]), Compile + Eliminate (80%): ([-1, -1, -1, -1, -1, 602, 121])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d20.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d20.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d20.txt
+Obtained result: [Compile + Eliminate (20%): ([328, <Compilation, 286>, <Quantification, 42>, 18628, 18628, 6127, 23720, 476, 381]), Compile + Eliminate (50%): ([296, <Compilation, 291>, <Quantification, 5>, 18628, 18628, 3186, 21277, 476, 238]), Compile + Eliminate (80%): ([284, <Compilation, 281>, <Quantification, 3>, 18628, 18628, 665, 19120, 476, 96])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d50.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d50.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d50.txt
+Obtained result: [Compile + Eliminate (20%): ([3882, <Compilation, 3786>, <Quantification, 96>, 440138, 440138, 20898, 459991, 517, 414]), Compile + Eliminate (50%): ([4073, <Compilation, 3888>, <Quantification, 185>, 440138, 440138, 7334, 446917, 517, 259]), Compile + Eliminate (80%): ([4399, <Compilation, 4307>, <Quantification, 92>, 440138, 440138, 847, 440791, 517, 104])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d40.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d40.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d40.txt
+Obtained result: [Compile + Eliminate (20%): ([-1, -1, -1, -1, -1, 545, 436]), Compile + Eliminate (50%): ([-1, -1, -1, -1, -1, 545, 273]), Compile + Eliminate (80%): ([-1, -1, -1, -1, -1, 545, 109])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d10.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d10.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d10.txt
+Obtained result: [Compile + Eliminate (20%): ([425, <Compilation, 382>, <Quantification, 43>, 11977, 11977, 3118, 13845, 472, 378]), Compile + Eliminate (50%): ([334, <Compilation, 306>, <Quantification, 28>, 11977, 11977, 2085, 13545, 472, 236]), Compile + Eliminate (80%): ([194, <Compilation, 183>, <Quantification, 11>, 11977, 11977, 511, 12321, 472, 95])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d60.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d60.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d60.txt
+Obtained result: [Compile + Eliminate (20%): ([9076, <Compilation, 8654>, <Quantification, 422>, 1908971, 1908971, 4922, 1912846, 524, 420]), Compile + Eliminate (50%): ([8490, <Compilation, 8123>, <Quantification, 367>, 1908971, 1908971, 2216, 1910622, 524, 262]), Compile + Eliminate (80%): ([7979, <Compilation, 7601>, <Quantification, 378>, 1908971, 1908971, 502, 1909288, 524, 105])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d60.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d60.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d60.txt
+Obtained result: [Compile + Eliminate (20%): ([-1, -1, -1, -1, -1, 612, 490]), Compile + Eliminate (50%): ([-1, -1, -1, -1, -1, 612, 306]), Compile + Eliminate (80%): ([-1, -1, -1, -1, -1, 612, 123])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_c001_dn/auto3_s1_c01_d10.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_c001_dn/auto3_s1_c01_d10.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_c001_dn/auto3_s1_c01_d10.txt
+Obtained result: [Compile + Eliminate (20%): ([536, <Compilation, 507>, <Quantification, 29>, 13662, 13662, 5072, 17488, 562, 450]), Compile + Eliminate (50%): ([285, <Compilation, 280>, <Quantification, 5>, 13662, 13662, 2277, 15285, 562, 281]), Compile + Eliminate (80%): ([256, <Compilation, 253>, <Quantification, 3>, 13662, 13662, 635, 14081, 562, 113])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d60.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d60.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d60.txt
+Obtained result: [Compile + Eliminate (20%): ([-1, -1, -1, -1, -1, 527, 422]), Compile + Eliminate (50%): ([-1, -1, -1, -1, -1, 527, 264]), Compile + Eliminate (80%): ([-1, -1, -1, -1, -1, 527, 106])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d10.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d10.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d10.txt
+Obtained result: [Compile + Eliminate (20%): ([1594, <Compilation, 1561>, <Quantification, 33>, 18249, 18249, 6694, 23669, 584, 468]), Compile + Eliminate (50%): ([881, <Compilation, 852>, <Quantification, 29>, 18249, 18249, 3206, 20775, 584, 292]), Compile + Eliminate (80%): ([587, <Compilation, 578>, <Quantification, 9>, 18249, 18249, 1417, 19446, 584, 117])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d10.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d10.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d10.txt
+Obtained result: [Compile + Eliminate (20%): ([2133, <Compilation, 2126>, <Quantification, 7>, 31517, 31517, 9939, 40177, 515, 412]), Compile + Eliminate (50%): ([2157, <Compilation, 2145>, <Quantification, 12>, 31517, 31517, 4909, 35797, 515, 258]), Compile + Eliminate (80%): ([2118, <Compilation, 2113>, <Quantification, 5>, 31517, 31517, 1333, 32643, 515, 103])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d10.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d10.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d10.txt
+Obtained result: [Compile + Eliminate (20%): ([431, <Compilation, 428>, <Quantification, 3>, 17559, 17559, 4894, 21218, 499, 400]), Compile + Eliminate (50%): ([453, <Compilation, 449>, <Quantification, 4>, 17559, 17559, 2280, 19268, 499, 250]), Compile + Eliminate (80%): ([417, <Compilation, 414>, <Quantification, 3>, 17559, 17559, 637, 17991, 499, 100])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d60.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d60.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d60.txt
+Obtained result: [Compile + Eliminate (20%): ([105552, <Compilation, 105233>, <Quantification, 319>, 1846714, 1846714, 7606, 1853269, 482, 386]), Compile + Eliminate (50%): ([106389, <Compilation, 106082>, <Quantification, 307>, 1846714, 1846714, 3411, 1849596, 482, 241]), Compile + Eliminate (80%): ([105214, <Compilation, 104909>, <Quantification, 305>, 1846714, 1846714, 622, 1847153, 482, 97])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v02.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v02.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v02.txt
+Obtained result: [Compile + Eliminate (20%): ([133, <Compilation, 131>, <Quantification, 2>, 8908, 8908, 2993, 10695, 497, 398]), Compile + Eliminate (50%): ([146, <Compilation, 145>, <Quantification, 1>, 8908, 8908, 1547, 9861, 497, 249]), Compile + Eliminate (80%): ([157, <Compilation, 156>, <Quantification, 1>, 8908, 8908, 521, 9240, 497, 100])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_c001_d001/auto3_s0_c01_d01_v09.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_c001_d001/auto3_s0_c01_d01_v09.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_c001_d001/auto3_s0_c01_d01_v09.txt
+Obtained result: [Compile + Eliminate (20%): ([105, <Compilation, 102>, <Quantification, 3>, 10968, 10968, 3852, 13598, 548, 439]), Compile + Eliminate (50%): ([119, <Compilation, 116>, <Quantification, 3>, 10968, 10968, 1686, 12043, 548, 274]), Compile + Eliminate (80%): ([104, <Compilation, 102>, <Quantification, 2>, 10968, 10968, 533, 11278, 548, 110])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v01.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v01.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v01.txt
+Obtained result: [Compile + Eliminate (20%): ([117, <Compilation, 116>, <Quantification, 1>, 8085, 8085, 3065, 9991, 486, 389]), Compile + Eliminate (50%): ([120, <Compilation, 117>, <Quantification, 3>, 8085, 8085, 2004, 9520, 486, 243]), Compile + Eliminate (80%): ([109, <Compilation, 105>, <Quantification, 4>, 8085, 8085, 508, 8402, 486, 98])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v00.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v00.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v00.txt
+Obtained result: [Compile + Eliminate (20%): ([241, <Compilation, 238>, <Quantification, 3>, 14363, 14363, 5294, 18578, 502, 402]), Compile + Eliminate (50%): ([212, <Compilation, 209>, <Quantification, 3>, 14363, 14363, 2063, 15845, 502, 251]), Compile + Eliminate (80%): ([222, <Compilation, 220>, <Quantification, 2>, 14363, 14363, 770, 14934, 502, 101])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v04.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v04.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v04.txt
+Obtained result: [Compile + Eliminate (20%): ([109, <Compilation, 107>, <Quantification, 2>, 8261, 8261, 2846, 10014, 487, 390]), Compile + Eliminate (50%): ([115, <Compilation, 114>, <Quantification, 1>, 8261, 8261, 1331, 9021, 487, 244]), Compile + Eliminate (80%): ([125, <Compilation, 123>, <Quantification, 2>, 8261, 8261, 456, 8530, 487, 98])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v05.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v05.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v05.txt
+Obtained result: [Compile + Eliminate (20%): ([154, <Compilation, 151>, <Quantification, 3>, 9730, 9730, 3265, 11894, 494, 396]), Compile + Eliminate (50%): ([158, <Compilation, 156>, <Quantification, 2>, 9730, 9730, 1669, 10790, 494, 247]), Compile + Eliminate (80%): ([152, <Compilation, 149>, <Quantification, 3>, 9730, 9730, 531, 10084, 494, 99])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v07.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v07.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v07.txt
+Obtained result: [Compile + Eliminate (20%): ([76, <Compilation, 74>, <Quantification, 2>, 6861, 6861, 2245, 8031, 485, 388]), Compile + Eliminate (50%): ([89, <Compilation, 88>, <Quantification, 1>, 6861, 6861, 1275, 7567, 485, 243]), Compile + Eliminate (80%): ([78, <Compilation, 77>, <Quantification, 1>, 6861, 6861, 442, 7116, 485, 97])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_c001_d001/auto2_s0_c01_d01_v03.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_c001_d001/auto2_s0_c01_d01_v03.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_c001_d001/auto2_s0_c01_d01_v03.txt
+Obtained result: [Compile + Eliminate (20%): ([45, <Compilation, 44>, <Quantification, 1>, 4616, 4616, 1495, 5410, 315, 252]), Compile + Eliminate (50%): ([42, <Compilation, 41>, <Quantification, 1>, 4616, 4616, 855, 5104, 315, 158]), Compile + Eliminate (80%): ([43, <Compilation, 43>, <Quantification, 0>, 4616, 4616, 266, 4769, 315, 63])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_c001_d001/auto2_s0_c01_d01_v02.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_c001_d001/auto2_s0_c01_d01_v02.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_c001_d001/auto2_s0_c01_d01_v02.txt
+Obtained result: [Compile + Eliminate (20%): ([47, <Compilation, 46>, <Quantification, 1>, 5108, 5108, 1663, 5954, 314, 252]), Compile + Eliminate (50%): ([48, <Compilation, 47>, <Quantification, 1>, 5108, 5108, 808, 5556, 314, 157]), Compile + Eliminate (80%): ([46, <Compilation, 46>, <Quantification, 0>, 5108, 5108, 268, 5259, 314, 63])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_c001_d001/auto0_s0_c01_d01_v08.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_c001_d001/auto0_s0_c01_d01_v08.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_c001_d001/auto0_s0_c01_d01_v08.txt
+Obtained result: [Compile + Eliminate (20%): ([96, <Compilation, 94>, <Quantification, 2>, 9897, 9897, 4752, 13465, 488, 391]), Compile + Eliminate (50%): ([98, <Compilation, 93>, <Quantification, 5>, 9897, 9897, 2358, 11711, 488, 244]), Compile + Eliminate (80%): ([98, <Compilation, 97>, <Quantification, 1>, 9897, 9897, 483, 10195, 488, 98])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v06.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v06.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v06.txt
+Obtained result: [Compile + Eliminate (20%): ([225, <Compilation, 222>, <Quantification, 3>, 13051, 13051, 3965, 15883, 495, 396]), Compile + Eliminate (50%): ([235, <Compilation, 230>, <Quantification, 5>, 13051, 13051, 1885, 14340, 495, 248]), Compile + Eliminate (80%): ([209, <Compilation, 206>, <Quantification, 3>, 13051, 13051, 462, 13326, 495, 99])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_c001_d001/auto6_s0_c01_d01_v09.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_c001_d001/auto6_s0_c01_d01_v09.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_c001_d001/auto6_s0_c01_d01_v09.txt
+Obtained result: [Compile + Eliminate (20%): ([111, <Compilation, 109>, <Quantification, 2>, 11052, 11052, 3452, 13258, 564, 452]), Compile + Eliminate (50%): ([110, <Compilation, 108>, <Quantification, 2>, 11052, 11052, 1973, 12416, 564, 282]), Compile + Eliminate (80%): ([110, <Compilation, 108>, <Quantification, 2>, 11052, 11052, 536, 11377, 564, 113])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_c001_d001/auto6_s0_c01_d01_v02.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_c001_d001/auto6_s0_c01_d01_v02.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_c001_d001/auto6_s0_c01_d01_v02.txt
+Obtained result: [Compile + Eliminate (20%): ([108, <Compilation, 106>, <Quantification, 2>, 9949, 9949, 3382, 12063, 559, 448]), Compile + Eliminate (50%): ([117, <Compilation, 115>, <Quantification, 2>, 9949, 9949, 1906, 11189, 559, 280]), Compile + Eliminate (80%): ([107, <Compilation, 105>, <Quantification, 2>, 9949, 9949, 592, 10327, 559, 112])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_c001_d001/auto5_s0_c01_d01_v02.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_c001_d001/auto5_s0_c01_d01_v02.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_c001_d001/auto5_s0_c01_d01_v02.txt
+Obtained result: [Compile + Eliminate (20%): ([81, <Compilation, 80>, <Quantification, 1>, 8249, 8249, 3180, 10370, 468, 375]), Compile + Eliminate (50%): ([90, <Compilation, 88>, <Quantification, 2>, 8249, 8249, 1883, 9573, 468, 234]), Compile + Eliminate (80%): ([84, <Compilation, 83>, <Quantification, 1>, 8249, 8249, 407, 8480, 468, 94])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_c001_d001/auto6_s0_c01_d01_v05.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_c001_d001/auto6_s0_c01_d01_v05.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_c001_d001/auto6_s0_c01_d01_v05.txt
+Obtained result: [Compile + Eliminate (20%): ([110, <Compilation, 105>, <Quantification, 5>, 10152, 10152, 3825, 12636, 558, 447]), Compile + Eliminate (50%): ([115, <Compilation, 112>, <Quantification, 3>, 10152, 10152, 1939, 11436, 558, 279]), Compile + Eliminate (80%): ([106, <Compilation, 104>, <Quantification, 2>, 10152, 10152, 577, 10528, 558, 112])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_c001_d001/auto0_s0_c01_d01_v05.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_c001_d001/auto0_s0_c01_d01_v05.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_c001_d001/auto0_s0_c01_d01_v05.txt
+Obtained result: [Compile + Eliminate (20%): ([99, <Compilation, 97>, <Quantification, 2>, 7653, 7653, 2757, 9345, 487, 390]), Compile + Eliminate (50%): ([88, <Compilation, 87>, <Quantification, 1>, 7653, 7653, 1304, 8406, 487, 244]), Compile + Eliminate (80%): ([86, <Compilation, 84>, <Quantification, 1>, 7653, 7653, 420, 7888, 487, 98])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v08.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v08.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v08.txt
+Obtained result: [Compile + Eliminate (20%): ([127, <Compilation, 125>, <Quantification, 2>, 9352, 9352, 3284, 11471, 486, 389]), Compile + Eliminate (50%): ([137, <Compilation, 134>, <Quantification, 3>, 9352, 9352, 2086, 10877, 486, 243]), Compile + Eliminate (80%): ([126, <Compilation, 125>, <Quantification, 1>, 9352, 9352, 526, 9697, 486, 98])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v09.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v09.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_c001_d001/auto1_s0_c01_d01_v09.txt
+Obtained result: [Compile + Eliminate (20%): ([91, <Compilation, 88>, <Quantification, 3>, 6893, 6893, 2556, 8287, 483, 387]), Compile + Eliminate (50%): ([85, <Compilation, 84>, <Quantification, 1>, 6893, 6893, 1474, 7816, 483, 242]), Compile + Eliminate (80%): ([85, <Compilation, 84>, <Quantification, 1>, 6893, 6893, 434, 7143, 483, 97])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_c001_d001/auto2_s0_c01_d01_v08.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_c001_d001/auto2_s0_c01_d01_v08.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_c001_d001/auto2_s0_c01_d01_v08.txt
+Obtained result: [Compile + Eliminate (20%): ([44, <Compilation, 43>, <Quantification, 1>, 4654, 4654, 1464, 5323, 314, 252]), Compile + Eliminate (50%): ([45, <Compilation, 44>, <Quantification, 1>, 4654, 4654, 769, 5079, 314, 157]), Compile + Eliminate (80%): ([50, <Compilation, 49>, <Quantification, 1>, 4654, 4654, 258, 4793, 314, 63])]
+Run Compile + Eliminate (20%) for benchmarks/suite1/automotive/auto_c001_d001/auto0_s0_c01_d01_v02.txt
+Run Compile + Eliminate (50%) for benchmarks/suite1/automotive/auto_c001_d001/auto0_s0_c01_d01_v02.txt
+Run Compile + Eliminate (80%) for benchmarks/suite1/automotive/auto_c001_d001/auto0_s0_c01_d01_v02.txt
+Obtained result: [Compile + Eliminate (20%): ([75, <Compilation, 74>, <Quantification, 1>, 7581, 7581, 2703, 9195, 490, 392]), Compile + Eliminate (50%): ([83, <Compilation, 81>, <Quantification, 2>, 7581, 7581, 1459, 8457, 490, 245]), Compile + Eliminate (80%): ([75, <Compilation, 74>, <Quantification, 1>, 7581, 7581, 461, 7849, 490, 98])]

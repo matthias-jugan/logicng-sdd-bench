@@ -8,6 +8,7 @@ import com.booleworks.logicng.knowledgecompilation.sdd.compilers.SddCompiler;
 import com.booleworks.logicng.knowledgecompilation.sdd.compilers.SddCompilerConfig;
 import com.booleworks.logicng.knowledgecompilation.sdd.datastructures.SddCompilationResult;
 import com.booleworks.logicng.knowledgecompilation.sdd.functions.SddModelCountFunction;
+import com.booleworks.logicng.knowledgecompilation.sdd.functions.SddProjectionFunction;
 import com.booleworks.logicng_sdd_bench.Logger;
 import com.booleworks.logicng_sdd_bench.Util;
 import com.booleworks.logicng_sdd_bench.experiments.problems.ProjectionProblem;
@@ -32,8 +33,16 @@ public class PmcNaiveSddExperiment implements Experiment<ProjectionProblem, Mode
             return new ModelCountingResult(null, tracker);
         }
         tracker.end("Compilation");
-        final var node = compiled.getResult().getNode();
+        var node = compiled.getResult().getNode();
         final var sdd = compiled.getResult().getSdd();
+        final var projected = node.execute(new SddProjectionFunction(input.projectedVariables(), sdd), h);
+        if (!projected.isSuccess()) {
+            tracker.timeout();
+            return new ModelCountingResult(null, tracker);
+        }
+        tracker.end("Projection");
+        node = projected.getResult();
+
         final BigInteger mc = node.execute(new SddModelCountFunction(input.projectedVariables(), sdd));
         tracker.end("Counting");
         return new ModelCountingResult(mc, tracker);

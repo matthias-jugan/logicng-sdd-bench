@@ -1,0 +1,12 @@
+=== Setup ===
+Time: 2025-09-05T08:51:43.091433
+Experiment: project-real
+
+Input source: benchmarks
+Files: 76
+Filters: [File[path=benchmarks/suite1/automotive], Exclude[path=benchmarks/suite1/automotive/auto_c001_d001]]
+
+Arguments: []
+Timeout: 300000ms
+Heap Size: 32768MB
+======

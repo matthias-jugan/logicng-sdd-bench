@@ -20,9 +20,9 @@ public class ModelEnumerationSetups {
         final var results
                 = new ExperimentGroup<>(List.of(
                 new ExperimentEntry<>("SDD", new EnumerationSddExperiment(200_000, withAddVars),
-                        ProjectedCompilationSetups.exportedPdfToProjectionProblem),
+                        ProjectionSetups.exportedPdfToProjectionProblem),
                 new ExperimentEntry<>("Adv", new EnumerationAdvExperiment(200_000, withAddVars),
-                        ProjectedCompilationSetups.exportedPdfToProjectionProblem)
+                        ProjectionSetups.exportedPdfToProjectionProblem)
         )).runExperiments(inputs, logger, handler);
     }
 }

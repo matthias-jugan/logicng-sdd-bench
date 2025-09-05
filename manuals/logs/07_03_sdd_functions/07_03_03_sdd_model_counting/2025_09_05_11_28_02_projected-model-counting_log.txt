@@ -1,0 +1,153 @@
+Warmup
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c20_d01.txt
+Obtained result: [SDD Proj Comp: ([221268774685391793215370103357440, 370, <Compilation, 358>, <Projection, 6>, <Counting, 6>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c30_d01.txt
+Obtained result: [SDD Proj Comp: ([4234067435077175695903432704000, 274, <Compilation, 260>, <Projection, 5>, <Counting, 9>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_d001/auto4_s2_c40_d01.txt
+Obtained result: [SDD Proj Comp: ([5141778578897717912666112000, 342, <Compilation, 340>, <Projection, 1>, <Counting, 1>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c30_d01.txt
+Obtained result: [SDD Proj Comp: ([8272002562670520495967057920000, 212, <Compilation, 206>, <Projection, 2>, <Counting, 4>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c50_d01.txt
+Obtained result: [SDD Proj Comp: ([925430576474518142358591118975284176486400, 679, <Compilation, 621>, <Projection, 50>, <Counting, 8>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c40_d01.txt
+Obtained result: [SDD Proj Comp: ([2523085369497480103852496486400, 660, <Compilation, 610>, <Projection, 18>, <Counting, 32>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_d001/auto6_s2_c40_d01.txt
+Obtained result: [SDD Proj Comp: ([92112195264271257310332243148800, 524, <Compilation, 499>, <Projection, 12>, <Counting, 13>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_d001/auto6_s2_c50_d01.txt
+Obtained result: [SDD Proj Comp: ([479125173732744029981642158389149824639303680, 717, <Compilation, 614>, <Projection, 95>, <Counting, 8>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c50_d01.txt
+Obtained result: [SDD Proj Comp: ([2506099625264573225962182479971424718028800, 545, <Compilation, 531>, <Projection, 10>, <Counting, 4>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c40_d01.txt
+Obtained result: [SDD Proj Comp: ([352987273204865687994355081543680, 1085, <Compilation, 955>, <Projection, 97>, <Counting, 33>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_d001/auto0_s2_c10_d01.txt
+Obtained result: [SDD Proj Comp: ([217035240991440631352166043647360368640000, 252, <Compilation, 225>, <Projection, 16>, <Counting, 11>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_d001/auto5_s2_c60_d01.txt
+Obtained result: [SDD Proj Comp: ([226380032105055070648643947634724805017600, 2068, <Compilation, 1702>, <Projection, 327>, <Counting, 39>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c10_d01.txt
+Obtained result: [SDD Proj Comp: ([10038272662001737116888868267116199516569600, 249, <Compilation, 238>, <Projection, 7>, <Counting, 4>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_d001/auto4_s2_c60_d01.txt
+Obtained result: [SDD Proj Comp: ([42772181420146485410891625922560000, 322, <Compilation, 321>, <Projection, 1>, <Counting, 0>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_d001/auto1_s2_c60_d01.txt
+Obtained result: [SDD Proj Comp: ([26378178414232192808168250601738989679411200, 4501, <Compilation, 4101>, <Projection, 344>, <Counting, 56>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_d001/auto6_s2_c60_d01.txt
+Obtained result: [SDD Proj Comp: ([7957449982853603651370066880740153989529600, 767, <Compilation, 741>, <Projection, 21>, <Counting, 5>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c05_d05.txt
+Obtained result: [SDD Proj Comp: ([84487322050851024794456948736000, 1150, <Compilation, 1148>, <Projection, 1>, <Counting, 1>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c15_d15.txt
+Obtained result: [SDD Proj Comp: ([69795625712405302522523418624000, 65948, <Compilation, 61437>, <Projection, 4100>, <Counting, 411>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c25_d25.txt
+Obtained result: [SDD Proj Comp: ([null, -1])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c05_d05.txt
+Obtained result: [SDD Proj Comp: ([1080019262677791245666372729052104301752950456320, 278755, <Compilation, 203919>, <Projection, 73926>, <Counting, 910>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c15_d15.txt
+Obtained result: [SDD Proj Comp: ([6749232069752062326374400, 1650, <Compilation, 1608>, <Projection, 23>, <Counting, 19>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c25_d25.txt
+Obtained result: [SDD Proj Comp: ([null, -1])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c25_d25.txt
+Obtained result: [SDD Proj Comp: ([13969652186440573336923177394092210388992000, 247895, <Compilation, 235064>, <Projection, 11889>, <Counting, 941>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c05_d05.txt
+Obtained result: [SDD Proj Comp: ([1298041379333019817574400, 1587, <Compilation, 1578>, <Projection, 8>, <Counting, 1>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c15_d15.txt
+Obtained result: [SDD Proj Comp: ([null, -1])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c05_d05.txt
+Obtained result: [SDD Proj Comp: ([1130482102864285927786360186384653326745600, 1896, <Compilation, 1663>, <Projection, 120>, <Counting, 113>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c15_d15.txt
+Obtained result: [SDD Proj Comp: ([1474912596867396355384934400, 2311, <Compilation, 2286>, <Projection, 14>, <Counting, 11>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c25_d25.txt
+Obtained result: [SDD Proj Comp: ([47277804898411991537966187463870182221414400, 136699, <Compilation, 133185>, <Projection, 3351>, <Counting, 163>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c15_d15.txt
+Obtained result: [SDD Proj Comp: ([null, -1])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c25_d25.txt
+Obtained result: [SDD Proj Comp: ([141156837901983833962905600, 2121, <Compilation, 2050>, <Projection, 47>, <Counting, 24>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c15_d15.txt
+Obtained result: [SDD Proj Comp: ([null, -1])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c05_d05.txt
+Obtained result: [SDD Proj Comp: ([571232908732979386855378581311322272563200, 1627, <Compilation, 1484>, <Projection, 103>, <Counting, 40>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c15_d15.txt
+Obtained result: [SDD Proj Comp: ([194032346135702322147386012467200, 8424, <Compilation, 7816>, <Projection, 495>, <Counting, 113>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c05_d05.txt
+Obtained result: [SDD Proj Comp: ([null, -1])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c25_d25.txt
+Obtained result: [SDD Proj Comp: ([null, -1])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c05_d05.txt
+Obtained result: [SDD Proj Comp: ([4324404180845896815680586131347103436481851555840, 225384, <Compilation, 213233>, <Projection, 11975>, <Counting, 176>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c25_d25.txt
+Obtained result: [SDD Proj Comp: ([147472712561510514952619538618777600, 3191, <Compilation, 3160>, <Projection, 18>, <Counting, 13>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c10_d10.txt
+Obtained result: [SDD Proj Comp: ([null, -1])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c20_d20.txt
+Obtained result: [SDD Proj Comp: ([null, -1])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c10_d10.txt
+Obtained result: [SDD Proj Comp: ([null, -1])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c20_d20.txt
+Obtained result: [SDD Proj Comp: ([13901966144208175148236800, 965, <Compilation, 906>, <Projection, 35>, <Counting, 24>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c20_d20.txt
+Obtained result: [SDD Proj Comp: ([null, -1])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c10_d10.txt
+Obtained result: [SDD Proj Comp: ([9067634566730249184584663040000, 5598, <Compilation, 5296>, <Projection, 219>, <Counting, 83>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c20_d20.txt
+Obtained result: [SDD Proj Comp: ([410980925677200760834634324901888000, 2506, <Compilation, 2503>, <Projection, 2>, <Counting, 1>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_dn/auto6_s2_c20_d20.txt
+Obtained result: [SDD Proj Comp: ([null, -1])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_dn/auto5_s2_c10_d10.txt
+Obtained result: [SDD Proj Comp: ([3193545356147281278850301952000, 915, <Compilation, 870>, <Projection, 12>, <Counting, 33>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_dn/auto1_s2_c20_d20.txt
+Obtained result: [SDD Proj Comp: ([null, -1])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_dn/auto2_s2_c10_d10.txt
+Obtained result: [SDD Proj Comp: ([37262169116536592793600, 1379, <Compilation, 1345>, <Projection, 19>, <Counting, 15>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_dn/auto3_s2_c10_d10.txt
+Obtained result: [SDD Proj Comp: ([null, -1])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_dn/auto0_s2_c20_d20.txt
+Obtained result: [SDD Proj Comp: ([null, -1])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_cn_dn/auto4_s2_c10_d10.txt
+Obtained result: [SDD Proj Comp: ([2155518727200148745827123200, 3195, <Compilation, 3166>, <Projection, 18>, <Counting, 11>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d30.txt
+Obtained result: [SDD Proj Comp: ([null, -1])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d50.txt
+Obtained result: [SDD Proj Comp: ([3201479093836381012623360000, 971, <Compilation, 870>, <Projection, 76>, <Counting, 25>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d40.txt
+Obtained result: [SDD Proj Comp: ([28544322658068480015728640000, 824, <Compilation, 770>, <Projection, 35>, <Counting, 19>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d30.txt
+Obtained result: [SDD Proj Comp: ([60320186787425383873035878400, 2153, <Compilation, 2069>, <Projection, 75>, <Counting, 9>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d20.txt
+Obtained result: [SDD Proj Comp: ([null, -1])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d20.txt
+Obtained result: [SDD Proj Comp: ([2049220751105267658353897458001510400, 65258, <Compilation, 62141>, <Projection, 3035>, <Counting, 82>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d50.txt
+Obtained result: [SDD Proj Comp: ([null, -1])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d40.txt
+Obtained result: [SDD Proj Comp: ([694720226357352847953100800000, 1382, <Compilation, 1330>, <Projection, 45>, <Counting, 7>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_c001_dn/auto4_s1_c01_d20.txt
+Obtained result: [SDD Proj Comp: ([1208006152323449343285657600, 2763, <Compilation, 2736>, <Projection, 16>, <Counting, 11>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d30.txt
+Obtained result: [SDD Proj Comp: ([243959780866785464549376000, 494, <Compilation, 479>, <Projection, 13>, <Counting, 2>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d50.txt
+Obtained result: [SDD Proj Comp: ([5484090132013240315042750545474355200, 271107, <Compilation, 256304>, <Projection, 13892>, <Counting, 911>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_c001_dn/auto3_s1_c01_d20.txt
+Obtained result: [SDD Proj Comp: ([3601292423737299000164025548931072000, 13728, <Compilation, 13077>, <Projection, 614>, <Counting, 37>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d40.txt
+Obtained result: [SDD Proj Comp: ([141716285823481229675237681922048000, 80999, <Compilation, 76728>, <Projection, 4222>, <Counting, 49>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d20.txt
+Obtained result: [SDD Proj Comp: ([110103352846400845766983680000, 1082, <Compilation, 1057>, <Projection, 19>, <Counting, 6>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d50.txt
+Obtained result: [SDD Proj Comp: ([152210362574959067147953766400, 4197, <Compilation, 3595>, <Projection, 464>, <Counting, 138>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d40.txt
+Obtained result: [SDD Proj Comp: ([null, -1])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d10.txt
+Obtained result: [SDD Proj Comp: ([688731255865700033495040000, 1011, <Compilation, 979>, <Projection, 5>, <Counting, 27>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d60.txt
+Obtained result: [SDD Proj Comp: ([3657506925685513390577418240000, 1632, <Compilation, 1563>, <Projection, 58>, <Counting, 11>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d60.txt
+Obtained result: [SDD Proj Comp: ([4474260149549807586827807219515392000, 41484, <Compilation, 39742>, <Projection, 1718>, <Counting, 24>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_c001_dn/auto3_s1_c01_d10.txt
+Obtained result: [SDD Proj Comp: ([949254800823442514446431289344000, 5898, <Compilation, 5553>, <Projection, 312>, <Counting, 33>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d60.txt
+Obtained result: [SDD Proj Comp: ([76108792522829055761522227779993600, 81252, <Compilation, 76977>, <Projection, 4258>, <Counting, 17>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_c001_dn/auto6_s1_c01_d10.txt
+Obtained result: [SDD Proj Comp: ([10165697290654423449968830316544000, 22264, <Compilation, 20284>, <Projection, 1927>, <Counting, 53>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_c001_dn/auto1_s1_c01_d10.txt
+Obtained result: [SDD Proj Comp: ([null, -1, <Compilation, 228969>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_c001_dn/auto0_s1_c01_d10.txt
+Obtained result: [SDD Proj Comp: ([110297166399720155145830400000, 1721, <Compilation, 1686>, <Projection, 16>, <Counting, 19>])]
+Run SDD Proj Comp for benchmarks/suite1/automotive/auto_c001_dn/auto5_s1_c01_d60.txt
+Obtained result: [SDD Proj Comp: ([75216919778917204088586240000, 821, <Compilation, 771>, <Projection, 30>, <Counting, 20>])]

@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
 
-public class ProjectedCompilationSetups {
+public class ProjectionSetups {
     public static ProblemFunction<ProjectionProblem> exportedPdfToProjectionProblem = (input, f) -> {
         var formula = input.asFormula();
         var allVariables = formula.variables(f);
@@ -26,6 +26,27 @@ public class ProjectedCompilationSetups {
         return new ProjectionProblem(formula, elimVars, projectionVars);
     };
 
+    public static void projectReal(final List<InputFile> inputs, final List<String> arguments,
+                                   final Logger logger,
+                                   final Supplier<ComputationHandler> handler) {
+        final var results = new ExperimentGroup<>(List.of(
+                new ExperimentEntry<>("Project", new ExElimSddExperiment(Util.DEFAULT_COMPILER_CONFIG),
+                        exportedPdfToProjectionProblem)
+        )).runExperiments(inputs, logger, handler);
+    }
+
+    public static void projectRandom(final List<InputFile> inputs, final List<String> arguments,
+                                     final Logger logger,
+                                     final Supplier<ComputationHandler> handler) {
+        final var results = new ExperimentGroup<>(List.of(
+                new ExperimentEntry<>("Compile + Eliminate (20%)", new ExElimSddExperiment(),
+                        ProjectionProblem.quantifyRandom(0.2, 1)),
+                new ExperimentEntry<>("Compile + Eliminate (50%)", new ExElimSddExperiment(),
+                        ProjectionProblem.quantifyRandom(0.5, 1)),
+                new ExperimentEntry<>("Compile + Eliminate (80%)", new ExElimSddExperiment(),
+                        ProjectionProblem.quantifyRandom(0.8, 1))
+        )).runExperiments(inputs, logger, handler);
+    }
 
     public static void projectedCompileReal(final List<InputFile> inputs, final List<String> arguments,
                                             final Logger logger,
@@ -33,7 +54,7 @@ public class ProjectedCompilationSetups {
         final var results = new ExperimentGroup<>(List.of(
                 new ExperimentEntry<>("Projected Compilation", new PcSddExperiment(Util.DEFAULT_COMPILER_CONFIG),
                         exportedPdfToProjectionProblem),
-                new ExperimentEntry<>("Compile + Eliminate", new ExElimSddExperiment(Util.DEFAULT_COMPILER_CONFIG),
+                new ExperimentEntry<>("Compile + Eliminate", new ExElimSddExperiment(),
                         exportedPdfToProjectionProblem)
         )).runExperiments(inputs, logger, handler);
     }

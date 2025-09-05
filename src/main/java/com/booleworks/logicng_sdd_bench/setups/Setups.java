@@ -18,13 +18,14 @@ public class Setups {
             new Pair<>("preprocessing", CompilationSetups::compilePreprocessing),
             new Pair<>("compile-all", CompilationSetups::compileAll),
             new Pair<>("measure-heap", CompilationSetups::measureHeap),
-            //TODO: new Pair<>("projection", ProjectionSetups::project),
+            new Pair<>("project-real", ProjectionSetups::projectReal),
+            new Pair<>("project-random", ProjectionSetups::projectRandom),
             new Pair<>("projected-model-enumeration-real", ModelEnumerationSetups::projectedModelEnumerationReal),
             new Pair<>("model-counting", ModelCountingSetups::modelCounting),
             new Pair<>("projected-model-counting", ModelCountingSetups::projectedModelCounting),
             new Pair<>("minimize", MinimizationSetups::minimize),
-            new Pair<>("projected-compile-real", ProjectedCompilationSetups::projectedCompileReal),
-            new Pair<>("projected-compile-random", ProjectedCompilationSetups::projectedCompileRandom)
+            new Pair<>("projected-compile-real", ProjectionSetups::projectedCompileReal),
+            new Pair<>("projected-compile-random", ProjectionSetups::projectedCompileRandom)
     );
 
 }

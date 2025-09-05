@@ -23,11 +23,17 @@ public record ModelCountingResult(BigInteger count, SegmentedTimeTracker times) 
                 .map(Pair::getSecond)
                 .findFirst()
                 .orElse(-1L);
-        final var quantificationTime = times.getTimes().stream()
+        final var projectionTime = times.getTimes().stream()
+                .filter(p -> p.getFirst().equals("Projection"))
+                .map(Pair::getSecond)
+                .findFirst()
+                .orElse(-1L);
+        final var countingTime = times.getTimes().stream()
                 .filter(p -> p.getFirst().equals("Counting"))
                 .map(Pair::getSecond)
                 .findFirst()
                 .orElse(-1L);
-        return count + "," + times.getEssentialsAsCsv() + "," + compilationTime + "," + quantificationTime;
+        return count + "," + times.getEssentialsAsCsv() + "," + compilationTime + "," + projectionTime + ","
+                + countingTime;
     }
 }
